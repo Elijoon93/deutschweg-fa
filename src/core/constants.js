@@ -1,5 +1,5 @@
-export const ARCHITECTURE_VERSION = '12.1.0-planner-first-intelligence';
-export const APP_PRODUCT_VERSION = '12.1.0';
+export const ARCHITECTURE_VERSION = '12.2.0-adaptive-planner-2';
+export const APP_PRODUCT_VERSION = '12.2.0';
 export const DATA_SCHEMA_VERSION = 1; // Deliberately unchanged: preserve all existing v8/v9 user data without destructive migration.
 export const LEGACY_STORAGE_KEY = 'deutschweg_x12_user_data';
 export const LEGACY_CLOUD_SESSION_KEY = 'deutschWegFA_cloud_session';
