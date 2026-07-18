@@ -1,0 +1,12 @@
+DeutschWeg v8.0.1 Navigation Hotfix
+
+Changes:
+- Fixed mobile bottom navigation grid from 6 columns to 5 columns.
+- Preserved 6-column A1-C2 level ladder.
+- Bumped APP_VERSION from 8.0.0 to 8.0.1.
+- Updated stale visible v7 labels to v8.0.1.
+- Bumped Service Worker cache to deutschweg-v8-0-1-nav-fix.
+- Data schema remains 14.
+- Storage key remains deutschweg_user_data.
+
+Replace repository files with this package, commit, push, then allow GitHub Pages to redeploy.
