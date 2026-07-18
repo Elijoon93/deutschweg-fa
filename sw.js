@@ -1,4 +1,4 @@
-const CACHE = 'deutschweg-x11-global-product-ui-v1';
+const CACHE = 'deutschweg-x11-1-signature-visual-system';
 const CORE = [
   './', './index.html', './x11-ui.css', './version.json', './manifest.webmanifest', './icon-192.png', './icon-512.png',
   './resources.json', './resource-health.json', './config.js', './clean-boot.js',

@@ -1,6 +1,5 @@
 {
-  "version": "11.0.0",
-  "channel": "stable",
-  "name": "DeutschWeg X11 Global Product UI",
-  "cache": "deutschweg-x11-global-product-ui-v1"
+  "version": "11.1.0",
+  "release": "X11.1 Signature Visual System Rebuild",
+  "schema": 1
 }
