@@ -1,6 +1,6 @@
 export const GADGETS = [
   { id:'today', title:'Adaptive Today', category:'core', status:'active', requiresBackend:false },
-  { id:'focus', title:'Focus / Pomodoro', category:'productivity', status:'active', requiresBackend:false },
+  { id:'focus', title:'حالت تمرکز / Fokus', category:'productivity', status:'active', requiresBackend:false },
   { id:'analytics', title:'Learning Analytics', category:'analytics', status:'active', requiresBackend:false },
   { id:'placement', title:'Placement Center', category:'assessment', status:'active', requiresBackend:false },
   { id:'resource-health', title:'Resource Reliability Center', category:'platform', status:'active', requiresBackend:false },

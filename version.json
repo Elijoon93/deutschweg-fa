@@ -1,8 +1,7 @@
 {
-  "product": "DeutschWeg X12",
-  "version": "12.2.0",
-  "release": "Adaptive Planner Engine 2.0",
-  "schema": 1,
+  "appVersion": "12.3.0",
+  "channel": "final-release-candidate",
   "dataStorageKey": "deutschweg_x12_user_data",
-  "dataPolicy": "non-destructive-updates-stable-storage"
+  "dataSchemaVersion": 1,
+  "uiSystem": "X12.3 Unified Planner-first UI"
 }

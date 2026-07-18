@@ -1,10 +1,10 @@
 {
-  "name": "DeutschWeg X12.1 — Personal Language Planner",
+  "name": "DeutschWeg X12.3 — برنامه شخصی یادگیری آلمانی",
   "short_name": "DeutschWeg",
   "description": "پلتفرم موبایل‌محور برنامه‌ریزی، یادگیری، تلفظ، واژگان، پادکست و تحلیل پیشرفت زبان آلمانی برای فارسی‌زبانان",
   "lang": "fa",
   "dir": "rtl",
-  "start_url": "./?app=v10",
+  "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "background_color": "#f6f8f7",

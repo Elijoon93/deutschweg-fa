@@ -19,9 +19,9 @@ function addMoreHubEntries() {
   const block=document.createElement('section');block.dataset.dwxHub='true';block.className='dwx1-card';
   const tiles=[
     ['◎','مرکز تعیین سطح','Placement Center','openPlacementCenter()'],['◉','سلامت منابع','Resource Health','openResourceReliabilityCenter()'],
-    ['Aa','فرهنگ هوشمند','Smart Dictionary','openSmartDictionary()'],['🎙','استودیوی تلفظ','Pronunciation Studio','openPronunciationStudio()'],
-    ['🎧','پادکست هوشمند','Smart Podcast','openSmartPodcast()'],['🏆','مرکز آزمون','Exam Center','openExamCenter()'],
-    ['✍️','آزمایشگاه نوشتن','Writing Lab','openWritingLab()'],['↔','ترجمه','Translation','openTranslationGadget()'],['⚡','مربی تطبیقی 2.0','Adaptive Coach','openAdaptiveCoachX()'],
+    ['Aa','فرهنگ هوشمند','Smart Dictionary','openSmartDictionary()'],['','استودیوی تلفظ','Pronunciation Studio','openPronunciationStudio()'],
+    ['','پادکست هوشمند','Smart Podcast','openSmartPodcast()'],['','مرکز آزمون','Exam Center','openExamCenter()'],
+    ['✍','آزمایشگاه نوشتن','Writing Lab','openWritingLab()'],['↔','ترجمه','Translation','openTranslationGadget()'],['⚡','مربی تطبیقی 2.0','Adaptive Coach','openAdaptiveCoachX()'],
     ['☁','Cloud و چند دستگاه','Cloud Sync','openCloudCenterX()']
   ];
   block.innerHTML=`<span class="kicker">DeutschWeg X · International Suite</span><h3>ابزارهای هوشمند یکپارچه</h3><div class="dwx1-grid">${tiles.map(x=>`<button class="dwx1-tile" onclick="${x[3]}"><b>${x[0]} ${x[1]}</b><span>${x[2]}</span></button>`).join('')}</div>`;
