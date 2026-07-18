@@ -345,7 +345,7 @@
     ],
     "fa": "تخمین رایگان سطح مهارت‌های دریافتی؛ جایگزین آزمون رسمی نیست.",
     "de": "Kostenlose Orientierung für rezeptive Kenntnisse; kein offizielles Zertifikat.",
-    "url": "https://www.goethe.de/de/spr/ueb/tsd.html",
+    "url": "https://www.goethe.de/lrn/pro/30-item/m/de/index.html",
     "cost": "free",
     "free": true,
     "official": true,
@@ -356,7 +356,11 @@
     "goals": [
       "placement"
     ],
-    "verified": "2026-07"
+    "verified": "2026-07-18",
+    "fallbackUrls": [
+      "https://www.goethe.de/de/m/spr/kur/tsd.html",
+      "https://www.goethe.de/de/spr/kur/tsd.html"
+    ]
   },
   {
     "id": "dw-nicos",

@@ -1,0 +1,30 @@
+name: Resource Link Health
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 2 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node tools/check-links.mjs
+      - name: Commit health snapshot when changed
+        run: |
+          if git diff --quiet -- resource-health.json; then
+            echo "No resource-health changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add resource-health.json
+          git commit -m "chore: refresh external resource health"
+          git push
