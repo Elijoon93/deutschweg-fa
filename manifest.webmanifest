@@ -1,6 +1,6 @@
 {
-  "name": "DeutschWeg X1212 — مسیر هوشمند یادگیری زبان آلمانی",
-  "short_name": "DeutschWeg X1212",
+  "name": "DeutschWeg X12.1 — Personal Language Planner",
+  "short_name": "DeutschWeg",
   "description": "پلتفرم موبایل‌محور برنامه‌ریزی، یادگیری، تلفظ، واژگان، پادکست و تحلیل پیشرفت زبان آلمانی برای فارسی‌زبانان",
   "lang": "fa",
   "dir": "rtl",
@@ -27,5 +27,6 @@
   "categories": [
     "education",
     "productivity"
-  ]
+  ],
+  "version": "12.1.0"
 }

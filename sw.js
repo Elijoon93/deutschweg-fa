@@ -1,6 +1,6 @@
-const CACHE = 'deutschweg-x12-product-experience-v1';
+const CACHE = 'deutschweg-x12-1-planner-first-v1';
 const CORE = [
-  './', './index.html', './x11-ui.css', './x12-experience.css', './x12-experience.js', './version.json', './manifest.webmanifest', './icon-192.png', './icon-512.png',
+  './', './index.html', './x11-ui.css', './x12-experience.css', './x12-experience.js','./x12-1-planner.css','./x12-1-planner.js', './version.json', './manifest.webmanifest', './icon-192.png', './icon-512.png',
   './resources.json', './resource-health.json', './config.js', './clean-boot.js',
   './src/bootstrap.js', './src/core/constants.js', './src/core/idb.js', './src/core/data-bridge.js', './src/core/event-bus.js',
   './src/services/resource-service.js', './src/services/integration-hub.js', './src/services/adaptive-engine.js',
