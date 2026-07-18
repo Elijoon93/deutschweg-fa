@@ -1,5 +1,5 @@
 import { ARCHITECTURE_VERSION, APP_PRODUCT_VERSION, DATA_SCHEMA_VERSION } from './core/constants.js';
-import { initDataBridge, mirrorLegacyState } from './core/data-bridge.js';
+import { initDataBridge, mirrorAppState } from './core/data-bridge.js';
 import { createIntegrationHub } from './services/integration-hub.js';
 import { createPlacementCenter } from './gadgets/placement-center.js';
 import { createResourceCenter } from './gadgets/resource-center.js';
@@ -34,7 +34,7 @@ async function bootstrap(){
   const dictionary=createSmartDictionary({integrations});const pronunciation=createPronunciationStudio({integrations});const podcast=createSmartPodcast({integrations});const exam=createExamCenter({integrations});const writing=createWritingLab();const translation=createTranslationGadget();const coach=createAICoach({adaptive});const cloud=createCloudCenter();
   const legacyOpenResource=typeof window.openResource==='function'?window.openResource:null;
   if(legacyOpenResource&&!legacyOpenResource.__deutschwegXWrapped){const wrapped=function(id){if(id==='goethe-test'){placement.open();return true}if(integrations.knows(id))return integrations.openResource(id);return legacyOpenResource(id)};wrapped.__deutschwegXWrapped=true;window.openResource=wrapped}
-  window.DeutschWegX=Object.freeze({productVersion:APP_PRODUCT_VERSION,architectureVersion:ARCHITECTURE_VERSION,dataSchemaVersion:DATA_SCHEMA_VERSION,data,integrations,placement,resources,dictionary,pronunciation,podcast,exam,writing,translation,adaptive,coach,cloud,events:eventBus,syncLegacySnapshot:()=>mirrorLegacyState('manual-sync')});
-  document.documentElement.dataset.dwArchitecture=ARCHITECTURE_VERSION;watchMoreHub();eventBus.emit('foundation:ready',window.DeutschWegX);console.info(`[DeutschWegX] ${ARCHITECTURE_VERSION} ready; user-data schema remains ${DATA_SCHEMA_VERSION}.`)
+  window.DeutschWegX=Object.freeze({productVersion:APP_PRODUCT_VERSION,architectureVersion:ARCHITECTURE_VERSION,dataSchemaVersion:DATA_SCHEMA_VERSION,data,integrations,placement,resources,dictionary,pronunciation,podcast,exam,writing,translation,adaptive,coach,cloud,events:eventBus,syncSnapshot:()=>mirrorAppState('manual-sync')});
+  document.documentElement.dataset.dwArchitecture=ARCHITECTURE_VERSION;watchMoreHub();eventBus.emit('foundation:ready',window.DeutschWegX);console.info(`[DeutschWegX] ${ARCHITECTURE_VERSION} ready; data schema ${DATA_SCHEMA_VERSION}.`)
 }
 bootstrap().catch(error=>console.error('[DeutschWegX] bootstrap failed',error));

@@ -11,7 +11,7 @@ function safeParse(text) {
   try { return JSON.parse(text || '{}'); } catch { return null; }
 }
 
-export function readLegacyState() {
+export function readAppStateState() {
   const keys = [LEGACY_STORAGE_KEY, ...LEGACY_KEYS];
   for (const key of keys) {
     try {
@@ -35,7 +35,7 @@ async function createArchitectureBackup(record) {
     architectureVersion: ARCHITECTURE_VERSION,
     sourceKey: record.key,
     schemaVersion: Number(record.state?.schemaVersion || record.state?.version || 1),
-    appVersion: record.state?.appVersion || 'legacy',
+    appVersion: record.state?.appVersion || 'app',
     at,
     payload: record.text
   });
@@ -46,8 +46,8 @@ async function createArchitectureBackup(record) {
   });
 }
 
-export async function mirrorLegacyState(reason = 'bootstrap') {
-  const record = readLegacyState();
+export async function mirrorAppState(reason = 'bootstrap') {
+  const record = readAppStateState();
   if (!record) return null;
   await createArchitectureBackup(record);
   await idbPut('state', 'current', {
@@ -65,7 +65,7 @@ export function installDualWriteBridge() {
   if (!originalSave || originalSave.__deutschwegXWrapped) return;
   const wrapped = function (...args) {
     const result = originalSave.apply(this, args);
-    queueMicrotask(() => mirrorLegacyState('legacy-save').catch(() => {}));
+    queueMicrotask(() => mirrorAppState('app-save').catch(() => {}));
     return result;
   };
   wrapped.__deutschwegXWrapped = true;
@@ -84,10 +84,10 @@ export async function requestPersistentStorage() {
 }
 
 export async function initDataBridge() {
-  const before = readLegacyState();
+  const before = readAppStateState();
   if (before) await createArchitectureBackup(before);
-  await mirrorLegacyState('x1-init');
+  await mirrorAppState('x1-init');
   installDualWriteBridge();
   const persistence = await requestPersistentStorage();
-  return { legacyFound: Boolean(before), persistence };
+  return { appFound: Boolean(before), persistence };
 }
