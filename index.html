@@ -133,6 +133,7 @@ button,a,input,select,textarea{touch-action:manipulation}button:focus-visible,a:
 .navbtn>*{pointer-events:none}
 </style>
 <link rel="stylesheet" href="./x11-ui.css?v=11.1.0">
+<link rel="stylesheet" href="./x12-experience.css">
 </head>
 <body>
 <div class="app">
@@ -161,12 +162,12 @@ button,a,input,select,textarea{touch-action:manipulation}button:focus-visible,a:
 <script src="./clean-boot.js"></script>
 <script src="./config.js"></script>
 <script>
-const APP_VERSION='11.1.0';
+const APP_VERSION='12.0.0';
 const DATA_SCHEMA_VERSION=1;
 // این کلید از این نسخه به بعد ثابت می‌ماند تا آپدیت فایل‌های برنامه داده کاربر را جدا از کد نگه دارد.
-const STORAGE_KEY='deutschweg_x10_user_data';
+const STORAGE_KEY='deutschweg_x12_user_data';
 const LEGACY_KEYS=[];
-const BACKUP_PREFIX='deutschweg_x10_backup_';
+const BACKUP_PREFIX='deutschweg_x12_backup_';
 const DAYS={fa:['دوشنبه','سه‌شنبه','چهارشنبه','پنجشنبه','جمعه','شنبه','یکشنبه'],de:['Montag','Dienstag','Mittwoch','Donnerstag','Freitag','Samstag','Sonntag']};
 const DOWFA=['ش','ی','د','س','چ','پ','ج'], DOWDE=['Sa','So','Mo','Di','Mi','Do','Fr'];
 const MODULES=[
@@ -715,6 +716,7 @@ window.DeutschWegLegacyBridge = Object.freeze({
   setAdaptiveHint(analysis){try{state.learning.adaptiveX=analysis;save(true);renderAll();return true}catch(e){return false}}
 });
 </script>
+<script src="./x12-experience.js"></script>
 <script type="module" src="./src/bootstrap.js"></script>
 
 </body>

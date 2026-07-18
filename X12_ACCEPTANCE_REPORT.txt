@@ -1,0 +1,23 @@
+DeutschWeg X12 v12.0.0 Acceptance Report
+========================================
+New Home Experience          IMPLEMENTED
+Real Lesson Engine           IMPLEMENTED
+Adaptive Next Action         IMPLEMENTED
+Daily Mission                IMPLEMENTED
+Skill Mastery                IMPLEMENTED
+CEFR Progress                IMPLEMENTED
+Session Score                IMPLEMENTED
+Motion System                IMPLEMENTED
+Mobile Touch Flow            IMPLEMENTED (static/code review)
+Desktop Experience           IMPLEMENTED (responsive CSS)
+Legacy UI Removed            PARTIAL — legacy tools retained behind Tool Library
+Runtime Navigation           NOT FULLY DEVICE-TESTED
+Safari/iPhone Physical Test  NOT TESTED
+Android Physical Test        NOT TESTED
+
+Evidence:
+- x12-experience.js contains the full-session flow and state updates.
+- x12-experience.css contains product-experience layouts and full-screen lesson UI.
+- index.html loads X12 CSS after prior UI CSS and X12 JS after legacy initialization.
+- APP_VERSION = 12.0.0.
+- PWA cache = deutschweg-x12-product-experience-v1.

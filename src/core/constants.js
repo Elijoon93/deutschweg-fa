@@ -1,10 +1,10 @@
-export const ARCHITECTURE_VERSION = '10.0.0-global';
-export const APP_PRODUCT_VERSION = '10.0.0';
+export const ARCHITECTURE_VERSION = '12.0.0-product-experience';
+export const APP_PRODUCT_VERSION = '12.0.0';
 export const DATA_SCHEMA_VERSION = 1; // Deliberately unchanged: preserve all existing v8/v9 user data without destructive migration.
-export const LEGACY_STORAGE_KEY = 'deutschweg_x10_user_data';
+export const LEGACY_STORAGE_KEY = 'deutschweg_x12_user_data';
 export const LEGACY_CLOUD_SESSION_KEY = 'deutschWegFA_cloud_session';
 export const LEGACY_KEYS = [];
-export const IDB_NAME = 'deutschweg_x';
+export const IDB_NAME = 'deutschweg_x12';
 export const IDB_VERSION = 3;
 export const FOUNDATION_MARKER = `architecture_backup_${ARCHITECTURE_VERSION}`;
 export const RESOURCE_HEALTH_PATH = './resource-health.json';
