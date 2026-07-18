@@ -24,14 +24,15 @@ export function readLegacyState() {
   return null;
 }
 
-async function createFoundationBackup(record) {
+async function createArchitectureBackup(record) {
   if (!record?.text) return;
   const existing = await idbGet('meta', FOUNDATION_MARKER);
   if (existing) return;
   const at = new Date().toISOString();
   await idbAdd('backups', {
-    id: `pre-foundation-${at}`,
-    type: 'pre-foundation',
+    id: `pre-${ARCHITECTURE_VERSION}-${at}`,
+    type: 'pre-architecture-upgrade',
+    architectureVersion: ARCHITECTURE_VERSION,
     sourceKey: record.key,
     schemaVersion: Number(record.state?.schemaVersion || record.state?.version || 1),
     appVersion: record.state?.appVersion || 'legacy',
@@ -48,7 +49,7 @@ async function createFoundationBackup(record) {
 export async function mirrorLegacyState(reason = 'bootstrap') {
   const record = readLegacyState();
   if (!record) return null;
-  await createFoundationBackup(record);
+  await createArchitectureBackup(record);
   await idbPut('state', 'current', {
     architectureVersion: ARCHITECTURE_VERSION,
     sourceKey: record.key,
@@ -84,8 +85,8 @@ export async function requestPersistentStorage() {
 
 export async function initDataBridge() {
   const before = readLegacyState();
-  if (before) await createFoundationBackup(before);
-  await mirrorLegacyState('foundation-init');
+  if (before) await createArchitectureBackup(before);
+  await mirrorLegacyState('x1-init');
   installDualWriteBridge();
   const persistence = await requestPersistentStorage();
   return { legacyFound: Boolean(before), persistence };

@@ -1,4 +1,4 @@
-import { resolveResource, openResolvedResource } from './resource-service.js';
+import { resolveResource, openResolvedResource, resourceHealthSummary, knownIntegration } from './resource-service.js';
 import { INTEGRATIONS } from '../integrations/catalog.js';
 import { GADGETS } from '../gadgets/registry.js';
 
@@ -8,6 +8,8 @@ export function createIntegrationHub() {
     gadgets: GADGETS,
     resolveResource,
     openResource: openResolvedResource,
+    resourceHealthSummary,
+    knows: knownIntegration,
     capabilities() {
       return {
         webSpeech: 'speechSynthesis' in window,

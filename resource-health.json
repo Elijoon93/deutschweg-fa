@@ -1,6 +1,55 @@
 {
   "_meta": {
-    "generatedAt": null,
-    "note": "Updated automatically by GitHub Actions. Unknown status does not block users."
+    "generatedAt": "2026-07-18T00:00:00Z",
+    "checked": 4,
+    "checker": "release-verification"
+  },
+  "goethe-test": {
+    "ok": true,
+    "primary": {
+      "url": "https://www.goethe.de/lrn/pro/30-item/m/de/index.html",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.goethe.de/lrn/pro/30-item/m/de/index.html",
+      "checkedAt": "2026-07-18T00:00:00Z"
+    },
+    "fallbacks": [],
+    "bestUrl": "https://www.goethe.de/lrn/pro/30-item/m/de/index.html"
+  },
+  "goethe-pron": {
+    "ok": true,
+    "primary": {
+      "url": "https://www.goethe.de/de/spr/ueb/ast.html",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.goethe.de/de/spr/ueb/ast.html",
+      "checkedAt": "2026-07-18T00:00:00Z"
+    },
+    "fallbacks": [],
+    "bestUrl": "https://www.goethe.de/de/spr/ueb/ast.html"
+  },
+  "goethe-exam": {
+    "ok": true,
+    "primary": {
+      "url": "https://www.goethe.de/de/spr/prf/ueb.html",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.goethe.de/de/spr/prf/ueb.html",
+      "checkedAt": "2026-07-18T00:00:00Z"
+    },
+    "fallbacks": [],
+    "bestUrl": "https://www.goethe.de/de/spr/prf/ueb.html"
+  },
+  "goethe-dfd": {
+    "ok": true,
+    "primary": {
+      "url": "https://www.goethe.de/deutsch-fuer-dich",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.goethe.de/prj/dfd/de/home.cfm?wt_sc=deutsch-fuer-dich",
+      "checkedAt": "2026-07-18T00:00:00Z"
+    },
+    "fallbacks": [],
+    "bestUrl": "https://www.goethe.de/deutsch-fuer-dich"
   }
 }

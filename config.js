@@ -5,3 +5,10 @@ window.DEUTSCHWEG_CLOUD = {
   url: '',
   anonKey: ''
 };
+
+// Optional secure backend endpoints. Leave empty to keep local-first mode.
+window.DEUTSCHWEG_SERVICES = {
+  languageToolProxy: '',
+  translationProxy: '',
+  aiCoachProxy: ''
+};
