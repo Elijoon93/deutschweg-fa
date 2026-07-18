@@ -1,3 +1,5 @@
+DeutschWeg X11 — Global Product UI v11.0.0
+
 DeutschWeg X v10.0.0 — Global Clean Architecture Reset
 
 این نسخه یک Clean Break واقعی است و برای شروع پیش از ورود کاربران ساخته شده است.

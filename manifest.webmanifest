@@ -1,14 +1,14 @@
 {
-  "name": "DeutschWeg X — German Learning Platform",
-  "short_name": "DeutschWeg X",
+  "name": "DeutschWeg X11 — مسیر هوشمند یادگیری زبان آلمانی",
+  "short_name": "DeutschWeg X11",
   "description": "پلتفرم موبایل‌محور برنامه‌ریزی، یادگیری، تلفظ، واژگان، پادکست و تحلیل پیشرفت زبان آلمانی برای فارسی‌زبانان",
   "lang": "fa",
   "dir": "rtl",
   "start_url": "./?app=v10",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#f4f7f8",
-  "theme_color": "#0a3750",
+  "background_color": "#f6f8f7",
+  "theme_color": "#087f78",
   "icons": [
     {
       "src": "icon-192.png",

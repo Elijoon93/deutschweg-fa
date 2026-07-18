@@ -1,6 +1,6 @@
-const CACHE = 'deutschweg-x-v10-0-0';
+const CACHE = 'deutschweg-x11-global-product-ui-v1';
 const CORE = [
-  './', './index.html', './version.json', './manifest.webmanifest', './icon-192.png', './icon-512.png',
+  './', './index.html', './x11-ui.css', './version.json', './manifest.webmanifest', './icon-192.png', './icon-512.png',
   './resources.json', './resource-health.json', './config.js', './clean-boot.js',
   './src/bootstrap.js', './src/core/constants.js', './src/core/idb.js', './src/core/data-bridge.js', './src/core/event-bus.js',
   './src/services/resource-service.js', './src/services/integration-hub.js', './src/services/adaptive-engine.js',
