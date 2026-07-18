@@ -1,0 +1,5 @@
+DeutschWeg v8.0 FINAL RELEASE CANDIDATE LOCK
+Baseline: v6.4 feature set + v7 UX foundation
+Storage Key: deutschweg_user_data
+Schema: 14
+Do not remove user-data migration, backup, Focus analytics, learning modules, or mobile platform adaptation in future updates.

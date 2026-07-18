@@ -1,0 +1,8 @@
+DeutschWeg v8 Data Safety
+
+Storage key: deutschweg_user_data
+Data Schema: 14
+App updates and user data are separated.
+Before schema migration, a local migration backup is created when possible.
+Supabase cloud sync is optional and must use public anon key + RLS. Never place a Service Role key in client code or GitHub.
+Advertising/community links do not receive access to learning data.

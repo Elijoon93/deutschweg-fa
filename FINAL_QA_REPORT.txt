@@ -1,0 +1,19 @@
+DeutschWeg v8.0 Final Release Candidate — QA Report
+
+PASS: Inline JavaScript syntax (Node.js --check)
+PASS: ZIP integrity
+PASS: Single HTML/body document structure
+PASS: Stable storage key present
+PASS: Data Schema 14 present
+PASS: Safe migration/backup code preserved
+PASS: PWA manifest present
+PASS: Service worker v8 cache strategy present
+PASS: iOS/Android/Web platform adaptation code present
+PASS: Global Search present
+PASS: Internal Guidance/Notification Center present
+PASS: Offline status present
+PASS: Accessibility controls present
+PASS: Focus/Pomodoro and Learning Analytics preserved
+PASS: Podcast/Vocabulary/Pronunciation/Resources preserved
+
+LIMITATION: Chromium headless runtime rendering could not complete in the current container because Chromium was blocked by container DBus/inotify/network namespace restrictions. Therefore final acceptance on a real HTTPS GitHub Pages origin and at least one iPhone + one Android device remains mandatory before labeling the build production-final.
