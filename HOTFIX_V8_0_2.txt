@@ -1,0 +1,13 @@
+DeutschWeg v8.0.2 — Navigation Runtime Fix
+
+Root cause fixed:
+- renderHome() called renderMovieFeature() and renderCloudBanner(), but both functions were missing.
+- The exception aborted renderAll() before the active view could switch, so bottom navigation appeared but every menu stayed on Home.
+
+Fixes:
+- Added renderMovieFeature() as promotional-only Telegram introduction.
+- Added renderCloudBanner() as optional data/cloud information card.
+- Added data-view/type=button attributes and delegated navigation fallback.
+- Forced 5-column bottom navigation with touch-action support.
+- Updated PWA cache to deutschweg-v8-0-2-runtime-nav-fix.
+- User storage key and Data Schema remain unchanged.
