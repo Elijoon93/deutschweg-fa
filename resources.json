@@ -1,0 +1,1289 @@
+[
+  {
+    "id": "goethe-dfd",
+    "name": "Deutsch für dich",
+    "provider": "Goethe-Institut",
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "skills": [
+      "Lesen",
+      "Hören",
+      "Grammatik",
+      "Wortschatz",
+      "Prüfung"
+    ],
+    "fa": "تمرین‌های تعاملی رایگان گرامر، واژگان، خواندن و شنیدن از A1 تا C2.",
+    "de": "Kostenlose interaktive Übungen zu Grammatik, Wortschatz, Lesen und Hören von A1 bis C2.",
+    "url": "https://www.goethe.de/deutsch-fuer-dich",
+    "cost": "free",
+    "free": true,
+    "official": true,
+    "audiences": [
+      "adult",
+      "teen"
+    ],
+    "goals": [
+      "general",
+      "exam",
+      "work",
+      "study"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "goethe-free",
+    "name": "Kostenlos Deutsch üben",
+    "provider": "Goethe-Institut",
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "skills": [
+      "Lesen",
+      "Hören",
+      "Sprechen",
+      "Wortschatz",
+      "Video",
+      "Podcast",
+      "Beruf"
+    ],
+    "fa": "درگاه رسمی تمرین، اپ، فیلم، بازی و پادکست برای زندگی روزمره، کار و تحصیل.",
+    "de": "Offizielles Portal mit Übungen, Apps, Filmen, Spielen und Podcasts für Alltag, Beruf und Studium.",
+    "url": "https://www.goethe.de/de/spr/ueb.html",
+    "cost": "free",
+    "free": true,
+    "official": true,
+    "audiences": [
+      "adult",
+      "teen"
+    ],
+    "goals": [
+      "general",
+      "work",
+      "study",
+      "migration"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "goethe-exam",
+    "name": "Prüfungstraining A1–C2",
+    "provider": "Goethe-Institut",
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "skills": [
+      "Prüfung",
+      "Lesen",
+      "Hören",
+      "Schreiben",
+      "Sprechen"
+    ],
+    "fa": "نمونه‌تمرین و مواد رسمی آمادگی آزمون گوته برای همه سطوح.",
+    "de": "Offizielles Prüfungstraining und Übungsmaterial für Goethe-Prüfungen aller Niveaus.",
+    "url": "https://www.goethe.de/de/spr/prf/ueb.html",
+    "cost": "free",
+    "free": true,
+    "official": true,
+    "audiences": [
+      "adult",
+      "teen"
+    ],
+    "goals": [
+      "exam"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "goethe-pron",
+    "name": "Online-Aussprachetrainer",
+    "provider": "Goethe-Institut",
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "skills": [
+      "Sprechen",
+      "Hören",
+      "Aussprache"
+    ],
+    "fa": "تمرین رایگان تلفظ و آواشناسی با بازخورد مستقیم و سطح‌های مختلف.",
+    "de": "Kostenloses Aussprache- und Phonetiktraining mit direktem Feedback.",
+    "url": "https://www.goethe.de/de/spr/ueb/ast.html",
+    "cost": "free",
+    "free": true,
+    "official": true,
+    "audiences": [
+      "adult",
+      "teen"
+    ],
+    "goals": [
+      "general",
+      "exam"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "goethe-meinweg",
+    "name": "Mein Weg nach Deutschland",
+    "provider": "Goethe-Institut",
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2"
+    ],
+    "skills": [
+      "Lesen",
+      "Hören",
+      "Video",
+      "Beruf",
+      "Alltag"
+    ],
+    "fa": "تمرین رایگان برای زندگی، ادغام اجتماعی و زبان شغلی در آلمان.",
+    "de": "Kostenlose Übungen zu Alltag, Integration und Berufsdeutsch in Deutschland.",
+    "url": "https://www.goethe.de/prj/mwd/de/deu.html",
+    "cost": "free",
+    "free": true,
+    "official": true,
+    "audiences": [
+      "adult",
+      "teen"
+    ],
+    "goals": [
+      "migration",
+      "work",
+      "general"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "goethe-24h",
+    "name": "24h Deutsch",
+    "provider": "Goethe-Institut",
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "skills": [
+      "Video",
+      "Sprechen",
+      "Prüfung",
+      "Aussprache"
+    ],
+    "fa": "ویدئوهای آموزشی، تلفظ، مینی‌سری و نمونه‌های بخش گفتاری آزمون.",
+    "de": "Lernvideos, Aussprache, Miniserien und Beispiele für mündliche Prüfungen.",
+    "url": "https://www.youtube.com/@24hDeutsch",
+    "cost": "free",
+    "free": true,
+    "official": true,
+    "audiences": [
+      "adult",
+      "teen"
+    ],
+    "goals": [
+      "general",
+      "exam"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "goethe-vocab",
+    "name": "Deutschtrainer A1 / Wortschatz",
+    "provider": "Goethe-Institut",
+    "levels": [
+      "A1",
+      "A2",
+      "B1"
+    ],
+    "skills": [
+      "Wortschatz",
+      "Hören",
+      "Alltag"
+    ],
+    "fa": "تمرین موضوعی واژگان و عبارت‌های روزمره برای شروع و تثبیت پایه.",
+    "de": "Thematisches Training für Alltagswortschatz und Wendungen in den Grundstufen.",
+    "url": "https://www.goethe.de/de/spr/ueb/dt1.html",
+    "cost": "free",
+    "free": true,
+    "official": true,
+    "audiences": [
+      "adult",
+      "teen"
+    ],
+    "goals": [
+      "general",
+      "migration"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "goethe-kinderuni",
+    "name": "Digitale Kinderuni",
+    "provider": "Goethe-Institut",
+    "levels": [
+      "A1",
+      "A2"
+    ],
+    "skills": [
+      "Video",
+      "Wortschatz",
+      "Hören",
+      "Wissen"
+    ],
+    "fa": "دانشگاه دیجیتال رایگان و بازی‌محور برای کودکان با موضوع‌های علمی.",
+    "de": "Kostenlose spielerische Lernplattform für Kinder mit Wissenschaftsthemen.",
+    "url": "https://kinderuni.goethe.de/?lang=de",
+    "cost": "free",
+    "free": true,
+    "official": true,
+    "audiences": [
+      "child"
+    ],
+    "goals": [
+      "school",
+      "general"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "goethe-junioruni",
+    "name": "Digitale JuniorUni",
+    "provider": "Goethe-Institut",
+    "levels": [
+      "A1",
+      "A2",
+      "B1"
+    ],
+    "skills": [
+      "Video",
+      "Wortschatz",
+      "Hören",
+      "Wissen"
+    ],
+    "fa": "محتوای رایگان علمی و فناوری برای نوجوانان همراه با یادگیری زبان.",
+    "de": "Kostenlose Wissenschafts- und Technikinhalte für Jugendliche beim Deutschlernen.",
+    "url": "https://junioruni.goethe.de/?lang=de",
+    "cost": "free",
+    "free": true,
+    "official": true,
+    "audiences": [
+      "teen"
+    ],
+    "goals": [
+      "school",
+      "general"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "goethe-stadt",
+    "name": "Die Stadt der Wörter",
+    "provider": "Goethe-Institut",
+    "levels": [
+      "A1",
+      "A2"
+    ],
+    "skills": [
+      "Wortschatz",
+      "Spiel"
+    ],
+    "fa": "بازی واژگان برای یادگیری و مرور کلمات پایه در موقعیت‌های شهری.",
+    "de": "Wortschatzspiel zum Lernen und Wiederholen von Grundwortschatz.",
+    "url": "https://www.goethe.de/de/spr/ueb/led.html",
+    "cost": "free",
+    "free": true,
+    "official": true,
+    "audiences": [
+      "child",
+      "teen",
+      "adult"
+    ],
+    "goals": [
+      "general"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "goethe-test",
+    "name": "Testen Sie Ihr Deutsch",
+    "provider": "Goethe-Institut",
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "skills": [
+      "Einstufung",
+      "Lesen",
+      "Hören"
+    ],
+    "fa": "تخمین رایگان سطح مهارت‌های دریافتی؛ جایگزین آزمون رسمی نیست.",
+    "de": "Kostenlose Orientierung für rezeptive Kenntnisse; kein offizielles Zertifikat.",
+    "url": "https://www.goethe.de/de/spr/ueb/tsd.html",
+    "cost": "free",
+    "free": true,
+    "official": true,
+    "audiences": [
+      "adult",
+      "teen"
+    ],
+    "goals": [
+      "placement"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "dw-nicos",
+    "name": "Nicos Weg",
+    "provider": "Deutsche Welle",
+    "levels": [
+      "A1",
+      "A2",
+      "B1"
+    ],
+    "skills": [
+      "Video",
+      "Hören",
+      "Lesen",
+      "Grammatik",
+      "Wortschatz"
+    ],
+    "fa": "دوره داستانی و ویدئویی ساختاریافته با تمرین‌های تعاملی.",
+    "de": "Strukturierter videobasierter Kurs mit Geschichte und interaktiven Übungen.",
+    "url": "https://learngerman.dw.com/de/nicos-weg/c-36519687",
+    "cost": "free",
+    "free": true,
+    "official": true,
+    "audiences": [
+      "adult",
+      "teen"
+    ],
+    "goals": [
+      "general",
+      "migration"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "dw-kurz",
+    "name": "Kurz und leicht",
+    "provider": "Deutsche Welle",
+    "levels": [
+      "A1",
+      "A2",
+      "B1"
+    ],
+    "skills": [
+      "Nachrichten",
+      "Hören",
+      "Lesen",
+      "Wortschatz",
+      "Video"
+    ],
+    "fa": "خبرهای کوتاه و ساده همراه متن، زیرنویس و توضیح واژه‌ها.",
+    "de": "Kurze, leichte Nachrichten mit Text, Untertiteln und Worterklärungen.",
+    "url": "https://learngerman.dw.com/de/kurz-und-leicht/s-62753244",
+    "cost": "free",
+    "free": true,
+    "official": true,
+    "audiences": [
+      "adult",
+      "teen"
+    ],
+    "goals": [
+      "general"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "dw-top",
+    "name": "Top-Thema mit Vokabeln",
+    "provider": "Deutsche Welle",
+    "levels": [
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "skills": [
+      "Nachrichten",
+      "Hören",
+      "Lesen",
+      "Wortschatz"
+    ],
+    "fa": "موضوع‌های روز با فایل صوتی، متن، واژگان و تمرین.",
+    "de": "Aktuelle Themen mit Audio, Text, Vokabeln und Übungen.",
+    "url": "https://www.dw.com/de/top-thema/s-8031",
+    "cost": "free",
+    "free": true,
+    "official": true,
+    "audiences": [
+      "adult",
+      "teen"
+    ],
+    "goals": [
+      "general",
+      "exam",
+      "study"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "dw-video",
+    "name": "Video-Thema",
+    "provider": "Deutsche Welle",
+    "levels": [
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "skills": [
+      "Video",
+      "Hören",
+      "Wortschatz",
+      "Landeskunde"
+    ],
+    "fa": "گزارش‌های ویدئویی واقعی همراه متن و واژگان برای سطوح بالاتر.",
+    "de": "Authentische Videoreportagen mit Manuskript und Wortschatz für höhere Niveaus.",
+    "url": "https://www.dw.com/de/video-thema/s-12165",
+    "cost": "free",
+    "free": true,
+    "official": true,
+    "audiences": [
+      "adult",
+      "teen"
+    ],
+    "goals": [
+      "general",
+      "study"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "dw-alltag",
+    "name": "Alltagsdeutsch",
+    "provider": "Deutsche Welle",
+    "levels": [
+      "C1",
+      "C2"
+    ],
+    "skills": [
+      "Hören",
+      "Lesen",
+      "Wortschatz",
+      "Landeskunde"
+    ],
+    "fa": "گزارش‌های صوتی پیشرفته درباره جامعه، فرهنگ و زندگی روزمره.",
+    "de": "Fortgeschrittene Audioreportagen über Gesellschaft, Kultur und Alltag.",
+    "url": "https://www.dw.com/de/alltagsdeutsch/s-9214",
+    "cost": "free",
+    "free": true,
+    "official": true,
+    "audiences": [
+      "adult",
+      "teen"
+    ],
+    "goals": [
+      "general",
+      "study"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "dw-redensart",
+    "name": "Das sagt man so!",
+    "provider": "Deutsche Welle",
+    "levels": [
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "skills": [
+      "Wortschatz",
+      "Hören",
+      "Redewendungen"
+    ],
+    "fa": "اصطلاح‌ها و عبارت‌های رایج آلمانی همراه توضیح و مثال.",
+    "de": "Deutsche Redewendungen mit Erklärung, Audio und Beispielen.",
+    "url": "https://www.dw.com/de/das-sagt-man-so/s-32376",
+    "cost": "free",
+    "free": true,
+    "official": true,
+    "audiences": [
+      "adult",
+      "teen"
+    ],
+    "goals": [
+      "general"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "dw-wort",
+    "name": "Wort der Woche",
+    "provider": "Deutsche Welle",
+    "levels": [
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "skills": [
+      "Wortschatz",
+      "Hören"
+    ],
+    "fa": "واژه‌های جالب و فرهنگی با توضیح کوتاه و فایل صوتی.",
+    "de": "Interessante kulturbezogene Wörter mit kurzer Erklärung und Audio.",
+    "url": "https://www.dw.com/de/wort-der-woche/s-9031",
+    "cost": "free",
+    "free": true,
+    "official": true,
+    "audiences": [
+      "adult",
+      "teen"
+    ],
+    "goals": [
+      "general"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "vhs-main",
+    "name": "vhs-Lernportal Deutsch",
+    "provider": "Deutscher Volkshochschul-Verband",
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "skills": [
+      "Lesen",
+      "Hören",
+      "Schreiben",
+      "Sprechen",
+      "Grammatik",
+      "Wortschatz",
+      "Beruf"
+    ],
+    "fa": "دوره‌های ساختاریافته رایگان زبان عمومی و شغلی با اپ و تمرین.",
+    "de": "Kostenlose strukturierte Allgemein- und Berufssprachkurse mit Apps und Übungen.",
+    "url": "https://www.vhs-lernportal.de/wws/home.php",
+    "cost": "free",
+    "free": true,
+    "official": true,
+    "audiences": [
+      "adult",
+      "teen"
+    ],
+    "goals": [
+      "general",
+      "work",
+      "migration"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "schubert",
+    "name": "Online-Aufgaben Deutsch als Fremdsprache",
+    "provider": "Schubert-Verlag",
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "skills": [
+      "Grammatik",
+      "Wortschatz",
+      "Lesen"
+    ],
+    "fa": "تمرین‌های طبقه‌بندی‌شده آنلاین از A1 تا C2 همراه با تصحیح.",
+    "de": "Niveaustufengerechte Online-Übungen A1–C2 mit Auswertung.",
+    "url": "https://www.schubert-verlag.de/aufgaben/index.htm",
+    "cost": "free",
+    "free": true,
+    "official": false,
+    "audiences": [
+      "adult",
+      "teen"
+    ],
+    "goals": [
+      "general",
+      "exam"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "deutschakademie",
+    "name": "Online-Deutschkurs / Grammatiktrainer",
+    "provider": "DeutschAkademie",
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "skills": [
+      "Grammatik",
+      "Wortschatz",
+      "Prüfung"
+    ],
+    "fa": "بانک گسترده تمرین‌های رایگان گرامر و آمادگی آزمون.",
+    "de": "Umfangreiche kostenlose Grammatik- und Prüfungsvorbereitungsübungen.",
+    "url": "https://www.deutschakademie.de/online-deutschkurs/",
+    "cost": "free",
+    "free": true,
+    "official": false,
+    "audiences": [
+      "adult",
+      "teen"
+    ],
+    "goals": [
+      "general",
+      "exam"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "deutschinfo",
+    "name": "deutsch.info",
+    "provider": "deutsch.info",
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2"
+    ],
+    "skills": [
+      "Grammatik",
+      "Wortschatz",
+      "Lesen",
+      "Hören",
+      "Alltag",
+      "Beruf"
+    ],
+    "fa": "دوره رایگان چندزبانه همراه گرامر، رسانه و اطلاعات زندگی و کار.",
+    "de": "Kostenloser mehrsprachiger Kurs mit Grammatik, Medien und Infos zu Leben und Arbeit.",
+    "url": "https://deutsch.info/",
+    "cost": "free",
+    "free": true,
+    "official": false,
+    "audiences": [
+      "adult",
+      "teen"
+    ],
+    "goals": [
+      "general",
+      "work",
+      "migration"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "lingolia-grammar",
+    "name": "Deutsche Grammatik",
+    "provider": "Lingolia",
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "skills": [
+      "Grammatik"
+    ],
+    "fa": "توضیح روشن گرامر و یک تمرین رایگان برای هر موضوع؛ بخش‌های اضافه پولی‌اند.",
+    "de": "Klare Grammatikerklärungen und eine freie Übung pro Thema; Zusatzübungen kostenpflichtig.",
+    "url": "https://deutsch.lingolia.com/de/grammatik",
+    "cost": "freemium",
+    "free": false,
+    "official": false,
+    "audiences": [
+      "adult",
+      "teen"
+    ],
+    "goals": [
+      "general",
+      "exam"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "easydeutsch",
+    "name": "EasyDeutsch Grammatik",
+    "provider": "EasyDeutsch",
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "skills": [
+      "Grammatik",
+      "Schreiben"
+    ],
+    "fa": "درس‌نامه‌های منظم گرامر با مثال و جدول؛ برخی فایل‌ها یا دوره‌ها پولی‌اند.",
+    "de": "Systematische Grammatikerklärungen mit Beispielen und Tabellen; teils kostenpflichtige Extras.",
+    "url": "https://easy-deutsch.de/deutsche-grammatik/",
+    "cost": "freemium",
+    "free": false,
+    "official": false,
+    "audiences": [
+      "adult",
+      "teen"
+    ],
+    "goals": [
+      "general",
+      "exam"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "meindeutschbuch",
+    "name": "Mein Deutschbuch",
+    "provider": "Mein-Deutschbuch.de",
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "skills": [
+      "Grammatik",
+      "Wortschatz",
+      "Lesen",
+      "Beruf"
+    ],
+    "fa": "مرجع گسترده گرامر، فهرست افعال، متن و تمرین برای خودآموزی.",
+    "de": "Umfangreiche Grammatik, Verbtabellen, Texte und Übungen fürs Selbststudium.",
+    "url": "https://mein-deutschbuch.de/",
+    "cost": "free",
+    "free": true,
+    "official": false,
+    "audiences": [
+      "adult",
+      "teen"
+    ],
+    "goals": [
+      "general",
+      "work"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "grammis",
+    "name": "grammis – Grammatisches Informationssystem",
+    "provider": "Leibniz-Institut für Deutsche Sprache",
+    "levels": [
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "skills": [
+      "Grammatik",
+      "Studium",
+      "Schreiben"
+    ],
+    "fa": "مرجع علمی گرامر آلمانی برای پرسش‌های دقیق و سطح پیشرفته.",
+    "de": "Wissenschaftliches Grammatikportal für präzise Fragen und Fortgeschrittene.",
+    "url": "https://grammis.ids-mannheim.de/",
+    "cost": "free",
+    "free": true,
+    "official": true,
+    "audiences": [
+      "adult",
+      "teen"
+    ],
+    "goals": [
+      "study",
+      "teaching"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "duden",
+    "name": "Duden Onlinewörterbuch",
+    "provider": "Duden",
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "skills": [
+      "Wortschatz",
+      "Schreiben",
+      "Aussprache"
+    ],
+    "fa": "معنی، املا، جنس، جمع، کاربرد، تلفظ و مترادف واژه‌ها.",
+    "de": "Bedeutung, Rechtschreibung, Genus, Plural, Gebrauch, Aussprache und Synonyme.",
+    "url": "https://www.duden.de/woerterbuch",
+    "cost": "freemium",
+    "free": false,
+    "official": false,
+    "audiences": [
+      "adult",
+      "teen"
+    ],
+    "goals": [
+      "general",
+      "study",
+      "work"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "pons",
+    "name": "PONS Online-Wörterbuch",
+    "provider": "PONS",
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "skills": [
+      "Wortschatz",
+      "Aussprache",
+      "Übersetzung"
+    ],
+    "fa": "فرهنگ آلمانی و ترجمه همراه تلفظ، مثال و صرف؛ تبلیغات و خدمات افزوده دارد.",
+    "de": "Wörterbuch und Übersetzung mit Aussprache, Beispielen und Flexion; mit Werbung/Extras.",
+    "url": "https://de.pons.com/",
+    "cost": "freemium",
+    "free": false,
+    "official": false,
+    "audiences": [
+      "adult",
+      "teen"
+    ],
+    "goals": [
+      "general",
+      "study",
+      "work"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "deutsch-to-go",
+    "name": "Deutsch-to-go",
+    "provider": "Deutsch-to-go",
+    "levels": [
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "skills": [
+      "Hören",
+      "Lesen",
+      "Wortschatz"
+    ],
+    "fa": "صدها متن شنیداری کوتاه رایگان همراه متن و تمرین.",
+    "de": "Hunderte kurze kostenlose Hörtexte mit Manuskript und Übungen.",
+    "url": "https://www.deutsch-to-go.de/",
+    "cost": "free",
+    "free": true,
+    "official": false,
+    "audiences": [
+      "adult",
+      "teen"
+    ],
+    "goals": [
+      "general",
+      "exam"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "nachrichtenleicht",
+    "name": "Nachrichtenleicht",
+    "provider": "Deutschlandfunk",
+    "levels": [
+      "A2",
+      "B1",
+      "B2"
+    ],
+    "skills": [
+      "Nachrichten",
+      "Hören",
+      "Lesen",
+      "Wortschatz"
+    ],
+    "fa": "خبرهای هفتگی به زبان ساده با متن و صوت.",
+    "de": "Wöchentliche Nachrichten in einfacher Sprache mit Text und Audio.",
+    "url": "https://www.nachrichtenleicht.de/",
+    "cost": "free",
+    "free": true,
+    "official": true,
+    "audiences": [
+      "adult",
+      "teen"
+    ],
+    "goals": [
+      "general",
+      "migration"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "tagesschau-einfach",
+    "name": "tagesschau in Einfacher Sprache",
+    "provider": "ARD",
+    "levels": [
+      "A2",
+      "B1",
+      "B2"
+    ],
+    "skills": [
+      "Nachrichten",
+      "Hören",
+      "Video",
+      "Lesen"
+    ],
+    "fa": "اخبار روز آلمان به زبان ساده و قابل‌فهم‌تر.",
+    "de": "Aktuelle Nachrichten aus Deutschland in Einfacher Sprache.",
+    "url": "https://www.tagesschau.de/multimedia/sendung/tagesschau_in_einfacher_sprache",
+    "cost": "free",
+    "free": true,
+    "official": true,
+    "audiences": [
+      "adult",
+      "teen"
+    ],
+    "goals": [
+      "general",
+      "migration"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "zdf-logo",
+    "name": "logo! Kindernachrichten",
+    "provider": "ZDF",
+    "levels": [
+      "A2",
+      "B1",
+      "B2"
+    ],
+    "skills": [
+      "Nachrichten",
+      "Video",
+      "Hören",
+      "Wortschatz"
+    ],
+    "fa": "خبرهای تصویری با توضیح ساده؛ مناسب نوجوانان و زبان‌آموزان میانی.",
+    "de": "Nachrichten mit einfachen Erklärungen; gut für Jugendliche und mittlere Niveaus.",
+    "url": "https://www.zdf.de/kinder/logo",
+    "cost": "free",
+    "free": true,
+    "official": true,
+    "audiences": [
+      "child",
+      "teen",
+      "adult"
+    ],
+    "goals": [
+      "general"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "easygerman",
+    "name": "Easy German",
+    "provider": "Easy Languages",
+    "levels": [
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "skills": [
+      "Video",
+      "Hören",
+      "Sprechen",
+      "Alltag",
+      "Wortschatz"
+    ],
+    "fa": "مصاحبه‌های خیابانی واقعی با زیرنویس آلمانی و انگلیسی؛ امکانات اضافی پولی است.",
+    "de": "Authentische Straßeninterviews mit deutschen/englischen Untertiteln; Extras kostenpflichtig.",
+    "url": "https://www.easygerman.org/",
+    "cost": "freemium",
+    "free": false,
+    "official": false,
+    "audiences": [
+      "adult",
+      "teen"
+    ],
+    "goals": [
+      "general",
+      "migration"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "ard-audio",
+    "name": "ARD Audiothek",
+    "provider": "ARD",
+    "levels": [
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "skills": [
+      "Podcast",
+      "Hören",
+      "Nachrichten",
+      "Kultur"
+    ],
+    "fa": "پادکست، رادیو، گزارش و نمایش صوتی اصیل آلمانی.",
+    "de": "Authentische Podcasts, Radio, Reportagen und Hörspiele.",
+    "url": "https://www.ardaudiothek.de/",
+    "cost": "free",
+    "free": true,
+    "official": true,
+    "audiences": [
+      "adult",
+      "teen"
+    ],
+    "goals": [
+      "general",
+      "study"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "dlf-podcast",
+    "name": "Deutschlandfunk Podcasts",
+    "provider": "Deutschlandradio",
+    "levels": [
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "skills": [
+      "Podcast",
+      "Hören",
+      "Nachrichten",
+      "Studium"
+    ],
+    "fa": "پادکست‌های حرفه‌ای درباره سیاست، علم، فرهنگ و جامعه.",
+    "de": "Hochwertige Podcasts zu Politik, Wissenschaft, Kultur und Gesellschaft.",
+    "url": "https://www.deutschlandfunk.de/podcasts",
+    "cost": "free",
+    "free": true,
+    "official": true,
+    "audiences": [
+      "adult",
+      "teen"
+    ],
+    "goals": [
+      "study",
+      "general"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "planet-schule",
+    "name": "Deutsch lernen – Planet Schule",
+    "provider": "SWR/WDR",
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2"
+    ],
+    "skills": [
+      "Video",
+      "Hören",
+      "Lesen",
+      "Schule"
+    ],
+    "fa": "فیلم‌ها و مواد آموزشی عمومی برای مدرسه و یادگیری زبان.",
+    "de": "Filme und Lernmaterialien für Schule und Deutschlernen.",
+    "url": "https://www.planet-schule.de/schwerpunkt/deutsch-lernen/index.html",
+    "cost": "free",
+    "free": true,
+    "official": true,
+    "audiences": [
+      "child",
+      "teen",
+      "adult"
+    ],
+    "goals": [
+      "school",
+      "general"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "telc-tests",
+    "name": "telc Übungstests",
+    "provider": "telc",
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "skills": [
+      "Prüfung",
+      "Lesen",
+      "Hören",
+      "Schreiben",
+      "Sprechen"
+    ],
+    "fa": "نمونه‌آزمون‌ها و فایل‌های رسمی برای آشنایی با قالب telc؛ بعضی مواد پولی‌اند.",
+    "de": "Offizielle Übungstests und Audios zum telc-Format; einige Materialien kostenpflichtig.",
+    "url": "https://www.telc.net/sprachpruefungen/uebungstests/",
+    "cost": "freemium",
+    "free": false,
+    "official": true,
+    "audiences": [
+      "adult",
+      "teen"
+    ],
+    "goals": [
+      "exam"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "osd-tests",
+    "name": "ÖSD Downloads / Modellsätze",
+    "provider": "ÖSD",
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "skills": [
+      "Prüfung",
+      "Lesen",
+      "Hören",
+      "Schreiben",
+      "Sprechen"
+    ],
+    "fa": "نمونه‌آزمون و فایل‌های رسمی ÖSD برای سطوح مختلف.",
+    "de": "Offizielle ÖSD-Modellsätze und Dateien für verschiedene Niveaus.",
+    "url": "https://www.osd.at/downloads/",
+    "cost": "free",
+    "free": true,
+    "official": true,
+    "audiences": [
+      "adult",
+      "teen"
+    ],
+    "goals": [
+      "exam"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "testdaf-digital",
+    "name": "Digitaler TestDaF – Vorbereitung",
+    "provider": "TestDaF-Institut",
+    "levels": [
+      "B2",
+      "C1"
+    ],
+    "skills": [
+      "Prüfung",
+      "Studium",
+      "Lesen",
+      "Hören",
+      "Schreiben",
+      "Sprechen"
+    ],
+    "fa": "آشنایی رسمی با نوع سؤال‌ها، راهبردها و نمونه‌های آزمون دیجیتال TestDaF.",
+    "de": "Offizielle Aufgabenformate, Strategien und Beispiele für den digitalen TestDaF.",
+    "url": "https://www.testdaf.de/de/teilnehmende/der-digitale-testdaf/vorbereitung-auf-den-digitalen-testdaf/",
+    "cost": "free",
+    "free": true,
+    "official": true,
+    "audiences": [
+      "adult",
+      "teen"
+    ],
+    "goals": [
+      "exam",
+      "study"
+    ],
+    "verified": "2026-07"
+  },
+  {
+    "id": "testdaf-model",
+    "name": "TestDaF Übungstest",
+    "provider": "TestDaF-Institut",
+    "levels": [
+      "B2",
+      "C1"
+    ],
+    "skills": [
+      "Prüfung",
+      "Studium",
+      "Lesen",
+      "Hören",
+      "Schreiben",
+      "Sprechen"
+    ],
+    "fa": "مدل‌تست رسمی برای تمرین زمان‌بندی و شناخت سطح موردنیاز دانشگاه.",
+    "de": "Offizieller Übungstest für Zeitmanagement und Hochschulsprachprüfung.",
+    "url": "https://www.testdaf.de/de/teilnehmende/der-papierbasierte-testdaf/vorbereitung-auf-den-papierbasierten-testdaf/",
+    "cost": "free",
+    "free": true,
+    "official": true,
+    "audiences": [
+      "adult",
+      "teen"
+    ],
+    "goals": [
+      "exam",
+      "study"
+    ],
+    "verified": "2026-07"
+  }
+]
