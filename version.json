@@ -1,8 +1,8 @@
 {
-  "appVersion": "13.4.0",
-  "version": "13.4.0",
-  "build": "X13.4 Vocabulary Core & SRS 2.0",
-  "channel": "x13-vocabulary-core-srs-2",
+  "appVersion": "13.6.0",
+  "version": "13.6.0",
+  "build": "X13.6 Cumulative Entry + Universal Categories + Data-Safe Updates",
+  "channel": "x13-6-cumulative-entry-categories-data-safe",
   "dataStorageKey": "deutschweg_x12_user_data",
   "dataSchemaVersion": 1,
   "uiSystem": "X12.3 Unified Planner-first UI",
@@ -21,5 +21,15 @@
     "teachingReady": 337,
     "deepReady": 49
   },
-  "runtimeStatus": "Static QA candidate; physical-device and deployed-PWA acceptance pending"
+  "runtimeStatus": "Static QA candidate; Android Gradle build and physical-device upgrade test pending",
+  "entryArchitecture": "Pflege-inspired seven-step mobile onboarding adapted to universal German learning",
+  "categoryArchitecture": "11 umbrella categories covering all 30 domains and 341 existing topics",
+  "updateSafety": {
+    "stableStorageKey": true,
+    "legacyMigration": true,
+    "localMigrationBackups": true,
+    "indexedDbMirror": true,
+    "androidStablePackageId": "com.deutschweg.app",
+    "androidStableOrigin": "https://appassets.androidplatform.net/assets/www/index.html"
+  }
 }

@@ -1,7 +1,7 @@
 {
-  "name": "DeutschWeg X13.4 — Adaptive German Learning & Vocabulary Core",
-  "short_name": "DeutschWeg X13.4",
-  "description": "پلتفرم برنامه‌ریزی تطبیقی آلمانی A1 تا C2 با جهان محتوا، ۶۰۰۰ مدخل واژگانی، کنترل کیفیت، گراف زمینه و تمرین چهار مهارت",
+  "name": "DeutschWeg X13.6 — Personal German Planner & Universal Learning Worlds",
+  "short_name": "DeutschWeg X13.6",
+  "description": "برنامه‌ریز شخصی زبان آلمانی با ورودی موبایلی، ۳۰ حوزه، ۳۴۱ موضوع، چهار مهارت و حفظ داده هنگام بروزرسانی",
   "lang": "fa",
   "dir": "rtl",
   "start_url": "./",
@@ -28,5 +28,5 @@
     "education",
     "productivity"
   ],
-  "version": "13.3.0"
+  "version": "13.6.0"
 }

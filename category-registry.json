@@ -1,0 +1,146 @@
+{
+  "version": "13.6.0",
+  "schema": "universal-category-registry-v1",
+  "sourceContentUniverseVersion": "13.1.0",
+  "contentPolicy": "No new generated teaching content in this layer; categories organize existing source records only.",
+  "groups": [
+    {
+      "id": "alltag",
+      "titleFa": "زندگی روزمره و روابط",
+      "titleDe": "Alltag & Beziehungen",
+      "domainIds": [
+        "daily-life",
+        "home-living",
+        "family-relations",
+        "events-social"
+      ],
+      "topicCount": 38
+    },
+    {
+      "id": "stadt",
+      "titleFa": "شهر، خدمات و خرید",
+      "titleDe": "Stadt, Dienste & Einkaufen",
+      "domainIds": [
+        "city-services",
+        "shopping-money",
+        "administration-law"
+      ],
+      "topicCount": 31
+    },
+    {
+      "id": "food",
+      "titleFa": "غذا، تفریح و ورزش",
+      "titleDe": "Essen, Freizeit & Sport",
+      "domainIds": [
+        "food-cooking",
+        "leisure-hobbies",
+        "sports-fitness"
+      ],
+      "topicCount": 31
+    },
+    {
+      "id": "travel",
+      "titleFa": "سفر و حمل‌ونقل",
+      "titleDe": "Reisen & Verkehr",
+      "domainIds": [
+        "travel-tourism",
+        "transport"
+      ],
+      "topicCount": 24
+    },
+    {
+      "id": "nature",
+      "titleFa": "طبیعت و محیط زیست",
+      "titleDe": "Natur & Umwelt",
+      "domainIds": [
+        "nature-outdoors",
+        "environment"
+      ],
+      "topicCount": 22
+    },
+    {
+      "id": "culture",
+      "titleFa": "فرهنگ، رسانه، کتاب و داستان",
+      "titleDe": "Kultur, Medien & Geschichten",
+      "domainIds": [
+        "culture-arts",
+        "books-stories",
+        "media-news",
+        "germany-culture"
+      ],
+      "topicCount": 45
+    },
+    {
+      "id": "study",
+      "titleFa": "آموزش، علم و آکادمیک",
+      "titleDe": "Bildung, Wissen & Akademisch",
+      "domainIds": [
+        "education-study",
+        "science-knowledge",
+        "advanced-academic"
+      ],
+      "topicCount": 35
+    },
+    {
+      "id": "work",
+      "titleFa": "کار، مشاغل، فناوری و اقتصاد",
+      "titleDe": "Arbeit, Berufe, Technik & Wirtschaft",
+      "domainIds": [
+        "work-career",
+        "professions",
+        "technology",
+        "finance-business"
+      ],
+      "topicCount": 61
+    },
+    {
+      "id": "society",
+      "titleFa": "جامعه، ارتباط و مهاجرت",
+      "titleDe": "Gesellschaft, Kommunikation & Migration",
+      "domainIds": [
+        "society-communication",
+        "migration-integration"
+      ],
+      "topicCount": 23
+    },
+    {
+      "id": "health",
+      "titleFa": "سلامت، ایمنی و شرایط اضطراری",
+      "titleDe": "Gesundheit, Sicherheit & Notfall",
+      "domainIds": [
+        "health-wellbeing",
+        "emergency-safety"
+      ],
+      "topicCount": 21
+    },
+    {
+      "id": "youth",
+      "titleFa": "کودک و نوجوان",
+      "titleDe": "Kinder & Jugendliche",
+      "domainIds": [
+        "children-teens"
+      ],
+      "topicCount": 10
+    }
+  ],
+  "coverage": {
+    "domainsTotal": 30,
+    "domainsMapped": 30,
+    "unmappedDomainIds": [],
+    "topicsTotal": 341,
+    "learningObjectsTotal": 2387
+  },
+  "professionWorlds": [
+    "it",
+    "engineering",
+    "mining-hse",
+    "construction",
+    "healthcare",
+    "education",
+    "hospitality",
+    "retail",
+    "logistics",
+    "office-finance",
+    "manufacturing"
+  ]
+}
