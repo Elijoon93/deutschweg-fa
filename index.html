@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
 <meta name="theme-color" content="#087f79">
 <meta name="description" content="DeutschWeg X: برنامه‌ریز هوشمند و شخصی یادگیری زبان آلمانی برای فارسی‌زبانان؛ برنامه من، یادگیری، پیشرفت و بازتنظیم تطبیقی در یک مسیر واحد.">
-<meta name="application-version" content="12.3.0">
+<meta name="application-version" content="13.0.0">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="format-detection" content="telephone=no">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -14,7 +14,12 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="icon-192.png">
 <title>DeutschWeg | مسیر هوشمند یادگیری و برنامه‌ریزی زبان آلمانی</title>
-<link rel="stylesheet" href="./app-ui.css?v=12.3.0">
+<link rel="stylesheet" href="./app-ui.css?v=13.3.0">
+<link rel="stylesheet" href="./x13-universe.css?v=13.1.0">
+<link rel="stylesheet" href="./x13-four-skills.css?v=13.1.0">
+<link rel="stylesheet" href="./x13-phase1-language-core.css?v=13.3.0">
+<link rel="stylesheet" href="./x13-lexicon-intelligence.css?v=13.3.0">
+<link rel="stylesheet" href="./x13-vocabulary-core.css?v=13.4.0">
 </head>
 <body>
 <div class="app">
@@ -43,7 +48,7 @@
 <script src="./clean-boot.js"></script>
 <script src="./config.js"></script>
 <script>
-const APP_VERSION='12.3.0';
+const APP_VERSION='13.4.0';
 const DATA_SCHEMA_VERSION=1;
 // این کلید از این نسخه به بعد ثابت می‌ماند تا آپدیت فایل‌های برنامه داده کاربر را جدا از کد نگه دارد.
 const STORAGE_KEY='deutschweg_x12_user_data';
@@ -601,6 +606,15 @@ window.DeutschWegLegacyBridge = Object.freeze({
 <script src="./x12-1-planner.js"></script>
 <script src="./x12-2-adaptive-planner.js"></script>
 <script src="./x12-3-ui.js"></script>
+<script src="./x13-content-data.js"></script>
+<script src="./x13-phase1-language-data.js"></script>
+<script src="./x13-lexicon-context-data.js"></script>
+<script src="./x13-universe.js"></script>
+<script src="./x13-four-skills.js"></script>
+<script src="./x13-phase1-language-core.js"></script>
+<script src="./x13-lexicon-intelligence.js"></script>
+<script src="./x13-vocabulary-core-data.js"></script>
+<script src="./x13-vocabulary-core.js"></script>
 <script type="module" src="./src/bootstrap.js"></script>
 
 </body>

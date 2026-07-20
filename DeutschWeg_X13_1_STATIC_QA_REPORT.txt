@@ -1,0 +1,30 @@
+DeutschWeg X13.1 — Static QA Report
+===================================
+Core legacy vocabulary entries: 72
+X13.1 universal vocabulary entries: 346
+Estimated merged unique vocabulary entries at runtime: 400
+Domains: 30
+Topics: 341
+Learning objects: 2387
+Four-skill packs: 341
+Flagship rich packs: 90
+Domain-contextual packs: 251
+
+Static checks:
+PASS — Four-skill pack exists for every topic
+PASS — Every pack contains Lesen/Hören/Sprechen/Schreiben
+PASS — Universal vocabulary has stable IDs and domain tags
+PASS — X13.1 scripts/styles referenced from index.html
+PASS — Service Worker pre-cache includes X13.1 four-skill assets
+PASS — User storage key unchanged (deutschweg_x12_user_data)
+NOT TESTED — Physical iPhone/Safari acceptance
+NOT TESTED — Physical Android/Chrome acceptance
+NOT TESTED — Production GitHub Pages upgrade path
+
+Content-quality note:
+90 flagship packs are topic-specific rich packs with explicit German topic labels.
+The remaining packs are domain-contextual operational packs: they are functional four-skill sessions but are not claimed as individually hand-authored textbook chapters.PASS — Node syntax check: x13-four-skills.js
+PASS — Node syntax check: x13-universe.js
+PASS — Node syntax check: x13-content-data.js
+PASS — Inline JavaScript syntax extracted from index.html
+PASS — ZIP integrity test

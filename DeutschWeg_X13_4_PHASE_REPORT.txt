@@ -1,0 +1,32 @@
+DeutschWeg X13.4 — Vocabulary Core & SRS 2.0
+
+Implemented:
+- Strict vocabulary quality gates (teaching-ready vs deep-ready).
+- Normalized 6,000-entry vocabulary-core-6000.json.
+- SRS 2.0 scheduling with Again/Hard/Good/Easy.
+- Due review queue and study history.
+- Four-skill word mission: Lesen/Hören/Sprechen/Schreiben.
+- Planner integration for individual words and daily due reviews.
+- Vocabulary Authoring Studio.
+- Non-destructive JSON enrichment import/export.
+- Build and validation tools for licensed enrichment datasets.
+- No fake Persian meanings, plurals, or CEFR labels introduced.
+- Storage key preserved: deutschweg_x12_user_data.
+
+Base metrics:
+{
+  "version": "13.4.0",
+  "total": 6000,
+  "targetTeachingCore": 5200,
+  "withPersian": 346,
+  "withPOS": 935,
+  "withCEFR": 346,
+  "withExample": 377,
+  "withCollocations2Plus": 367,
+  "teachingReady": 337,
+  "deepReady": 49,
+  "sentences": 2579
+}
+
+Important:
+The 5,200 target is now a strict quality target, not a marketing count. Raw lexical entries are not counted as fully educational until they pass the gate.

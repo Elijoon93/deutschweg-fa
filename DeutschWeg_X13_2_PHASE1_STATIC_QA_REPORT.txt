@@ -1,0 +1,21 @@
+DeutschWeg X13.2 — Phase 1 Language Core Static QA
+
+PASS | Phase-1 lexicon > 5,000 | 6000
+PASS | Phase-1 sentence bank > 1,000 | 2579
+PASS | Lexicon unique IDs | 6000
+PASS | Lexicon unique words | 6000
+PASS | Sentence unique IDs | 2579
+PASS | Sentence unique texts | 2579
+PASS | Four-Skills packs preserved | 341
+PASS | Storage key preserved | deutschweg_x12_user_data
+PASS | No localStorage.clear | 
+PASS | No IndexedDB delete | 
+PASS | Phase-1 assets linked in index | 
+PASS | Phase-1 assets cached in SW | 
+
+Lexicon entries: 6000
+Enriched bilingual entries: 346
+Extended lexical-index entries: 5654
+Unique sentence records: 2579
+Four-skill packs: 341
+Failures: 0

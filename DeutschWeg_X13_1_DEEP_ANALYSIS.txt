@@ -1,0 +1,21 @@
+DeutschWeg X13.1 — Deep Analysis & Implementation Notes
+
+Audit of X13.0 before this phase:
+1. The legacy core VOCAB_BANK contained 72 entries: exactly 12 at each CEFR level A1, A2, B1, B2, C1, C2.
+2. X13.0 rich seeds added 30 additional unique lexical entries (6 rich topics x 5 words), for 102 unique raw lexical entries across the core bank + X13 rich seeds.
+3. X13.0 had 341 topics and 2,387 learning-object metadata rows, but most rows were template-ready metadata rather than executable topic content.
+4. Only 6 topics had richer seed content.
+5. Topic -> Planner existed, but the generated plan was a sequence of module tasks, not a unified four-skills session with measurable per-skill outcomes.
+6. Topic skill buttons generally routed to existing global modules, so the learning activity could lose the topic context.
+
+X13.1 implementation response:
+- Adds a universal lexical layer and merges it into the existing vocabulary bank without destructive storage migration.
+- Adds one operational four-skills pack for every topic.
+- Adds 90 stronger flagship topic packs (first three topics of each domain) with explicit German topic labels.
+- Adds a full-screen integrated session: Vocabulary -> Lesen -> Hören -> Sprechen -> Schreiben -> Review -> Ergebnis.
+- Records per-skill scores and writes them back to X12 mastery signals so the planner can react.
+- Completes related X13 planner tasks after a finished session.
+- Keeps the locked main navigation Home / My Plan / Learn / Progress / More.
+
+Important honesty boundary:
+This phase materially increases executable coverage, but the 251 non-flagship topic packs are domain-contextual generated lessons, not 251 individually hand-authored textbook chapters. The next content-authoring phase should deepen those packs in priority order using usage data and planner demand.

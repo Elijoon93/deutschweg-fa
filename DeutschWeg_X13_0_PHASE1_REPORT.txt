@@ -1,0 +1,41 @@
+DeutschWeg X13.0 — Phase 1: Universal Content Universe Foundation
+Date: 2026-07-20
+
+LOCKED PRODUCT ASSUMPTIONS
+1. Core identity: personalized German learning planner for Persian speakers.
+2. Main navigation remains: Home / My Plan / Learn / Progress / More.
+3. Product loop: Plan → Learn → Practice → Measure → Adapt.
+4. Existing learning tools serve the Planner; they are not isolated destinations.
+5. Telegram links remain promotional only and never enter recommendations/plans.
+6. User data updates remain non-destructive; current storage key stays deutschweg_x12_user_data.
+7. X13 expands generic German learning, not nursing/medical specialization.
+8. Content should cover real life, books, stories, travel, jobs, culture, nature, study, work and advanced topics.
+
+PHASE 1 IMPLEMENTED
+- New X13 content-universe layer over X12.3 planner-first UI.
+- 30 top-level content domains.
+- 341 topic records.
+- 2,387 stable learning-object metadata records.
+- Standard object types: vocabulary, reading, listening, speaking, writing, scenario, quiz.
+- CEFR metadata A1–C2.
+- Interest tags and goal tags.
+- Adaptive topic recommendation based on target level, weakest skill and selected interests.
+- New Learn → Content Universe view.
+- Topic filtering by search, CEFR and domain.
+- Favorite topics and recent topics.
+- Topic → My Plan integration: selected topic creates a 4-session multi-skill plan in customTasks.
+- Topic → existing module routing via X12.1 cross-module router.
+- Home smart shelf: personalized content recommendations.
+- Global Search integration for Content Universe topics.
+- Service Worker cache updated for X13 assets.
+- App/manifest/architecture version moved to 13.0.0.
+
+CONTENT AUTHORING STATUS
+The content universe taxonomy and learning-object metadata are real and broad. It does NOT claim that all 341 topics already contain fully authored lesson text, audio, quizzes and stories. Six representative rich-content seeds are included in Phase 1. Full authored content expansion belongs to later X13 phases.
+
+NEXT PHASE RECOMMENDATION
+X13.1 — Content Authoring Engine + Rich Packs
+- Author full learning packs per topic and CEFR.
+- Add story/reading packs, dialogue packs, listening scripts, quizzes and role-play.
+- Connect object completion to skill mastery and adaptive planner weights.
+- Add profession-specific packs as one branch of the universal database.

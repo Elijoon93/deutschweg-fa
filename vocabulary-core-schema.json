@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DeutschWeg X13.4 Vocabulary Core Entry",
+  "type": "object",
+  "required": [
+    "id",
+    "lemma",
+    "pos",
+    "fa",
+    "cefr",
+    "example",
+    "collocations"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "lemma": {
+      "type": "string",
+      "minLength": 1
+    },
+    "article": {
+      "type": "string",
+      "enum": [
+        "",
+        "der",
+        "die",
+        "das"
+      ]
+    },
+    "plural": {
+      "type": "string"
+    },
+    "pos": {
+      "type": "string"
+    },
+    "fa": {
+      "type": "string"
+    },
+    "cefr": {
+      "type": "string",
+      "enum": [
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2",
+        "UNRATED"
+      ]
+    },
+    "example": {
+      "type": "string"
+    },
+    "collocations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "domainId": {
+      "type": "string"
+    },
+    "theme": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    }
+  }
+}

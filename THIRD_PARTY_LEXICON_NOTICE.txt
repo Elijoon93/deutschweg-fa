@@ -1,0 +1,7 @@
+THIRD-PARTY LEXICON NOTICE
+
+The extended lexical-index portion of DeutschWeg X13.2 was generated from the German hyphenation dictionary distributed with the locally installed pyphen package (hyph_de_DE.dic), which itself documents LibreOffice/OpenOffice adaptations and applicable LGPL/LPPL licensing information in its header.
+
+DeutschWeg does not claim that these lexical-index entries include CEFR certification, Persian translations, or frequency ranking. They are used only as an orthographic/search reservoir. The enriched bilingual vocabulary remains separately identified.
+
+Before commercial redistribution, preserve and review the upstream dictionary license notices.

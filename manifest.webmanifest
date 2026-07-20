@@ -1,7 +1,7 @@
 {
-  "name": "DeutschWeg X12.3 — برنامه شخصی یادگیری آلمانی",
-  "short_name": "DeutschWeg",
-  "description": "پلتفرم موبایل‌محور برنامه‌ریزی، یادگیری، تلفظ، واژگان، پادکست و تحلیل پیشرفت زبان آلمانی برای فارسی‌زبانان",
+  "name": "DeutschWeg X13.4 — Adaptive German Learning & Vocabulary Core",
+  "short_name": "DeutschWeg X13.4",
+  "description": "پلتفرم برنامه‌ریزی تطبیقی آلمانی A1 تا C2 با جهان محتوا، ۶۰۰۰ مدخل واژگانی، کنترل کیفیت، گراف زمینه و تمرین چهار مهارت",
   "lang": "fa",
   "dir": "rtl",
   "start_url": "./",
@@ -28,5 +28,5 @@
     "education",
     "productivity"
   ],
-  "version": "12.2.0"
+  "version": "13.3.0"
 }

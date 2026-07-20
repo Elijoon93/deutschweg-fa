@@ -1,7 +1,25 @@
 {
-  "appVersion": "12.3.0",
-  "channel": "final-release-candidate",
+  "appVersion": "13.4.0",
+  "version": "13.4.0",
+  "build": "X13.4 Vocabulary Core & SRS 2.0",
+  "channel": "x13-vocabulary-core-srs-2",
   "dataStorageKey": "deutschweg_x12_user_data",
   "dataSchemaVersion": 1,
-  "uiSystem": "X12.3 Unified Planner-first UI"
+  "uiSystem": "X12.3 Unified Planner-first UI",
+  "productArchitecture": "Personal Planner + Universal Content Universe + Adaptive Learning Engine",
+  "contentUniverse": "X13.4: 6000-entry vocabulary core pipeline + strict quality gates + SRS 2.0 + four-skill word missions + Planner integration",
+  "contentSchema": "vocabulary-core-v1",
+  "stats": {
+    "totalLexicon": 6000,
+    "targetTeachingCore": 5200,
+    "sentenceBank": 2579,
+    "withPersian": 346,
+    "withPOS": 935,
+    "withCEFR": 346,
+    "withExample": 377,
+    "withCollocations2Plus": 367,
+    "teachingReady": 337,
+    "deepReady": 49
+  },
+  "runtimeStatus": "Static QA candidate; physical-device and deployed-PWA acceptance pending"
 }

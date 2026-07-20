@@ -2,7 +2,7 @@
    App updates may refresh code caches, but never remove user localStorage or IndexedDB data. */
 (() => {
   'use strict';
-  const CURRENT_CACHE_PREFIX = 'deutschweg-x12-3';
+  const CURRENT_CACHE_PREFIX = 'deutschweg-x13';
   try { localStorage.setItem('dw_last_safe_boot', new Date().toISOString()); } catch (_) {}
   if ('caches' in window) {
     caches.keys().then(keys => Promise.all(

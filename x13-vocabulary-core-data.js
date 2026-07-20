@@ -1,0 +1,1 @@
+window.DW_X13_VOCAB_CORE_STATS={"version":"13.4.0","total":6000,"targetTeachingCore":5200,"withPersian":346,"withPOS":935,"withCEFR":346,"withExample":377,"withCollocations2Plus":367,"teachingReady":337,"deepReady":49,"sentences":2579};

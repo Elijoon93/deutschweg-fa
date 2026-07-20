@@ -1,0 +1,23 @@
+DeutschWeg X13.3 STATIC QA
+
+PASS | Lexicon entries | 6000
+PASS | Sentence bank | 2579
+PASS | Context index unique IDs | 
+PASS | No fake enrichment in generated context index | 
+PASS | Version metadata | 
+PASS | APP_VERSION patched | 
+PASS | New CSS linked | 
+PASS | New JS linked | 
+PASS | Context data linked | 
+PASS | SW new cache | 
+PASS | SW asset x13-lexicon-context-data.js | 
+PASS | SW asset x13-lexicon-intelligence.js | 
+PASS | SW asset x13-lexicon-intelligence.css | 
+PASS | SW asset lexicon-context-index.json | 
+
+PASS=14 FAIL=0
+
+Runtime/device QA: NOT TESTED in this build environment.
+PASS | External JS node --check | all checked JS files
+PASS | Inline JS node --check | all inline scripts
+PASS | Service Worker CORE assets | 49 assets, 0 missing
