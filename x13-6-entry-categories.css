@@ -17,3 +17,53 @@
 .x136-data-badge{display:flex;gap:8px;align-items:flex-start;border:1px solid var(--line,#dce8e6);border-radius:15px;padding:11px;background:var(--soft,#eef5f4);margin-top:10px}.x136-data-badge b{display:block}.x136-data-badge small{color:var(--muted,#66777b);line-height:1.6}
 @media(max-width:980px){.x136-entry{display:block}#view-home .x111-hero{display:none!important}.x136-setup{align-items:stretch!important;padding:0!important}.x136-setup .wizard{width:100%;height:100%;max-height:none;border-radius:0;padding:calc(18px + env(safe-area-inset-top)) 14px calc(18px + env(safe-area-inset-bottom))}.x136-drawer-panel{max-height:96vh}}
 @media(max-width:420px){.x136-entry{padding:13px;border-radius:20px}.x136-entry h2{font-size:19px}.x136-quick{gap:6px}.x136-quick button{padding:9px 3px}.x136-world{min-width:146px}.x136-options,.x136-summary{grid-template-columns:1fr}.x136-domains{grid-template-columns:1fr 1fr}}
+
+
+/* X13.6.1 WEB HOTFIX — prevent desktop-rail persistence and horizontal clipping on mobile browsers. */
+html,body{width:100%;max-width:100%;overflow-x:hidden}
+body{overscroll-behavior-x:none}
+.app,.content,.view,.card,.x136-entry,.x136-drawer-panel{min-width:0;max-width:100%}
+
+/* Touch/mobile guard also works when a mobile browser requests a wide desktop viewport. */
+html[data-dw-web-mobile="1"] .app{width:100%!important;max-width:100%!important;margin:0!important;padding-inline:0!important}
+html[data-dw-web-mobile="1"] .content{width:100%!important;max-width:100%!important;overflow-x:clip!important}
+html[data-dw-web-mobile="1"] .bottom-nav{width:100%!important;max-width:100%!important;left:0!important;right:0!important;inset-inline:0!important;grid-template-columns:repeat(5,minmax(0,1fr))!important}
+html[data-dw-web-mobile="1"] .rail-toggle{display:none!important}
+html[data-dw-web-mobile="1"] .navbtn{width:auto!important;min-width:0!important;display:block!important;text-align:center!important;padding:3px 1px!important}
+html[data-dw-web-mobile="1"] .navbtn i{margin:0 auto!important}
+html[data-dw-web-mobile="1"] .topbar{width:100%!important;max-width:100%!important;inset-inline:0!important}
+html[data-dw-web-mobile="1"] .toprow>*{min-width:0}
+html[data-dw-web-mobile="1"] .titlebox{overflow:hidden}
+
+/* Onboarding must be the only visible layer and must always fit the viewport. */
+body.x136-wizard-open{overflow:hidden!important;padding-bottom:0!important}
+body.x136-wizard-open>.app,body.x136-wizard-open>.bottom-nav,body.x136-wizard-open>.focus-dock,body.x136-wizard-open>.update-banner{visibility:hidden!important;pointer-events:none!important}
+.x136-setup.overlay,.overlay.x136-setup{position:fixed!important;inset:0!important;width:100%!important;max-width:none!important;min-width:0!important;height:100dvh!important;z-index:9999!important;margin:0!important;padding:calc(env(safe-area-inset-top) + 12px) 12px calc(env(safe-area-inset-bottom) + 16px)!important;overflow-x:hidden!important;overflow-y:auto!important;background:var(--bg)!important;contain:layout paint!important}
+.x136-setup .wizard{width:min(100%,700px)!important;max-width:700px!important;min-width:0!important;margin:0 auto!important;padding:0!important;overflow:visible!important}
+.x136-setup .wizard>*{min-width:0;max-width:100%}
+.x136-setup .card{width:100%!important;max-width:100%!important;margin:10px 0!important;overflow:hidden!important}
+.x136-setup .wizard-brand{width:100%;min-width:0}
+.x136-setup .wizard-brand>div:last-child{min-width:0;overflow:hidden}
+.x136-setup .wizard-brand b,.x136-setup .wizard-brand .small{overflow-wrap:anywhere}
+.x136-setup .wizard-progress{grid-template-columns:repeat(7,minmax(0,1fr))!important;width:100%}
+.x136-setup .grid2,.x136-setup .x136-options,.x136-setup .x136-summary{grid-template-columns:repeat(2,minmax(0,1fr))}
+.x136-setup input,.x136-setup select,.x136-setup textarea,.x136-setup button{max-width:100%;min-width:0}
+.x136-setup .wizard-actions{position:sticky;bottom:-1px;z-index:5;padding:10px 0 calc(2px + env(safe-area-inset-bottom));background:linear-gradient(transparent,var(--bg) 22%);display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.x136-setup .wizard-actions>*{min-width:0}
+
+@media(max-width:620px), (hover:none) and (pointer:coarse){
+  .x136-setup.overlay,.overlay.x136-setup{padding-inline:10px!important}
+  .x136-setup .wizard{width:100%!important;max-width:100%!important;height:auto!important;min-height:100%!important;border-radius:0!important}
+  .x136-setup .grid2,.x136-setup .x136-options,.x136-setup .x136-summary{grid-template-columns:1fr!important}
+  .x136-setup .x136-days{grid-template-columns:repeat(7,minmax(0,1fr))!important}
+  .x136-entry-head{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:start}
+  .x136-entry-head>div:first-child{min-width:0}
+  .x136-level{font-size:11px}
+}
+@media(max-width:390px){
+  .x136-setup.overlay,.overlay.x136-setup{padding-inline:8px!important}
+  .x136-setup .card{padding:12px!important;border-radius:16px!important}
+  .x136-setup .wizard-brand .logo{width:38px;height:38px;border-radius:12px;font-size:13px}
+  .x136-setup h2{font-size:19px}
+  .x136-setup .wizard-actions{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+}

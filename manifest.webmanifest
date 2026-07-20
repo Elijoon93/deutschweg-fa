@@ -1,6 +1,6 @@
 {
-  "name": "DeutschWeg X13.6 — Personal German Planner & Universal Learning Worlds",
-  "short_name": "DeutschWeg X13.6",
+  "name": "DeutschWeg X13.6.1 — Personal German Planner",
+  "short_name": "DeutschWeg X13.6.1",
   "description": "برنامه‌ریز شخصی زبان آلمانی با ورودی موبایلی، ۳۰ حوزه، ۳۴۱ موضوع، چهار مهارت و حفظ داده هنگام بروزرسانی",
   "lang": "fa",
   "dir": "rtl",
@@ -28,5 +28,5 @@
     "education",
     "productivity"
   ],
-  "version": "13.6.0"
+  "version": "13.6.1"
 }

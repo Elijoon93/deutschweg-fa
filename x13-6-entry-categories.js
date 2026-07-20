@@ -2,8 +2,21 @@
    Content is not generated here. This layer only organizes the existing 30 domains / 341 topics. */
 (() => {
   'use strict';
-  const VERSION='13.6.0';
+  const VERSION='13.6.1';
   const ONBOARDING_VERSION=136;
+  function isTouchMobileWeb(){
+    const coarse=window.matchMedia&&window.matchMedia('(hover:none) and (pointer:coarse)').matches;
+    const shortScreen=Math.min(Number(screen.width||0),Number(screen.height||0))<=1024;
+    return window.innerWidth<980 || coarse || (Number(navigator.maxTouchPoints||0)>0 && shortScreen);
+  }
+  function applyWebViewportGuard(){
+    const mobile=isTouchMobileWeb();
+    document.documentElement.dataset.dwWebMobile=mobile?'1':'0';
+    if(mobile){
+      document.documentElement.dataset.rail='compact';
+      try{state.ui=state.ui||{};state.ui.railExpanded=false}catch(_){ }
+    }
+  }
   const U=window.DW_CONTENT_UNIVERSE||{domains:[],topics:[]};
   const GROUPS=[
     {id:'alltag',icon:'⌂',fa:'زندگی روزمره و روابط',de:'Alltag & Beziehungen',domains:['daily-life','home-living','family-relations','events-social']},
@@ -90,7 +103,7 @@
     editProfile(){openWizard(true)}
   };
   function wizardOption(id,k,title,sub){return `<button type="button" class="x136-choice ${selected(currentDraft()[k],id)?'on':''}" onclick="DW_X136.toggleChoice('${k}','${id}')"><b>${safe(title)}</b>${sub?`<small>${safe(sub)}</small>`:''}</button>`}
-  window.openWizard=function(edit=false){currentDraft();wizardStep=1;const w=document.getElementById('wizard');w.classList.add('show','x136-setup');w.dataset.edit=edit?'1':'0';renderWizard()};
+  window.openWizard=function(edit=false){currentDraft();wizardStep=1;applyWebViewportGuard();document.body.classList.add('x136-wizard-open');const w=document.getElementById('wizard');w.classList.add('show','x136-setup');w.dataset.edit=edit?'1':'0';w.scrollTop=0;renderWizard()};
   window.renderWizard=function(){
     const el=document.getElementById('wizard'),d=currentDraft();let body='';
     if(wizardStep===1)body=`<div class="card"><div class="x136-welcome"><div class="x136-mark">DW</div><span class="kicker">DeutschWeg</span><h2>${text('مسیر شخصی یادگیری آلمانی','Dein persönlicher Deutschlernweg')}</h2><p class="muted">${text('چند سؤال کوتاه برای ساخت برنامه‌ای متناسب با سطح، هدف، زمان و علایق شما.','Einige kurze Fragen für einen Plan passend zu Niveau, Ziel, Zeit und Interessen.')}</p></div><div class="field"><label>${text('نام یا نام مستعار','Name oder Spitzname')}</label><input id="w136Name" value="${safe(d.name||'')}" oninput="DW_X136.setField('name',this.value)"></div><div class="field"><label>${text('زبان رابط','Menüsprache')}</label><select id="w136Lang" onchange="DW_X136.setField('lang',this.value)"><option value="fa" ${d.lang==='fa'?'selected':''}>فارسی</option><option value="bi" ${d.lang==='bi'?'selected':''}>فارسی + Deutsch</option><option value="de" ${d.lang==='de'?'selected':''}>Deutsch</option></select></div></div>`;
@@ -110,9 +123,18 @@
     x.onboardingVersion=ONBOARDING_VERSION;x.selectedGroups=(d.groups||[]).slice();x.professionWorlds=(d.professions||[]).slice();x.prioritySkills=(d.skills||[]).slice();x.studyDays=(d.days||[]).slice();x.selectedDomains=[...new Set(x.selectedGroups.flatMap(id=>GROUPS.find(g=>g.id===id)?.domains||[]))];x.draft={};state.setup=true;state.appVersion=VERSION;markVersionGuard();
     try{state.availability.forEach((r,i)=>r.on=x.studyDays.includes(i))}catch(_){ }
     try{generatePlan(false)}catch(_){ }
-    try{closeWizard()}catch(_){document.getElementById('wizard')?.classList.remove('show')}
+    try{closeWizard()}catch(_){document.getElementById('wizard')?.classList.remove('show');document.body.classList.remove('x136-wizard-open')}
     save();renderAll();mirrorState();toast(text('برنامه شخصی ساخته شد','Dein persönlicher Plan wurde erstellt'))
   };
+  const baseCloseWizard=window.closeWizard;
+  window.closeWizard=function(){
+    try{if(typeof baseCloseWizard==='function')baseCloseWizard()}catch(_){ }
+    const w=document.getElementById('wizard');if(w)w.classList.remove('show','x136-setup');
+    document.body.classList.remove('x136-wizard-open');
+  };
+  applyWebViewportGuard();
+  window.addEventListener('resize',applyWebViewportGuard,{passive:true});
+  window.addEventListener('orientationchange',()=>setTimeout(applyWebViewportGuard,80),{passive:true});
   function recommendedGroups(){const x=ensure();let ids=x.selectedGroups.length?x.selectedGroups:['alltag','travel','work'];return ids.map(id=>GROUPS.find(g=>g.id===id)).filter(Boolean).slice(0,6)}
   function homeEntry(){
     const x=ensure(),name=state.profile.name?`, ${safe(state.profile.name)}`:'',today=(typeof sessionsOn==='function'?sessionsOn(new Date()):[]),pending=today.filter(a=>!taskDone(a.id)),minutes=pending.reduce((a,b)=>a+Number(b.minutes||0),0),cur=state.profile.currentLevel==='UNKNOWN'?'?':state.profile.currentLevel,tar=state.profile.targetLevel||'—';
@@ -128,5 +150,5 @@
   function openCategoryHub(){ensureDrawer();renderCategoryResults('');document.getElementById('x136Drawer').classList.add('show');setTimeout(()=>document.getElementById('x136Search')?.focus(),100)}
   const oldSettings=window.openSettings;
   window.openSettings=function(){oldSettings();const sh=document.getElementById('settingsSheet');if(sh&&!sh.querySelector('.x136-settings'))sh.insertAdjacentHTML('beforeend',`<div class="card x136-settings"><span class="kicker">Update-safe Data</span><h3>${text('حفظ داده هنگام بروزرسانی','Daten bei Updates erhalten')}</h3><div class="x136-data-badge"><span>▣</span><div><b>${text('ذخیره محلی فعال است','Lokale Speicherung ist aktiv')}</b><small>${text('Storage Key ثابت: deutschweg_x12_user_data. در Android نیز Package ID و Origin داخلی باید ثابت بماند.','Stabiler Storage Key: deutschweg_x12_user_data. Unter Android müssen Package-ID und interne Origin unverändert bleiben.')}</small></div></div><div class="actions" style="margin-top:10px"><button class="ghost" onclick="DW_X136.editProfile()">${text('اجرای دوباره ورودی بدون حذف داده','Setup erneut ausführen, ohne Daten zu löschen')}</button><button class="ghost" onclick="requestPersistentStorage()">${text('درخواست ذخیره پایدار','Persistenten Speicher anfordern')}</button></div></div>`)};
-  markVersionGuard();ensureDrawer();save();mirrorState();recoverIfNeeded();try{renderAll()}catch(_){ }
+  applyWebViewportGuard();markVersionGuard();ensureDrawer();save();mirrorState();recoverIfNeeded();try{renderAll()}catch(_){ }
 })();

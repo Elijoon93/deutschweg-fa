@@ -1,4 +1,4 @@
-const CACHE = 'deutschweg-x13-6-cumulative-entry-categories-v1';
+const CACHE = 'deutschweg-x13-6-1-web-mobile-layout-hotfix-v1';
 const CORE = [
   './', './index.html', './app-ui.css', './x12-experience.js', './x12-1-planner.js',
   './x12-2-adaptive-planner.js', './x12-3-ui.js', './x13-content-data.js', './x13-universe.js', './x13-universe.css', './x13-four-skills.js', './x13-four-skills.css', './x13-phase1-language-data.js', './x13-phase1-language-core.js', './x13-phase1-language-core.css', './phase1-lexicon.json', './phase1-sentences.json', './lexicon-context-index.json', './x13-lexicon-intelligence.css', './x13-lexicon-intelligence.js', './x13-lexicon-context-data.js', './x13-vocabulary-core-data.js', './x13-vocabulary-core.css', './x13-vocabulary-core.js', './x13-6-entry-categories.css', './x13-6-entry-categories.js', './category-registry.json', './vocabulary-core-6000.json', './vocabulary-core-schema.json', './content-universe.json', './version.json', './manifest.webmanifest',
@@ -43,7 +43,25 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // App code/data: stale-while-revalidate for fast startup, while updates replace cache in background.
+  // Code and structured data: network-first prevents mixed HTML/CSS/JS after an update.
+  const isVersionedAsset = /\.(?:css|js|json|webmanifest)$/i.test(url.pathname);
+  if (isVersionedAsset) {
+    event.respondWith((async () => {
+      try {
+        const response = await fetch(event.request, { cache: 'no-store' });
+        if (response && response.ok) {
+          const cache = await caches.open(CACHE);
+          await cache.put(event.request, response.clone());
+        }
+        return response;
+      } catch (_) {
+        return (await caches.match(event.request)) || Response.error();
+      }
+    })());
+    return;
+  }
+
+  // Images and other static assets: stale-while-revalidate.
   event.respondWith((async () => {
     const cached = await caches.match(event.request);
     const networkPromise = fetch(event.request).then(async (response) => {
