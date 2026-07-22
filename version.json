@@ -1,10 +1,27 @@
 {
   "product": "DeutschWeg",
-  "version": "14.1.0-RC-GH",
-  "channel": "release-candidate",
-  "target": "GitHub Pages",
-  "storage_key": "deutschweg_x14_rc_preview_state",
-  "legacy_storage_key_read_only": "deutschweg_x12_user_data",
-  "medical_content": false,
-  "build_date_utc": "2026-07-22T12:36:05.676945+00:00"
+  "version": "14.6.1-access-preview.1",
+  "channel": "access-preview",
+  "target": "Standalone HTML + PWA",
+  "storage_key": "deutschweg_x14_6_integrated_state",
+  "migration_sources": [
+    "deutschweg_x14_state",
+    "deutschweg_x14_5_preview_state",
+    "deutschweg_x14_rc_preview_state",
+    "deutschweg_x14_preview_state",
+    "deutschweg_x12_user_data"
+  ],
+  "course_map": "A1.1-C1",
+  "exercise_types": 15,
+  "everyday_health_language": true,
+  "clinical_decision_support": false,
+  "build_date_utc": "2026-07-22T16:30:55.485461+00:00",
+  "local_account": true,
+  "password_storage": "PBKDF2-SHA-256, 210000 iterations, random salt",
+  "sponsor_gate": {
+    "channel": "@persian_Germanymovie",
+    "owner": "@kingman007",
+    "verification": "local self-confirmation; no server validation"
+  },
+  "online_auth": false
 }

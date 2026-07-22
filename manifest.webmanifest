@@ -1,14 +1,14 @@
 {
-  "name": "DeutschWeg — مسیر شخصی یادگیری زبان آلمانی",
+  "name": "DeutschWeg X14.6.1 — عضویت، ورود و مسیر تطبیقی آلمانی",
   "short_name": "DeutschWeg",
-  "description": "برنامه‌ریز شخصی و محلی برای یادگیری عمومی زبان آلمانی؛ بدون محتوای پزشکی.",
+  "description": "عضویت کانال، حساب محلی PBKDF2، نقشه دوره A1.1 تا C1، موتور ۱۵ نوع تمرین، SRS و Mastery.",
   "lang": "fa",
   "dir": "rtl",
-  "start_url": "./",
+  "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#F7F9F8",
-  "theme_color": "#087F79",
+  "background_color": "#f4f7f6",
+  "theme_color": "#087f79",
   "orientation": "any",
   "icons": [
     {
