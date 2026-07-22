@@ -1,0 +1,57 @@
+/* DeutschWeg X13.6.2 — Pflege-style mobile information architecture for the web build. */
+:root{--dw1362-context-h:62px}
+.dw1362-section{margin:14px 0;min-width:0;max-width:100%}
+.dw1362-section-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:8px}
+.dw1362-section-head h3{margin:0;font-size:16px}
+.dw1362-section-head button{border:0;background:transparent;color:var(--brand);font-weight:800;padding:7px 2px}
+.dw1362-rail{display:flex;gap:10px;overflow-x:auto;overscroll-behavior-inline:contain;scroll-snap-type:x proximity;padding:2px 1px 9px;scrollbar-width:thin;-webkit-overflow-scrolling:touch;max-width:100%}
+.dw1362-card{scroll-snap-align:start;flex:0 0 174px;min-width:0;min-height:112px;border:1px solid var(--border);border-radius:17px;background:var(--panel);color:var(--text);padding:13px;text-align:start;position:relative;display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;gap:5px;box-shadow:none}
+.dw1362-card:active{transform:scale(.985)}
+.dw1362-card .dw1362-icon{width:36px;height:36px;border-radius:12px;background:var(--panel2);display:grid;place-items:center;color:var(--brand);font-size:18px;font-weight:900;flex:0 0 auto}
+.dw1362-card b{font-size:13px;line-height:1.45}
+.dw1362-card small{font-size:10px;line-height:1.45;color:var(--muted)}
+.dw1362-card .dw1362-badge{display:inline-flex;font-size:9px;padding:4px 6px;border:1px solid var(--border);border-radius:999px;background:var(--panel2);color:var(--muted);margin-top:auto}
+.dw1362-fav{position:absolute;top:7px;inset-inline-end:7px;border:0;background:transparent;color:var(--muted);font-size:18px;padding:4px;line-height:1}
+.dw1362-fav.on{color:#b7791f}
+.dw1362-home{border-top:1px solid var(--border);padding-top:2px;margin-top:12px}
+.dw1362-home-note{font-size:11px;line-height:1.8;color:var(--muted);border:1px dashed var(--border);border-radius:14px;padding:10px 12px;background:var(--panel2)}
+.dw1362-learn-launch{border:1px solid var(--border);border-radius:20px;background:var(--panel);padding:14px;margin-bottom:13px}
+.dw1362-learn-launch-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:12px}
+.dw1362-learn-launch h2{margin:3px 0 4px;font-size:21px}
+.dw1362-learn-launch p{margin:0;color:var(--muted);font-size:12px;line-height:1.7}
+.dw1362-learn-search{width:42px;height:42px;border:1px solid var(--border);border-radius:14px;background:var(--panel2);color:var(--text);font-size:20px;display:grid;place-items:center;flex:0 0 auto}
+.dw1362-launch-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.dw1362-launch{border:1px solid var(--border);border-radius:16px;background:var(--panel2);color:var(--text);padding:12px;text-align:start;min-height:92px;display:flex;flex-direction:column;align-items:flex-start;gap:4px}
+.dw1362-launch span{font-size:22px;color:var(--brand);font-weight:900}.dw1362-launch b{font-size:13px}.dw1362-launch small{font-size:10px;color:var(--muted);line-height:1.4}
+.dw1362-context-nav{display:none}
+.dw1362-more{min-width:0;max-width:100%}
+.dw1362-more-head{margin-bottom:12px}.dw1362-more-head h2{margin:0 0 5px}.dw1362-more-head p{margin:0;color:var(--muted);font-size:12px;line-height:1.7}
+.dw1362-searchbox{position:sticky;top:69px;z-index:5;display:flex;align-items:center;gap:8px;border:1px solid var(--border);border-radius:17px;background:color-mix(in srgb,var(--panel) 96%,transparent);backdrop-filter:blur(14px);padding:9px 11px;margin-bottom:10px}
+.dw1362-searchbox input{border:0!important;background:transparent!important;padding:7px!important;outline:0!important;min-width:0}
+.dw1362-chips{display:flex;gap:7px;overflow-x:auto;padding:1px 0 7px;scrollbar-width:none}
+.dw1362-chip{white-space:nowrap;border:1px solid var(--border);border-radius:999px;padding:7px 10px;background:var(--panel);color:var(--text);font-size:11px}
+.dw1362-chip.active{background:var(--brand);border-color:var(--brand);color:white;font-weight:800}
+.dw1362-app-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.dw1362-app{position:relative;border:1px solid var(--border);border-radius:16px;background:var(--panel);color:var(--text);padding:12px;text-align:start;min-height:98px;display:flex;flex-direction:column;align-items:flex-start;gap:4px;min-width:0}
+.dw1362-app .dw1362-icon{font-size:22px;color:var(--brand);font-weight:900}.dw1362-app b{font-size:13px;line-height:1.35;padding-inline-end:20px}.dw1362-app small{font-size:10px;color:var(--muted);line-height:1.45}
+.dw1362-collapsed{border:1px solid var(--border);border-radius:17px;background:var(--panel);overflow:hidden;margin-top:13px}
+.dw1362-collapsed>summary{list-style:none;cursor:pointer;padding:13px 14px;font-weight:900}.dw1362-collapsed>summary::-webkit-details-marker{display:none}.dw1362-collapsed>summary::after{content:'＋';float:inline-end;color:var(--brand)}.dw1362-collapsed[open]>summary::after{content:'−'}
+.dw1362-collapsed .dw1362-app-grid{padding:0 10px 10px}
+.dw1362-empty{grid-column:1/-1;border:1px dashed var(--border);border-radius:14px;padding:12px;color:var(--muted);background:var(--panel2);font-size:12px}
+body.dw1362-learn-context .main,body.dw1362-learn-context .content{padding-bottom:calc(150px + env(safe-area-inset-bottom))}
+@media(max-width:980px){
+  .dw1362-context-nav.show{display:flex;position:fixed;z-index:46;bottom:calc(67px + env(safe-area-inset-bottom));left:8px;right:8px;background:color-mix(in srgb,var(--panel) 96%,transparent);border:1px solid var(--border);border-radius:16px;padding:3px;box-shadow:0 12px 35px rgba(0,0,0,.12);backdrop-filter:blur(14px)}
+  .dw1362-context-nav button{border:0;background:transparent;color:var(--muted);font-size:10px;min-width:0;flex:1;padding:7px 3px;border-radius:12px}
+  .dw1362-context-nav button span{display:block;font-size:17px;margin-bottom:2px}.dw1362-context-nav button.active{color:var(--brand);font-weight:900;background:var(--panel2)}
+  #view-home>.x111-home{display:none!important}
+  #view-home>.x123-panel:not(.x13-home-shelf){display:none!important}
+  #view-home>.x13-home-shelf{display:none!important}
+  #view-practice .x111-learn-head,#view-practice>.x111-learn-shell>.x111-learn-nav{display:none!important}
+  #view-more>.x11-more-head,#view-more>.x11-more-section,#view-more>.x136-more-card,#view-more>.card,#view-more>.final-system-grid,#view-more>.section-head{display:none!important}
+  body.x136-wizard-open .dw1362-context-nav{display:none!important}
+  .dw1362-card{flex-basis:158px;min-height:108px;padding:11px}
+  .dw1362-home{padding-bottom:4px}
+}
+@media(max-width:520px){.dw1362-card{flex-basis:148px}.dw1362-launch-grid,.dw1362-app-grid{grid-template-columns:1fr 1fr}.dw1362-searchbox{top:62px}}
+@media(max-width:360px){.dw1362-card{flex-basis:142px}.dw1362-launch,.dw1362-app{padding:10px}.dw1362-context-nav button{font-size:9px}}
+@media(min-width:981px){.dw1362-home,.dw1362-learn-launch,.dw1362-more{max-width:1180px;margin-inline:auto}.dw1362-app-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.dw1362-launch-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}

@@ -1,0 +1,53 @@
+DeutschWeg X13.6.2 STATIC QA REPORT
+
+Total checks: 47
+Passed: 47
+Failed: 0
+
+[PASS] file:index.html
+[PASS] file:app-ui.css
+[PASS] file:x13-6-entry-categories.css
+[PASS] file:x13-6-entry-categories.js
+[PASS] file:x13-6-2-navigation.css
+[PASS] file:x13-6-2-navigation.js
+[PASS] file:sw.js
+[PASS] file:version.json
+[PASS] file:manifest.webmanifest
+[PASS] file:content-universe.json
+[PASS] file:category-registry.json
+[PASS] json:version.json
+[PASS] json:manifest.webmanifest
+[PASS] json:content-universe.json
+[PASS] json:category-registry.json
+[PASS] json:phase1-lexicon.json
+[PASS] json:phase1-sentences.json
+[PASS] json:vocabulary-core-6000.json
+[PASS] index version
+[PASS] version.json version
+[PASS] manifest version
+[PASS] new css linked
+[PASS] new js linked
+[PASS] stable storage key
+[PASS] nav phrase:برنامه من
+[PASS] nav phrase:مرکز یادگیری
+[PASS] nav phrase:علاقه‌مندی‌ها
+[PASS] nav phrase:اخیراً استفاده‌شده
+[PASS] nav phrase:همه برنامه‌ها و ابزارها
+[PASS] nav phrase:dw1362-context-nav
+[PASS] bottom nav five roles
+[PASS] domain count :: 30
+[PASS] topic count :: 341
+[PASS] service worker assets
+[PASS] new assets cached
+[PASS] node-check:x13-6-entry-categories.js
+[PASS] node-check:x13-6-2-navigation.js
+[PASS] node-check:sw.js
+[PASS] inline-js:0
+[PASS] inline-js:1
+[PASS] content unchanged:phase1-lexicon.json :: 07e9fdb221596fdfc767c67c9da131e4de471b1854b61c3e16b706046ec4f27b
+[PASS] content unchanged:phase1-sentences.json :: 4c97be39925a8162dc14d594f5e8e651faad9cbf78b91a07da7558a88668ed9b
+[PASS] content unchanged:vocabulary-core-6000.json :: 4995e5bf740ade78223650aa7ebc933eda7b4412651c7b640f39ffec0e68f77d
+[PASS] content unchanged:content-universe.json :: d14d97f9bd11edec088bd8e3d23679b3714d7a0d9717f79471601f22bd3c74cd
+[PASS] content unchanged:x13-content-data.js :: ac91697f864b1c1f4bd16d7d66081b23ba18daa0deb7fd5adcbe73b5d5248abe
+[PASS] content unchanged:x13-phase1-language-data.js :: 8b8e8989471855ff3ee28e224419a5ae6e2b0f06c962829172fb0dc0acb30e43
+[PASS] mobile width guards

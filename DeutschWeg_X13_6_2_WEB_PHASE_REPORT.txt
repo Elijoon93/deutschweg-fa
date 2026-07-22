@@ -1,0 +1,51 @@
+DeutschWeg X13.6.2 — Web Navigation Parity & Menu Architecture Consolidation
+
+Scope
+- Web/GitHub Pages only.
+- Based on X13.6.1 cumulative web source.
+- Adapts the navigation architecture of the uploaded PflegeDeutsch reference without copying medical content.
+
+Reason for this phase
+X13.6 and X13.6.1 implemented onboarding, category registry and viewport repair, but they did not fully reproduce the reference application's information architecture. The bottom navigation remained generic and Home/Learn/More did not yet use the complete Smart Shelves, contextual navigation and searchable app-drawer model.
+
+Implemented
+1. Stable five-destination bottom navigation:
+   Home / My Plan / Learn / Progress / More
+2. My Plan replaces the ambiguous mobile label “Today” while retaining the existing internal route.
+3. Home Smart Shelves:
+   - Continue Learning
+   - Recommended for You
+   - Selected Learning Worlds
+   - Recently Used
+4. Compact Learn Center with progressive disclosure.
+5. Contextual learning navigation:
+   Overview / Topics / Words / Practice / Search
+6. More/App Drawer:
+   - Search
+   - Category chips
+   - Favorites
+   - Recent
+   - All Apps & Tools
+7. 21 menu entries mapped to existing routes and learning engines.
+8. 11 umbrella categories remain connected to all 30 domains and 341 existing topics.
+9. Favorites and recent activity are stored inside the existing user state.
+10. Existing storage key remains unchanged:
+    deutschweg_x12_user_data
+
+Content integrity
+- No new vocabulary, sentence, translation, example or CEFR value was generated.
+- Six principal content files are byte-for-byte identical to X13.6.1.
+
+Static QA
+- 47 checks passed.
+- 0 checks failed.
+- JavaScript syntax passed.
+- Inline JavaScript syntax passed.
+- Service worker asset manifest passed.
+- Content counts passed: 30 domains / 341 topics.
+- ZIP integrity is checked after packaging.
+
+Not claimed
+- Live GitHub Pages runtime PASS is not claimed.
+- Physical Android/iPhone device PASS is not claimed.
+- Browser viewport runtime test could not be completed in this execution environment; final device verification remains required after deployment.

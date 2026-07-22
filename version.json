@@ -1,8 +1,8 @@
 {
-  "appVersion": "13.6.1",
-  "version": "13.6.1",
-  "build": "X13.6.1 Web Mobile Viewport & Onboarding Layout Hotfix",
-  "channel": "x13-6-1-web-mobile-viewport-layout-hotfix",
+  "appVersion": "13.6.2",
+  "version": "13.6.2",
+  "build": "X13.6.2 Web Navigation Parity & Menu Architecture Consolidation",
+  "channel": "x13-6-2-web-navigation-parity",
   "dataStorageKey": "deutschweg_x12_user_data",
   "dataSchemaVersion": 1,
   "uiSystem": "X12.3 Unified Planner-first UI",
@@ -21,7 +21,7 @@
     "teachingReady": 337,
     "deepReady": 49
   },
-  "runtimeStatus": "Static QA passed; live GitHub Pages/mobile-device verification pending",
+  "runtimeStatus": "Static QA and controlled mobile browser checks passed; live GitHub Pages/physical-device verification pending",
   "entryArchitecture": "Pflege-inspired seven-step mobile onboarding adapted to universal German learning",
   "categoryArchitecture": "11 umbrella categories covering all 30 domains and 341 existing topics",
   "updateSafety": {
@@ -38,5 +38,17 @@
     "onboardingViewportLock": true,
     "desktopRailStateNeutralizedOnTouch": true,
     "serviceWorkerMixedVersionPrevention": true
+  },
+  "navigationArchitecture": {
+    "referencePattern": "PflegeDeutsch-style Smart Shelves + Learn Center + searchable More drawer + contextual learning nav",
+    "bottomNavigation": [
+      "Home",
+      "My Plan",
+      "Learn",
+      "Progress",
+      "More"
+    ],
+    "contentMutation": false,
+    "storageKeyPreserved": "deutschweg_x12_user_data"
   }
 }

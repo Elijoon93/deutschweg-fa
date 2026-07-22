@@ -2,7 +2,7 @@
    Content is not generated here. This layer only organizes the existing 30 domains / 341 topics. */
 (() => {
   'use strict';
-  const VERSION='13.6.1';
+  const VERSION='13.6.2';
   const ONBOARDING_VERSION=136;
   function isTouchMobileWeb(){
     const coarse=window.matchMedia&&window.matchMedia('(hover:none) and (pointer:coarse)').matches;
