@@ -1,8 +1,8 @@
 {
-  "appVersion": "13.6.2",
-  "version": "13.6.2",
-  "build": "X13.6.2 Web Navigation Parity & Menu Architecture Consolidation",
-  "channel": "x13-6-2-web-navigation-parity",
+  "appVersion": "13.7.0-RC1",
+  "version": "13.7.0-RC1",
+  "build": "X13.7 RC1 Web Finalization & Real Device Acceptance",
+  "channel": "x13-7-web-finalization-rc1",
   "dataStorageKey": "deutschweg_x12_user_data",
   "dataSchemaVersion": 1,
   "uiSystem": "X12.3 Unified Planner-first UI",
@@ -21,7 +21,7 @@
     "teachingReady": 337,
     "deepReady": 49
   },
-  "runtimeStatus": "Static QA and controlled mobile browser checks passed; live GitHub Pages/physical-device verification pending",
+  "runtimeStatus": "Static QA and controlled browser acceptance may pass; physical-device acceptance remains manual and is never auto-claimed.",
   "entryArchitecture": "Pflege-inspired seven-step mobile onboarding adapted to universal German learning",
   "categoryArchitecture": "11 umbrella categories covering all 30 domains and 341 existing topics",
   "updateSafety": {
@@ -50,5 +50,23 @@
     ],
     "contentMutation": false,
     "storageKeyPreserved": "deutschweg_x12_user_data"
+  },
+  "contentAuthenticity": {
+    "strictModeDefault": true,
+    "verifiedExternalWords": 0,
+    "projectCuratedWords": 346,
+    "candidateWords": 5654,
+    "verifiedExternalSentences": 0,
+    "candidateDraftSentences": 2579,
+    "auditFile": "content-authenticity-audit.json"
+  },
+  "finalization": {
+    "menuReachabilityGuard": true,
+    "manualPhysicalDeviceAcceptance": true,
+    "finalBadgeRequiresAllRequiredManualTests": true,
+    "preUpdateLocalSnapshot": true,
+    "indexedDbRecoveryMirror": true,
+    "storageKeyPreserved": "deutschweg_x12_user_data",
+    "dataSchemaPreserved": 1
   }
 }

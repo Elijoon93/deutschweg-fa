@@ -1,0 +1,53 @@
+{
+  "version": "13.7.0-RC1",
+  "generatedAt": "2026-07-22",
+  "policy": "Content status is evidence-based. A record is not independently verified unless source URL/identifier, license, and review metadata are present.",
+  "strictModeDefault": true,
+  "wordClassification": {
+    "verifiedExternal": 0,
+    "projectCurated": 346,
+    "candidateIndex": 5654,
+    "total": 6000,
+    "criteria": {
+      "verifiedExternal": "sourceUrl/sourceId + license + reviewedAt/reviewer",
+      "projectCurated": "Persian meaning + CEFR + enriched project record, but no independent provenance",
+      "candidateIndex": "lexical index or incomplete record; excluded from new SRS/Planner additions in strict mode"
+    }
+  },
+  "sentenceClassification": {
+    "verifiedExternal": 0,
+    "projectCurated": 0,
+    "candidateDraft": 2579,
+    "total": 2579,
+    "criteria": {
+      "verifiedExternal": "source URL/identifier + license + review metadata",
+      "projectCurated": "explicit reviewer metadata",
+      "candidateDraft": "project sentence bank without independent provenance/review metadata"
+    }
+  },
+  "sourceSummary": {
+    "words": {
+      "X13.1 Universal Vocabulary": 336,
+      "X13.0 Rich Seed": 10,
+      "German hyphenation lexicon (local pyphen/libreoffice-derived dictionary)": 5654
+    },
+    "sentences": {
+      "X13.1 Four-Skills Pack": 321,
+      "X13.2 Phase-1 Sentence Bank": 2076,
+      "X13.2 Domain Practice": 182
+    }
+  },
+  "nonMutationGuarantee": {
+    "contentFiles": [
+      "phase1-lexicon.json",
+      "phase1-sentences.json",
+      "vocabulary-core-6000.json",
+      "content-universe.json",
+      "x13-content-data.js",
+      "x13-phase1-language-data.js"
+    ],
+    "newWordsAdded": 0,
+    "newSentencesAdded": 0,
+    "originalContentMutated": false
+  }
+}

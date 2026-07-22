@@ -1,0 +1,86 @@
+DeutschWeg X13.7 RC1 — Web Finalization & Real Device Acceptance
+تاریخ ساخت: 2026-07-22
+دامنه: فقط نسخه وب / GitHub Pages
+مبنای سورس: X13.6.2 Web Pflege Menu Architecture
+
+وضعیت انتشار
+- این خروجی Release Candidate است و Final اعلام نمی‌شود.
+- Final فقط زمانی فعال می‌شود که تمام ۱۲ آزمون واقعی دستگاه در مرکز پذیرش داخل برنامه به‌صورت دستی PASS شوند.
+- هیچ PASS فیزیکی یا GitHub Pages زنده در گزارش ساخت ادعا نشده است.
+
+اصلاحات اجرایی
+1) Web Finalization Center
+- مرکز یکپارچه کنترل خودکار، ممیزی منو، پذیرش دستگاه و خروجی گزارش JSON
+- نمایش وضعیت RC / Blocked / Device Accepted
+- جلوگیری از نمایش Final پیش از تکمیل پذیرش واقعی
+
+2) حذف منوهای صوری
+- رجیستری ۲۱ مقصد منو با Runtime Reachability Guard
+- هر مقصد قبل از اجرا کنترل می‌شود.
+- مقصد فاقد View یا تابع واقعی غیرفعال می‌شود و صفحه خالی باز نمی‌کند.
+- رجیستری منوی X13.6.2 و رجیستری کنترل X13.7 دقیقاً تطبیق داده شدند: ۲۱ از ۲۱
+
+3) حفاظت داده هنگام بروزرسانی
+- Storage Key بدون تغییر: deutschweg_x12_user_data
+- Data Schema بدون تغییر: 1
+- Snapshot محلی قبل از ورود این فاز
+- Mirror تکمیلی State در IndexedDB
+- بازیابی Mirror فقط با تأیید کاربر
+- Export گزارش پذیرش بدون صدور کل State خصوصی
+- داده‌های قدیمی حذف یا Reset نمی‌شوند.
+
+4) تفکیک اصالت محتوا
+واژگان:
+- Verified مستقل: 0
+- Project-curated: 346
+- Candidate lexical index: 5654
+- کل: 6000
+
+جملات:
+- Verified مستقل: 0
+- Project-curated دارای Reviewer: 0
+- Candidate/Draft: 2579
+- کل: 2579
+
+توضیح:
+Project-curated به معنی تأیید مستقل نیست. چون داده فعلی Source URL/ID، License و Reviewer/ReviewedAt کامل ندارد، هیچ مدخل یا جمله‌ای به‌طور مصنوعی Verified اعلام نشده است.
+
+5) Strict Content Mode
+- به‌صورت پیش‌فرض روشن است.
+- Candidateهای جدید وارد SRS، Planner و مأموریت واژه نمی‌شوند.
+- داده‌های قدیمی کاربر حذف نمی‌شوند.
+- واژه تکمیل‌شده شخصی کاربر حفظ و جداگانه برچسب‌گذاری می‌شود.
+- هر واژه در صفحه جزئیات دارای پنل Source / License / Review / SRS Eligibility است.
+
+6) Real Device Acceptance
+۱۲ آزمون دستی:
+- Onboarding و Viewport
+- Bottom Navigation
+- Learn Context Navigation
+- Search / Favorites / Recent
+- Categories / Topics
+- Browser Back
+- Keyboard-safe layout
+- Portrait / Landscape
+- PWA / Offline
+- Update data preservation
+- Backup / Restore
+- Content authenticity labels
+
+QA ساخت
+- Static checks: 179
+- Passed: 179
+- Failed: 0
+- JavaScript syntax: PASS
+- Inline JavaScript syntax: PASS
+- JSON/WebManifest parse: PASS
+- HTML local assets: PASS
+- Service Worker core assets: PASS
+- Content hash preservation: PASS
+- Menu registry parity: PASS
+
+محدودیت صریح
+- اجرای مرورگر Headless در محیط ساخت به‌دلیل محدودیت Administrator ممکن نبود.
+- تست زنده GitHub Pages انجام نشده است.
+- تست گوشی فیزیکی انجام نشده است.
+- این موارد باید پس از Commit در مرکز پذیرش داخل برنامه ثبت شوند.

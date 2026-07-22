@@ -1,0 +1,187 @@
+DeutschWeg X13.7 RC1 — STATIC QA REPORT
+Generated: 2026-07-22
+Checks: 179
+Passed: 179
+Failed: 0
+
+NOTE: This is static/build QA only. Live GitHub Pages and physical-device acceptance were not executed.
+
+[PASS] APP_VERSION updated
+[PASS] Finalization CSS included
+[PASS] Finalization JS included
+[PASS] Storage key preserved
+[PASS] Data schema preserved
+[PASS] JS syntax: config.js
+[PASS] JS syntax: x13-phase1-language-data.js
+[PASS] JS syntax: x13-phase1-language-core.js
+[PASS] JS syntax: x12-2-adaptive-planner.js
+[PASS] JS syntax: x13-universe.js
+[PASS] JS syntax: x13-vocabulary-core-data.js
+[PASS] JS syntax: x13-lexicon-context-data.js
+[PASS] JS syntax: x13-6-2-navigation.js
+[PASS] JS syntax: x13-content-data.js
+[PASS] JS syntax: x13-four-skills.js
+[PASS] JS syntax: x13-7-finalization.js
+[PASS] JS syntax: x12-3-ui.js
+[PASS] JS syntax: x13-lexicon-intelligence.js
+[PASS] JS syntax: x12-1-planner.js
+[PASS] JS syntax: x13-6-entry-categories.js
+[PASS] JS syntax: x13-vocabulary-core.js
+[PASS] JS syntax: sw.js
+[PASS] JS syntax: clean-boot.js
+[PASS] JS syntax: x12-experience.js
+[PASS] JS syntax: src/bootstrap.js
+[PASS] JS syntax: src/services/integration-hub.js
+[PASS] JS syntax: src/services/resource-service.js
+[PASS] JS syntax: src/services/adaptive-engine.js
+[PASS] JS syntax: src/core/constants.js
+[PASS] JS syntax: src/core/idb.js
+[PASS] JS syntax: src/core/data-bridge.js
+[PASS] JS syntax: src/core/event-bus.js
+[PASS] JS syntax: src/integrations/catalog.js
+[PASS] JS syntax: src/gadgets/placement-center.js
+[PASS] JS syntax: src/gadgets/writing-lab.js
+[PASS] JS syntax: src/gadgets/translation-gadget.js
+[PASS] JS syntax: src/gadgets/smart-podcast.js
+[PASS] JS syntax: src/gadgets/cloud-center.js
+[PASS] JS syntax: src/gadgets/ai-coach.js
+[PASS] JS syntax: src/gadgets/exam-center.js
+[PASS] JS syntax: src/gadgets/registry.js
+[PASS] JS syntax: src/gadgets/resource-center.js
+[PASS] JS syntax: src/gadgets/pronunciation-studio.js
+[PASS] JS syntax: src/gadgets/smart-dictionary.js
+[PASS] Inline JS syntax #2
+[PASS] Inline JS syntax #3
+[PASS] JSON parse: category-registry.json
+[PASS] JSON parse: resources.json
+[PASS] JSON parse: phase1-lexicon.json
+[PASS] JSON parse: content-authenticity-audit.json
+[PASS] JSON parse: vocabulary-core-schema.json
+[PASS] JSON parse: vocabulary-core-6000.json
+[PASS] JSON parse: content-universe.json
+[PASS] JSON parse: resource-health.json
+[PASS] JSON parse: lexicon-context-index.json
+[PASS] JSON parse: phase1-sentences.json
+[PASS] JSON parse: version.json
+[PASS] JSON parse: manifest.webmanifest
+[PASS] HTML asset exists: app-ui.css
+[PASS] HTML asset exists: clean-boot.js
+[PASS] HTML asset exists: config.js
+[PASS] HTML asset exists: icon-192.png
+[PASS] HTML asset exists: manifest.webmanifest
+[PASS] HTML asset exists: src/bootstrap.js
+[PASS] HTML asset exists: x12-1-planner.js
+[PASS] HTML asset exists: x12-2-adaptive-planner.js
+[PASS] HTML asset exists: x12-3-ui.js
+[PASS] HTML asset exists: x12-experience.js
+[PASS] HTML asset exists: x13-6-2-navigation.css
+[PASS] HTML asset exists: x13-6-2-navigation.js
+[PASS] HTML asset exists: x13-6-entry-categories.css
+[PASS] HTML asset exists: x13-6-entry-categories.js
+[PASS] HTML asset exists: x13-7-finalization.css
+[PASS] HTML asset exists: x13-7-finalization.js
+[PASS] HTML asset exists: x13-content-data.js
+[PASS] HTML asset exists: x13-four-skills.css
+[PASS] HTML asset exists: x13-four-skills.js
+[PASS] HTML asset exists: x13-lexicon-context-data.js
+[PASS] HTML asset exists: x13-lexicon-intelligence.css
+[PASS] HTML asset exists: x13-lexicon-intelligence.js
+[PASS] HTML asset exists: x13-phase1-language-core.css
+[PASS] HTML asset exists: x13-phase1-language-core.js
+[PASS] HTML asset exists: x13-phase1-language-data.js
+[PASS] HTML asset exists: x13-universe.css
+[PASS] HTML asset exists: x13-universe.js
+[PASS] HTML asset exists: x13-vocabulary-core-data.js
+[PASS] HTML asset exists: x13-vocabulary-core.css
+[PASS] HTML asset exists: x13-vocabulary-core.js
+[PASS] SW asset exists: ./index.html
+[PASS] SW asset exists: ./app-ui.css
+[PASS] SW asset exists: ./x12-experience.js
+[PASS] SW asset exists: ./x12-1-planner.js
+[PASS] SW asset exists: ./x12-2-adaptive-planner.js
+[PASS] SW asset exists: ./x12-3-ui.js
+[PASS] SW asset exists: ./x13-content-data.js
+[PASS] SW asset exists: ./x13-universe.js
+[PASS] SW asset exists: ./x13-universe.css
+[PASS] SW asset exists: ./x13-four-skills.js
+[PASS] SW asset exists: ./x13-four-skills.css
+[PASS] SW asset exists: ./x13-phase1-language-data.js
+[PASS] SW asset exists: ./x13-phase1-language-core.js
+[PASS] SW asset exists: ./x13-phase1-language-core.css
+[PASS] SW asset exists: ./phase1-lexicon.json
+[PASS] SW asset exists: ./phase1-sentences.json
+[PASS] SW asset exists: ./lexicon-context-index.json
+[PASS] SW asset exists: ./x13-lexicon-intelligence.css
+[PASS] SW asset exists: ./x13-lexicon-intelligence.js
+[PASS] SW asset exists: ./x13-lexicon-context-data.js
+[PASS] SW asset exists: ./x13-vocabulary-core-data.js
+[PASS] SW asset exists: ./x13-vocabulary-core.css
+[PASS] SW asset exists: ./x13-vocabulary-core.js
+[PASS] SW asset exists: ./x13-6-entry-categories.css
+[PASS] SW asset exists: ./x13-6-entry-categories.js
+[PASS] SW asset exists: ./x13-6-2-navigation.css
+[PASS] SW asset exists: ./x13-6-2-navigation.js
+[PASS] SW asset exists: ./x13-7-finalization.css
+[PASS] SW asset exists: ./x13-7-finalization.js
+[PASS] SW asset exists: ./content-authenticity-audit.json
+[PASS] SW asset exists: ./category-registry.json
+[PASS] SW asset exists: ./vocabulary-core-6000.json
+[PASS] SW asset exists: ./vocabulary-core-schema.json
+[PASS] SW asset exists: ./content-universe.json
+[PASS] SW asset exists: ./version.json
+[PASS] SW asset exists: ./manifest.webmanifest
+[PASS] SW asset exists: ./icon-192.png
+[PASS] SW asset exists: ./icon-512.png
+[PASS] SW asset exists: ./resources.json
+[PASS] SW asset exists: ./resource-health.json
+[PASS] SW asset exists: ./config.js
+[PASS] SW asset exists: ./clean-boot.js
+[PASS] SW asset exists: ./src/bootstrap.js
+[PASS] SW asset exists: ./src/core/constants.js
+[PASS] SW asset exists: ./src/core/idb.js
+[PASS] SW asset exists: ./src/core/data-bridge.js
+[PASS] SW asset exists: ./src/core/event-bus.js
+[PASS] SW asset exists: ./src/services/resource-service.js
+[PASS] SW asset exists: ./src/services/integration-hub.js
+[PASS] SW asset exists: ./src/services/adaptive-engine.js
+[PASS] SW asset exists: ./src/integrations/catalog.js
+[PASS] SW asset exists: ./src/gadgets/registry.js
+[PASS] SW asset exists: ./src/gadgets/placement-center.js
+[PASS] SW asset exists: ./src/gadgets/resource-center.js
+[PASS] SW asset exists: ./src/gadgets/smart-dictionary.js
+[PASS] SW asset exists: ./src/gadgets/pronunciation-studio.js
+[PASS] SW asset exists: ./src/gadgets/smart-podcast.js
+[PASS] SW asset exists: ./src/gadgets/exam-center.js
+[PASS] SW asset exists: ./src/gadgets/writing-lab.js
+[PASS] SW asset exists: ./src/gadgets/translation-gadget.js
+[PASS] SW asset exists: ./src/gadgets/ai-coach.js
+[PASS] SW asset exists: ./src/gadgets/cloud-center.js
+[PASS] SW cache version updated
+[PASS] SW includes finalization JS
+[PASS] SW includes finalization CSS
+[PASS] SW includes content audit
+[PASS] Content unchanged: phase1-lexicon.json :: 07e9fdb221596fdfc767c67c9da131e4de471b1854b61c3e16b706046ec4f27b
+[PASS] Content unchanged: phase1-sentences.json :: 4c97be39925a8162dc14d594f5e8e651faad9cbf78b91a07da7558a88668ed9b
+[PASS] Content unchanged: vocabulary-core-6000.json :: 4995e5bf740ade78223650aa7ebc933eda7b4412651c7b640f39ffec0e68f77d
+[PASS] Content unchanged: content-universe.json :: d14d97f9bd11edec088bd8e3d23679b3714d7a0d9717f79471601f22bd3c74cd
+[PASS] Content unchanged: x13-content-data.js :: ac91697f864b1c1f4bd16d7d66081b23ba18daa0deb7fd5adcbe73b5d5248abe
+[PASS] Content unchanged: x13-phase1-language-data.js :: 8b8e8989471855ff3ee28e224419a5ae6e2b0f06c962829172fb0dc0acb30e43
+[PASS] Lexicon count 6000 :: 6000
+[PASS] Sentence count 2579 :: 2579
+[PASS] Verified external words honest zero
+[PASS] Project curated words 346
+[PASS] Candidate words 5654
+[PASS] Candidate/draft sentences 2579
+[PASS] Menu route registry 21 :: 21
+[PASS] Manual device tests 12 :: 12
+[PASS] CSS brace balance: x13-lexicon-intelligence.css :: 55/55
+[PASS] CSS brace balance: x13-four-skills.css :: 58/58
+[PASS] CSS brace balance: x13-7-finalization.css :: 80/80
+[PASS] CSS brace balance: x13-vocabulary-core.css :: 77/77
+[PASS] CSS brace balance: x13-6-entry-categories.css :: 120/120
+[PASS] CSS brace balance: app-ui.css :: 963/963
+[PASS] CSS brace balance: x13-universe.css :: 56/56
+[PASS] CSS brace balance: x13-6-2-navigation.css :: 74/74
+[PASS] CSS brace balance: x13-phase1-language-core.css :: 33/33
+[PASS] Physical-device PASS not hardcoded
+[PASS] Navigation APPS match route registry :: 21/21

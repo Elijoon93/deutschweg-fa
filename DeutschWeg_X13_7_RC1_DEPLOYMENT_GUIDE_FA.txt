@@ -1,0 +1,16 @@
+DeutschWeg X13.7 RC1 — راهنمای Commit نسخه وب
+
+1) ZIP را Extract کنید.
+2) همه فایل‌های داخل آن را در Root مخزن جایگزین کنید.
+3) خود ZIP را به‌جای سورس Commit نکنید.
+4) فایل index.html باید در Root باشد.
+5) Commit:
+   release(web): add X13.7 RC1 finalization, data safety and device acceptance
+6) Push origin
+7) پس از انتشار، سایت را Reload کنید.
+8) Site Data یا LocalStorage را پاک نکنید.
+9) وارد More → Finalization & Device Acceptance شوید.
+10) تست‌های واقعی را ثبت و گزارش JSON را Export کنید.
+
+توجه:
+Service Worker نسخه جدید Cache قدیمی کد را حذف می‌کند، ولی داده‌های LocalStorage را پاک نمی‌کند.
