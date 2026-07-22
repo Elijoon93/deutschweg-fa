@@ -1,7 +1,7 @@
 {
-  "name": "DeutschWeg X14.6.1 — عضویت، ورود و مسیر تطبیقی آلمانی",
+  "name": "DeutschWeg X14.6.2 — عضویت اجباری و مسیر تطبیقی آلمانی",
   "short_name": "DeutschWeg",
-  "description": "عضویت کانال، حساب محلی PBKDF2، نقشه دوره A1.1 تا C1، موتور ۱۵ نوع تمرین، SRS و Mastery.",
+  "description": "عضویت اجباری کانال با شمارش معکوس ۲۴ ثانیه‌ای، نقشه دوره A1.1 تا C1، موتور ۱۵ نوع تمرین، SRS و Mastery.",
   "lang": "fa",
   "dir": "rtl",
   "start_url": "./index.html",

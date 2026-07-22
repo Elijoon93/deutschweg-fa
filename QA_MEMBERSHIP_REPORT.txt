@@ -1,0 +1,22 @@
+DeutschWeg X14.6.2 Membership Gate — QA REPORT
+
+STATIC QA
+PASS — JavaScript syntax
+PASS — no username field or username text
+PASS — no password field or password text
+PASS — no registration/login/change-password handlers
+PASS — phrase “مطابق نسخه پزشکی” removed
+PASS — account tool removed
+PASS — mandatory channel gate present
+PASS — 24-second countdown configured
+
+RUNTIME QA — Chromium mobile viewport 390×844
+PASS — initial countdown shown as 24
+PASS — continue button disabled before countdown completion
+PASS — zero password inputs
+PASS — zero username text
+PASS — button enabled after 25 seconds
+PASS — final button text: عضو شدم؛ ورود به برنامه
+PASS — gate removed after confirmation
+PASS — application rendered after confirmation
+PASS — no JavaScript page errors

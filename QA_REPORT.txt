@@ -1,0 +1,72 @@
+DeutschWeg X14.6 Integrated Preview — QA Report
+Generated: 2026-07-22T16:24:08.094665+00:00
+
+BASELINE
+- Source: preview(1).html
+- Source title: DeutschWeg X14.4 Production Hardening
+- Source version: 14.4.0-preview.1
+- Source size: 88938 bytes
+
+OUTPUT
+- Title: DeutschWeg X14.6 Integrated Preview · Course Map & Adaptive Exercise Engine
+- Version: 14.6.0-integrated-preview.1
+- Output size: 106743 bytes
+- Course stages: 9 (A1.1, A1.2, A2.1, A2.2, B1.1, B1.2, B2.1, B2.2, C1)
+- Course units/packs detected in runtime: 30
+- Exercise types detected in runtime: 15
+
+STATIC VALIDATION
+PASS - HTML parsed by BeautifulSoup
+PASS - Main JavaScript passed node --check
+PASS - Service Worker JavaScript passed node --check
+PASS - manifest.webmanifest parsed as JSON
+PASS - version.json parsed as JSON
+PASS - Required PWA files and icons exist
+
+RUNTIME VALIDATION (Playwright + Chromium, set_content)
+PASS - Application boot completed
+PASS - Loading screen removed
+PASS - aria-busy changed to false
+PASS - No JavaScript page errors on initial render
+PASS - No console errors on initial render
+PASS - Seven-step onboarding completed
+PASS - Personal plan generated
+PASS - Learn navigation opened
+PASS - Course Map tab opened
+PASS - 30 course units rendered
+PASS - Enabled unit opened Lesson Player
+PASS - Exercise Engine opened
+PASS - 15 exercise types rendered
+PASS - MCQ response produced feedback
+PASS - All 15 exercise types opened without page errors or console errors
+PASS - Desktop home screenshot generated
+PASS - Desktop course map screenshot generated
+PASS - Desktop exercise engine screenshot generated
+PASS - Mobile course map screenshot generated
+
+DATA SAFETY
+- New storage key: deutschweg_x14_6_integrated_state
+- New IndexedDB name: deutschweg-x14-6
+- Non-destructive migration snapshot: deutschweg_x14_6_migration_snapshot
+- Full-state migration supported from deutschweg_x14_state
+- Legacy profile migration retained
+- Backup/Restore remains available
+
+HEALTH CONTENT BOUNDARY
+- Everyday communication only
+- Includes doctor visit, pharmacy, insurance, dental visit, and emergency description language
+- Does not provide diagnosis, treatment, prescription, dosage, or clinical decision support
+
+KNOWN RELEASE GAPS
+- Internal content status remains Project Draft
+- No human editorial verification of all German/Persian content
+- No automated accessibility audit with axe/WCAG tooling
+- No physical Android/iPhone microphone and PWA installation acceptance
+- No full migration matrix against every historical state shape
+- No production deployment or GitHub Pages replacement
+- Speech Recognition depends on browser support and secure origin
+- Human-quality audio assets are not included; browser TTS is used
+
+RELEASE DECISION
+NOT FINAL.
+This build is suitable as an integrated development preview and acceptance candidate for the next QA/content phase.
