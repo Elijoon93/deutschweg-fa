@@ -3,6 +3,7 @@
 (() => {
   'use strict';
   const VERSION='13.6.2';
+  const RUNTIME_VERSION=typeof APP_VERSION!=='undefined'?APP_VERSION:VERSION;
   const ONBOARDING_VERSION=136;
   function isTouchMobileWeb(){
     const coarse=window.matchMedia&&window.matchMedia('(hover:none) and (pointer:coarse)').matches;
@@ -61,9 +62,9 @@
   }
   function markVersionGuard(){
     const x=ensure(),last=x.dataGuard.lastAppVersion||state.appVersion||'';
-    if(last!==VERSION){
+    if(last!==RUNTIME_VERSION){
       x.dataGuard.previousAppVersion=last;
-      x.dataGuard.lastAppVersion=VERSION;
+      x.dataGuard.lastAppVersion=RUNTIME_VERSION;
       x.dataGuard.updatedAt=new Date().toISOString();
       x.dataGuard.storageKey=(typeof STORAGE_KEY!=='undefined'?STORAGE_KEY:'deutschweg_x12_user_data');
       x.dataGuard.packageContract='same-origin-and-package-preserve-data';
@@ -120,9 +121,9 @@
   window.finishWizard=function(){
     const x=ensure(),d=currentDraft();
     state.profile.name=String(d.name||'').trim();state.lang=d.lang||state.lang||'bi';state.profile.currentLevel=d.currentLevel||'UNKNOWN';state.profile.placementNeeded=state.profile.currentLevel==='UNKNOWN';state.profile.targetLevel=d.targetLevel||'B1';state.profile.purpose=d.goalType||'general';state.profile.goal=String(d.goalText||'').trim();state.profile.months=Math.max(1,Number(d.months||3));state.profile.weeks=Math.max(4,Math.round(state.profile.months*4.345));state.profile.dailyTarget=Math.max(15,Number(d.daily||60));state.profile.weeklyTarget=state.profile.dailyTarget*Math.max(1,(d.days||[]).length||5);state.profile.categoryIds=(d.groups||[]).slice();state.profile.professionWorlds=(d.professions||[]).slice();state.profile.interests=(d.groups||[]).slice();state.profile.onboardingVersion=ONBOARDING_VERSION;
-    x.onboardingVersion=ONBOARDING_VERSION;x.selectedGroups=(d.groups||[]).slice();x.professionWorlds=(d.professions||[]).slice();x.prioritySkills=(d.skills||[]).slice();x.studyDays=(d.days||[]).slice();x.selectedDomains=[...new Set(x.selectedGroups.flatMap(id=>GROUPS.find(g=>g.id===id)?.domains||[]))];x.draft={};state.setup=true;state.appVersion=VERSION;markVersionGuard();
+    x.onboardingVersion=ONBOARDING_VERSION;x.selectedGroups=(d.groups||[]).slice();x.professionWorlds=(d.professions||[]).slice();x.prioritySkills=(d.skills||[]).slice();x.studyDays=(d.days||[]).slice();x.selectedDomains=[...new Set(x.selectedGroups.flatMap(id=>GROUPS.find(g=>g.id===id)?.domains||[]))];x.draft={};state.setup=true;state.appVersion=RUNTIME_VERSION;markVersionGuard();
     try{state.availability.forEach((r,i)=>r.on=x.studyDays.includes(i))}catch(_){ }
-    try{generatePlan(false)}catch(_){ }
+    try{generatePlan(false,false)}catch(_){ }
     try{closeWizard()}catch(_){document.getElementById('wizard')?.classList.remove('show');document.body.classList.remove('x136-wizard-open')}
     save();renderAll();mirrorState();toast(text('برنامه شخصی ساخته شد','Dein persönlicher Plan wurde erstellt'))
   };

@@ -1,8 +1,8 @@
 {
-  "appVersion": "13.7.0-RC1",
-  "version": "13.7.0-RC1",
-  "build": "X13.7 RC1 Web Finalization & Real Device Acceptance",
-  "channel": "x13-7-web-finalization-rc1",
+  "appVersion": "13.7.1-RC2",
+  "version": "13.7.1-RC2",
+  "build": "X13.7 RC2 Web Finalization & Automated Browser Acceptance",
+  "channel": "x13-7-web-finalization-rc2",
   "dataStorageKey": "deutschweg_x12_user_data",
   "dataSchemaVersion": 1,
   "uiSystem": "X12.3 Unified Planner-first UI",
@@ -21,7 +21,7 @@
     "teachingReady": 337,
     "deepReady": 49
   },
-  "runtimeStatus": "Static QA and controlled browser acceptance may pass; physical-device acceptance remains manual and is never auto-claimed.",
+  "runtimeStatus": "Static QA and automated Chromium acceptance are included; physical-device acceptance remains manual and is never auto-claimed.",
   "entryArchitecture": "Pflege-inspired seven-step mobile onboarding adapted to universal German learning",
   "categoryArchitecture": "11 umbrella categories covering all 30 domains and 341 existing topics",
   "updateSafety": {
@@ -67,6 +67,9 @@
     "preUpdateLocalSnapshot": true,
     "indexedDbRecoveryMirror": true,
     "storageKeyPreserved": "deutschweg_x12_user_data",
-    "dataSchemaPreserved": 1
+    "dataSchemaPreserved": 1,
+    "automatedBrowserAcceptance": true,
+    "onboardingTargetPreservationFix": true,
+    "runtimeVersionDowngradeFix": true
   }
 }

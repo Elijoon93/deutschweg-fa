@@ -2,7 +2,7 @@
    No learning content is generated in this layer. Physical-device PASS remains manual. */
 (() => {
   'use strict';
-  const VERSION='13.7.0-RC1';
+  const VERSION='13.7.1-RC2';
   const STORAGE_KEY='deutschweg_x12_user_data';
   const BACKUP_KEY='deutschweg_x13_7_pre_update_backup';
   const MIRROR_DB='DeutschWegRecovery';

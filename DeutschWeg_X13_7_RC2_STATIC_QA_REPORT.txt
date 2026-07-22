@@ -1,0 +1,203 @@
+DeutschWeg X13.7 RC2 — Static QA Report
+
+Total checks: 189
+Passed: 189
+Failed: 0
+
+Important evidence:
+- Controlled Chromium acceptance: PASS (layout/runtime only)
+- Physical-device acceptance: NOT TESTED
+- Real HTTP LocalStorage/IndexedDB/PWA: delegated to included GitHub Actions workflow and manual device checklist
+- Content datasets: unchanged from X13.7 RC1
+- Verified external vocabulary: 0; Project-curated: 346; Candidate: 5654
+
+Checks:
+[PASS] required:index.html 
+[PASS] required:app-ui.css 
+[PASS] required:sw.js 
+[PASS] required:manifest.webmanifest 
+[PASS] required:version.json 
+[PASS] required:x13-6-entry-categories.js 
+[PASS] required:x13-6-2-navigation.js 
+[PASS] required:x13-7-finalization.js 
+[PASS] required:content-authenticity-audit.json 
+[PASS] required:package.json 
+[PASS] required:tests/web-acceptance.mjs 
+[PASS] required:.github/workflows/web-acceptance.yml 
+[PASS] js-syntax:clean-boot.js 
+[PASS] js-syntax:config.js 
+[PASS] js-syntax:src/bootstrap.js 
+[PASS] js-syntax:src/core/constants.js 
+[PASS] js-syntax:src/core/data-bridge.js 
+[PASS] js-syntax:src/core/event-bus.js 
+[PASS] js-syntax:src/core/idb.js 
+[PASS] js-syntax:src/gadgets/ai-coach.js 
+[PASS] js-syntax:src/gadgets/cloud-center.js 
+[PASS] js-syntax:src/gadgets/exam-center.js 
+[PASS] js-syntax:src/gadgets/placement-center.js 
+[PASS] js-syntax:src/gadgets/pronunciation-studio.js 
+[PASS] js-syntax:src/gadgets/registry.js 
+[PASS] js-syntax:src/gadgets/resource-center.js 
+[PASS] js-syntax:src/gadgets/smart-dictionary.js 
+[PASS] js-syntax:src/gadgets/smart-podcast.js 
+[PASS] js-syntax:src/gadgets/translation-gadget.js 
+[PASS] js-syntax:src/gadgets/writing-lab.js 
+[PASS] js-syntax:src/integrations/catalog.js 
+[PASS] js-syntax:src/services/adaptive-engine.js 
+[PASS] js-syntax:src/services/integration-hub.js 
+[PASS] js-syntax:src/services/resource-service.js 
+[PASS] js-syntax:sw.js 
+[PASS] js-syntax:tests/web-acceptance.mjs 
+[PASS] js-syntax:tools/build-vocabulary-core.mjs 
+[PASS] js-syntax:tools/check-links.mjs 
+[PASS] js-syntax:tools/validate-vocabulary-core.mjs 
+[PASS] js-syntax:x12-1-planner.js 
+[PASS] js-syntax:x12-2-adaptive-planner.js 
+[PASS] js-syntax:x12-3-ui.js 
+[PASS] js-syntax:x12-experience.js 
+[PASS] js-syntax:x13-6-2-navigation.js 
+[PASS] js-syntax:x13-6-entry-categories.js 
+[PASS] js-syntax:x13-7-finalization.js 
+[PASS] js-syntax:x13-content-data.js 
+[PASS] js-syntax:x13-four-skills.js 
+[PASS] js-syntax:x13-lexicon-context-data.js 
+[PASS] js-syntax:x13-lexicon-intelligence.js 
+[PASS] js-syntax:x13-phase1-language-core.js 
+[PASS] js-syntax:x13-phase1-language-data.js 
+[PASS] js-syntax:x13-universe.js 
+[PASS] js-syntax:x13-vocabulary-core-data.js 
+[PASS] js-syntax:x13-vocabulary-core.js 
+[PASS] json:DeutschWeg_X13_7_RC2_CONTROLLED_BROWSER_ACCEPTANCE.json valid
+[PASS] json:category-registry.json valid
+[PASS] json:content-authenticity-audit.json valid
+[PASS] json:content-universe.json valid
+[PASS] json:lexicon-context-index.json valid
+[PASS] json:package.json valid
+[PASS] json:phase1-lexicon.json valid
+[PASS] json:phase1-sentences.json valid
+[PASS] json:resource-health.json valid
+[PASS] json:resources.json valid
+[PASS] json:version.json valid
+[PASS] json:vocabulary-core-6000.json valid
+[PASS] json:vocabulary-core-schema.json valid
+[PASS] index-ref:app-ui.css 
+[PASS] index-ref:clean-boot.js 
+[PASS] index-ref:config.js 
+[PASS] index-ref:icon-192.png 
+[PASS] index-ref:manifest.webmanifest 
+[PASS] index-ref:src/bootstrap.js 
+[PASS] index-ref:x12-1-planner.js 
+[PASS] index-ref:x12-2-adaptive-planner.js 
+[PASS] index-ref:x12-3-ui.js 
+[PASS] index-ref:x12-experience.js 
+[PASS] index-ref:x13-6-2-navigation.css 
+[PASS] index-ref:x13-6-2-navigation.js 
+[PASS] index-ref:x13-6-entry-categories.css 
+[PASS] index-ref:x13-6-entry-categories.js 
+[PASS] index-ref:x13-7-finalization.css 
+[PASS] index-ref:x13-7-finalization.js 
+[PASS] index-ref:x13-content-data.js 
+[PASS] index-ref:x13-four-skills.css 
+[PASS] index-ref:x13-four-skills.js 
+[PASS] index-ref:x13-lexicon-context-data.js 
+[PASS] index-ref:x13-lexicon-intelligence.css 
+[PASS] index-ref:x13-lexicon-intelligence.js 
+[PASS] index-ref:x13-phase1-language-core.css 
+[PASS] index-ref:x13-phase1-language-core.js 
+[PASS] index-ref:x13-phase1-language-data.js 
+[PASS] index-ref:x13-universe.css 
+[PASS] index-ref:x13-universe.js 
+[PASS] index-ref:x13-vocabulary-core-data.js 
+[PASS] index-ref:x13-vocabulary-core.css 
+[PASS] index-ref:x13-vocabulary-core.js 
+[PASS] sw-core:app-ui.css 
+[PASS] sw-core:category-registry.json 
+[PASS] sw-core:clean-boot.js 
+[PASS] sw-core:config.js 
+[PASS] sw-core:content-authenticity-audit.json 
+[PASS] sw-core:content-universe.json 
+[PASS] sw-core:icon-192.png 
+[PASS] sw-core:icon-512.png 
+[PASS] sw-core:index.html 
+[PASS] sw-core:lexicon-context-index.json 
+[PASS] sw-core:manifest.webmanifest 
+[PASS] sw-core:phase1-lexicon.json 
+[PASS] sw-core:phase1-sentences.json 
+[PASS] sw-core:resource-health.json 
+[PASS] sw-core:resources.json 
+[PASS] sw-core:src/bootstrap.js 
+[PASS] sw-core:src/core/constants.js 
+[PASS] sw-core:src/core/data-bridge.js 
+[PASS] sw-core:src/core/event-bus.js 
+[PASS] sw-core:src/core/idb.js 
+[PASS] sw-core:src/gadgets/ai-coach.js 
+[PASS] sw-core:src/gadgets/cloud-center.js 
+[PASS] sw-core:src/gadgets/exam-center.js 
+[PASS] sw-core:src/gadgets/placement-center.js 
+[PASS] sw-core:src/gadgets/pronunciation-studio.js 
+[PASS] sw-core:src/gadgets/registry.js 
+[PASS] sw-core:src/gadgets/resource-center.js 
+[PASS] sw-core:src/gadgets/smart-dictionary.js 
+[PASS] sw-core:src/gadgets/smart-podcast.js 
+[PASS] sw-core:src/gadgets/translation-gadget.js 
+[PASS] sw-core:src/gadgets/writing-lab.js 
+[PASS] sw-core:src/integrations/catalog.js 
+[PASS] sw-core:src/services/adaptive-engine.js 
+[PASS] sw-core:src/services/integration-hub.js 
+[PASS] sw-core:src/services/resource-service.js 
+[PASS] sw-core:version.json 
+[PASS] sw-core:vocabulary-core-6000.json 
+[PASS] sw-core:vocabulary-core-schema.json 
+[PASS] sw-core:x12-1-planner.js 
+[PASS] sw-core:x12-2-adaptive-planner.js 
+[PASS] sw-core:x12-3-ui.js 
+[PASS] sw-core:x12-experience.js 
+[PASS] sw-core:x13-6-2-navigation.css 
+[PASS] sw-core:x13-6-2-navigation.js 
+[PASS] sw-core:x13-6-entry-categories.css 
+[PASS] sw-core:x13-6-entry-categories.js 
+[PASS] sw-core:x13-7-finalization.css 
+[PASS] sw-core:x13-7-finalization.js 
+[PASS] sw-core:x13-content-data.js 
+[PASS] sw-core:x13-four-skills.css 
+[PASS] sw-core:x13-four-skills.js 
+[PASS] sw-core:x13-lexicon-context-data.js 
+[PASS] sw-core:x13-lexicon-intelligence.css 
+[PASS] sw-core:x13-lexicon-intelligence.js 
+[PASS] sw-core:x13-phase1-language-core.css 
+[PASS] sw-core:x13-phase1-language-core.js 
+[PASS] sw-core:x13-phase1-language-data.js 
+[PASS] sw-core:x13-universe.css 
+[PASS] sw-core:x13-universe.js 
+[PASS] sw-core:x13-vocabulary-core-data.js 
+[PASS] sw-core:x13-vocabulary-core.css 
+[PASS] sw-core:x13-vocabulary-core.js 
+[PASS] version:index 
+[PASS] version:x137 
+[PASS] version:json 
+[PASS] fix:generate-plan-no-hidden-sync 
+[PASS] fix:onboarding-state-plan 
+[PASS] fix:runtime-version-guard 
+[PASS] storage-key-preserved 
+[PASS] schema-preserved 
+[PASS] content-unchanged:phase1-lexicon.json 07e9fdb221596fdfc767c67c9da131e4de471b1854b61c3e16b706046ec4f27b
+[PASS] content-unchanged:phase1-sentences.json 4c97be39925a8162dc14d594f5e8e651faad9cbf78b91a07da7558a88668ed9b
+[PASS] content-unchanged:vocabulary-core-6000.json 4995e5bf740ade78223650aa7ebc933eda7b4412651c7b640f39ffec0e68f77d
+[PASS] content-unchanged:content-universe.json d14d97f9bd11edec088bd8e3d23679b3714d7a0d9717f79471601f22bd3c74cd
+[PASS] content-unchanged:x13-content-data.js ac91697f864b1c1f4bd16d7d66081b23ba18daa0deb7fd5adcbe73b5d5248abe
+[PASS] content-unchanged:x13-phase1-language-data.js 8b8e8989471855ff3ee28e224419a5ae6e2b0f06c962829172fb0dc0acb30e43
+[PASS] lexicon-count-6000 6000
+[PASS] sentence-count-2579 2579
+[PASS] auth-audit-candidate-count 
+[PASS] auth-audit-curated-count 
+[PASS] controlled-browser-pass 
+[PASS] controlled-flow-target-preserved 
+[PASS] controlled-flow-app-version 
+[PASS] controlled-flow-nav-5 
+[PASS] controlled-flow-tools-21 
+[PASS] playwright-pinned 
+[PASS] workflow:actions/checkout@v6 
+[PASS] workflow:actions/setup-node@v4 
+[PASS] workflow:playwright install --with-deps chromium 
+[PASS] workflow:npm run test:web 
+[PASS] workflow:actions/upload-artifact@v4 

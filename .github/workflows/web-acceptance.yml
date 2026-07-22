@@ -1,0 +1,44 @@
+name: DeutschWeg Web Acceptance
+
+on:
+  workflow_dispatch:
+  pull_request:
+  push:
+    branches: [main]
+    paths:
+      - "**/*.html"
+      - "**/*.css"
+      - "**/*.js"
+      - "**/*.json"
+      - "manifest.webmanifest"
+      - "sw.js"
+      - "tests/**"
+      - "package.json"
+      - ".github/workflows/web-acceptance.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  chromium-acceptance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install pinned Playwright
+        run: npm install --no-package-lock
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Run DeutschWeg web acceptance
+        run: npm run test:web
+      - name: Upload acceptance evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: deutschweg-web-acceptance
+          path: test-results/web-acceptance/
+          if-no-files-found: error
+          retention-days: 30

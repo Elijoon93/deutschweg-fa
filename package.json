@@ -1,0 +1,11 @@
+{
+  "name": "deutschweg-web-acceptance",
+  "private": true,
+  "version": "13.7.1-rc2",
+  "scripts": {
+    "test:web": "node tests/web-acceptance.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.55.0"
+  }
+}

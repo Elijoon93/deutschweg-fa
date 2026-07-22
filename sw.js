@@ -1,4 +1,4 @@
-const CACHE = 'deutschweg-x13-7-web-finalization-rc1-v1';
+const CACHE = 'deutschweg-x13-7-web-finalization-rc2-v1';
 const CORE = [
   './', './index.html', './app-ui.css', './x12-experience.js', './x12-1-planner.js',
   './x12-2-adaptive-planner.js', './x12-3-ui.js', './x13-content-data.js', './x13-universe.js', './x13-universe.css', './x13-four-skills.js', './x13-four-skills.css', './x13-phase1-language-data.js', './x13-phase1-language-core.js', './x13-phase1-language-core.css', './phase1-lexicon.json', './phase1-sentences.json', './lexicon-context-index.json', './x13-lexicon-intelligence.css', './x13-lexicon-intelligence.js', './x13-lexicon-context-data.js', './x13-vocabulary-core-data.js', './x13-vocabulary-core.css', './x13-vocabulary-core.js', './x13-6-entry-categories.css', './x13-6-entry-categories.js', './x13-6-2-navigation.css', './x13-6-2-navigation.js', './x13-7-finalization.css', './x13-7-finalization.js', './content-authenticity-audit.json', './category-registry.json', './vocabulary-core-6000.json', './vocabulary-core-schema.json', './content-universe.json', './version.json', './manifest.webmanifest',

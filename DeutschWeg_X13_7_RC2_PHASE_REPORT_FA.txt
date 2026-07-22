@@ -1,0 +1,23 @@
+DeutschWeg X13.7 RC2 — Web Finalization & Automated Browser Acceptance
+
+این فاز قابلیت آموزشی پراکنده جدید اضافه نمی‌کند.
+
+اصلاحات واقعی:
+1. رفع خطای از بین رفتن سطح هدف پس از پایان ورودی هفت‌مرحله‌ای. علت: generatePlan فیلدهای مخفی Builder را دوباره می‌خواند و مقدار انتخاب‌شده را با مقدار قدیمی جایگزین می‌کرد.
+2. جلوگیری از کاهش اشتباه appVersion به 13.6.2 توسط لایه سازگاری قدیمی.
+3. افزودن تست خودکار Chromium در GitHub Actions برای چهار اندازه صفحه، ورودی، پنج مقصد اصلی، ۲۱ ابزار، حفظ داده پس از Reload و تفکیک محتوای Verified/Curated/Candidate.
+4. حفظ Storage Key و Data Schema قبلی.
+5. عدم تغییر فایل‌های محتوایی و عدم افزودن واژه یا جمله ساختگی.
+
+نتیجه کنترل محلی:
+- Controlled Chromium: PASS
+- B1 → C1 after onboarding: PASS
+- Generated plan sessions: 130 in controlled scenario
+- Bottom navigation: 5/5
+- Registered tools: 21/21
+- Horizontal overflow: 0 in 360, 393, 768 and 1366 widths
+
+محدودیت صریح:
+LocalStorage، IndexedDB، Service Worker، نصب PWA و گوشی فیزیکی در محیط کنترل محلی حاضر قابل تأیید نهایی نبودند. Workflow همراه بسته این موارد مرورگری را روی GitHub Actions اجرا می‌کند؛ آزمون دستگاه فیزیکی همچنان دستی است.
+
+وضعیت نسخه: Release Candidate 2 — نه Final.

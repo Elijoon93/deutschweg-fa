@@ -20,9 +20,9 @@
 <link rel="stylesheet" href="./x13-phase1-language-core.css?v=13.3.0">
 <link rel="stylesheet" href="./x13-lexicon-intelligence.css?v=13.3.0">
 <link rel="stylesheet" href="./x13-vocabulary-core.css?v=13.4.0">
-<link rel="stylesheet" href="./x13-6-entry-categories.css?v=13.7.0">
-<link rel="stylesheet" href="./x13-6-2-navigation.css?v=13.7.0">
-<link rel="stylesheet" href="./x13-7-finalization.css?v=13.7.0">
+<link rel="stylesheet" href="./x13-6-entry-categories.css?v=13.7.1">
+<link rel="stylesheet" href="./x13-6-2-navigation.css?v=13.7.1">
+<link rel="stylesheet" href="./x13-7-finalization.css?v=13.7.1">
 </head>
 <body>
 <div class="app">
@@ -51,7 +51,7 @@
 <script src="./clean-boot.js"></script>
 <script src="./config.js"></script>
 <script>
-const APP_VERSION='13.7.0-RC1';
+const APP_VERSION='13.7.1-RC2';
 const DATA_SCHEMA_VERSION=1;
 // این کلید از این نسخه به بعد ثابت می‌ماند تا آپدیت فایل‌های برنامه داده کاربر را جدا از کد نگه دارد.
 const STORAGE_KEY='deutschweg_x12_user_data';
@@ -284,8 +284,8 @@ function weekIndex(date){return Math.floor((date-parseDate(state.profile.startDa
 function weekSessions(w){return state.plan.sessions.filter(s=>s.week===w).concat(state.customTasks.filter(s=>s.week===w))}
 function weekStats(w){let a=weekSessions(w),done=a.filter(x=>taskDone(x.id)).length,mins=a.reduce((q,x)=>q+(taskDone(x.id)?Number(state.actualMinutes[x.id]||x.minutes):0),0);return {total:a.length,done,pct:a.length?Math.round(done/a.length*100):0,mins,planned:a.reduce((q,x)=>q+x.minutes,0)}}
 function makeTask(w,d,date,slotIndex,part,moduleId,minutes,start,end,theme,phase){return {id:`g${w}-${d}-${slotIndex}-${part}-${moduleId}`,week:w,day:d,date:iso(date),start,end,minutes,module:moduleId,theme,phase}}
-function generatePlan(show=true){
- syncBuilderFields();if(!state.profile.targetLevel){toast(t('ابتدا سطح هدف را انتخاب کنید','Bitte zuerst Zielniveau wählen'));return}let weeks=Math.max(4,Math.min(78,Number(state.profile.weeks||state.profile.months*4.345||12)));state.profile.weeks=weeks;let start=parseDate(state.profile.startDate),sessions=[];let enabled=MODULES.filter(m=>state.preferences.enabled[m.id]!==false).map(m=>m.id);if(!enabled.length){enabled=['Lesen','Hören','Schreiben','Sprechen'];enabled.forEach(x=>state.preferences.enabled[x]=true)}
+function generatePlan(show=true,syncProfile=true){
+ if(syncProfile)syncBuilderFields();if(!state.profile.targetLevel){toast(t('ابتدا سطح هدف را انتخاب کنید','Bitte zuerst Zielniveau wählen'));return}let weeks=Math.max(4,Math.min(78,Number(state.profile.weeks||state.profile.months*4.345||12)));state.profile.weeks=weeks;let start=parseDate(state.profile.startDate),sessions=[];let enabled=MODULES.filter(m=>state.preferences.enabled[m.id]!==false).map(m=>m.id);if(!enabled.length){enabled=['Lesen','Hören','Schreiben','Sprechen'];enabled.forEach(x=>state.preferences.enabled[x]=true)}
  for(let w=1;w<=weeks;w++){let phase=phaseFor(w,weeks),theme=THEMES[(w-1)%THEMES.length],av=state.special.enabled&&w<=state.special.weeks?state.specialAvailability:state.availability;
   for(let d=0;d<7;d++){let row=av[d];if(!row||!row.on)continue;let focus=[row.f1,row.f2].filter(x=>enabled.includes(x));if(!focus.length)focus=enabled;
    (row.slots||[]).forEach((sl,si)=>{if(!sl[0]||!sl[1])return;let total=minOf(sl[0],sl[1]),parts=total>=105?2:1,mins=parts===2?[Math.round(total*.67),total-Math.round(total*.67)]:[total];for(let p=0;p<parts;p++){let mid=focus[(w+d+si+p)%focus.length]||enabled[(w+d+p)%enabled.length];if(phase===PHASES[3]&&p===0&&enabled.includes('Prüfung'))mid='Prüfung';if(phase===PHASES[4]&&d===6&&enabled.includes('Prüfung'))mid='Prüfung';sessions.push(makeTask(w,d,addDays(start,(w-1)*7+d),si,p,mid,mins[p],sl[0],sl[1],theme,phase))}});
@@ -618,9 +618,9 @@ window.DeutschWegLegacyBridge = Object.freeze({
 <script src="./x13-lexicon-intelligence.js"></script>
 <script src="./x13-vocabulary-core-data.js"></script>
 <script src="./x13-vocabulary-core.js"></script>
-<script src="./x13-6-entry-categories.js?v=13.7.0"></script>
-<script src="./x13-6-2-navigation.js?v=13.7.0"></script>
-<script src="./x13-7-finalization.js?v=13.7.0"></script>
+<script src="./x13-6-entry-categories.js?v=13.7.1"></script>
+<script src="./x13-6-2-navigation.js?v=13.7.1"></script>
+<script src="./x13-7-finalization.js?v=13.7.1"></script>
 <script type="module" src="./src/bootstrap.js"></script>
 
 </body>
