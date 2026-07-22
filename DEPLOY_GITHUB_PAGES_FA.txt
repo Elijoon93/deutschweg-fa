@@ -1,0 +1,19 @@
+DeutschWeg X14.1 RC — GitHub Pages Deployment
+
+1) محتوای داخل ZIP را Extract کنید.
+2) همه فایل‌ها را مستقیماً در Root مخزن GitHub قرار دهید.
+3) فایل index.html باید در Root باشد؛ یک پوشه اضافی دور آن نسازید.
+4) در GitHub:
+   Settings → Pages → Deploy from a branch
+   Branch: main
+   Folder: /(root)
+5) Save را بزنید و منتظر تکمیل Deployment بمانید.
+6) پس از انتشار، صفحه را یک‌بار ببندید و دوباره باز کنید.
+
+Commit:
+release(web): deploy DeutschWeg X14.1 RC GitHub Pages package
+
+نکته داده:
+- کلید RC: deutschweg_x14_rc_preview_state
+- کلید قدیمی فقط خوانده می‌شود: deutschweg_x12_user_data
+- پاک‌کردن Site Data یا تغییر دامنه، داده محلی مرورگر را حذف/جدا می‌کند.

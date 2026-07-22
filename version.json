@@ -1,80 +1,10 @@
 {
-  "appVersion": "13.7.2-RC3",
-  "version": "13.7.2-RC3",
-  "build": "X13.7 RC3 Web Finalization: Interaction, Upgrade, Backup and Service Worker Acceptance",
-  "channel": "x13-7-web-finalization-rc3",
-  "dataStorageKey": "deutschweg_x12_user_data",
-  "dataSchemaVersion": 1,
-  "uiSystem": "X12.3 Unified Planner-first UI",
-  "productArchitecture": "Personal Planner + Universal Content Universe + Adaptive Learning Engine",
-  "contentUniverse": "X13.4: 6000-entry vocabulary core pipeline + strict quality gates + SRS 2.0 + four-skill word missions + Planner integration",
-  "contentSchema": "vocabulary-core-v1",
-  "stats": {
-    "totalLexicon": 6000,
-    "targetTeachingCore": 5200,
-    "sentenceBank": 2579,
-    "withPersian": 346,
-    "withPOS": 935,
-    "withCEFR": 346,
-    "withExample": 377,
-    "withCollocations2Plus": 367,
-    "teachingReady": 337,
-    "deepReady": 49
-  },
-  "runtimeStatus": "Controlled browser and same-origin upgrade acceptance are included; physical-device acceptance remains manual and is never auto-claimed.",
-  "entryArchitecture": "Pflege-inspired seven-step mobile onboarding adapted to universal German learning",
-  "categoryArchitecture": "11 umbrella categories covering all 30 domains and 341 existing topics",
-  "updateSafety": {
-    "stableStorageKey": true,
-    "legacyMigration": true,
-    "localMigrationBackups": true,
-    "indexedDbMirror": true,
-    "androidStablePackageId": "com.deutschweg.app",
-    "androidStableOrigin": "https://appassets.androidplatform.net/assets/www/index.html"
-  },
-  "webHotfix": {
-    "horizontalOverflowGuard": true,
-    "mobileDesktopModeGuard": true,
-    "onboardingViewportLock": true,
-    "desktopRailStateNeutralizedOnTouch": true,
-    "serviceWorkerMixedVersionPrevention": true
-  },
-  "navigationArchitecture": {
-    "referencePattern": "PflegeDeutsch-style Smart Shelves + Learn Center + searchable More drawer + contextual learning nav",
-    "bottomNavigation": [
-      "Home",
-      "My Plan",
-      "Learn",
-      "Progress",
-      "More"
-    ],
-    "contentMutation": false,
-    "storageKeyPreserved": "deutschweg_x12_user_data"
-  },
-  "contentAuthenticity": {
-    "strictModeDefault": true,
-    "verifiedExternalWords": 0,
-    "projectCuratedWords": 346,
-    "candidateWords": 5654,
-    "verifiedExternalSentences": 0,
-    "candidateDraftSentences": 2579,
-    "auditFile": "content-authenticity-audit.json"
-  },
-  "finalization": {
-    "menuReachabilityGuard": true,
-    "manualPhysicalDeviceAcceptance": true,
-    "finalBadgeRequiresAllRequiredManualTests": true,
-    "preUpdateLocalSnapshot": true,
-    "indexedDbRecoveryMirror": true,
-    "storageKeyPreserved": "deutschweg_x12_user_data",
-    "dataSchemaPreserved": 1,
-    "automatedBrowserAcceptance": true,
-    "onboardingTargetPreservationFix": true,
-    "runtimeVersionDowngradeFix": true,
-    "fullMenuInteractionAcceptance": true,
-    "sameOriginUpgradePersistenceAcceptance": true,
-    "backupRoundtripAcceptance": true,
-    "serviceWorkerCoherenceAcceptance": true,
-    "releasePolicyFile": "release-acceptance-policy.json"
-  }
+  "product": "DeutschWeg",
+  "version": "14.1.0-RC-GH",
+  "channel": "release-candidate",
+  "target": "GitHub Pages",
+  "storage_key": "deutschweg_x14_rc_preview_state",
+  "legacy_storage_key_read_only": "deutschweg_x12_user_data",
+  "medical_content": false,
+  "build_date_utc": "2026-07-22T12:36:05.676945+00:00"
 }

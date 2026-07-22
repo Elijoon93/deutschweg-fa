@@ -1,0 +1,21 @@
+DeutschWeg X14.1 RC GitHub Pages Static QA
+
+[PASS] index.html exists
+[PASS] manifest linked
+[PASS] service worker registration
+[PASS] five primary navigation destinations
+[PASS] medical identity excluded
+[PASS] RC storage key retained
+[PASS] legacy storage key retained
+[PASS] manifest valid JSON
+[PASS] version valid JSON
+[PASS] icons created
+[PASS] inline JavaScript syntax
+[PASS] service worker syntax
+
+Passed: 12
+Failed: 0
+
+Controlled browser runtime: NOT EXECUTED
+Reason: local HTTP navigation was blocked by environment policy (ERR_BLOCKED_BY_ADMINISTRATOR).
+No physical-device PASS is claimed.
