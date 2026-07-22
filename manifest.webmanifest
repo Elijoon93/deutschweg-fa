@@ -1,27 +1,27 @@
 {
-  "name": "DeutschWeg X14.6.2 — عضویت اجباری و مسیر تطبیقی آلمانی",
+  "id": "deutschweg-x148",
+  "name": "DeutschWeg X14.8 — German Learning for Persian Speakers",
   "short_name": "DeutschWeg",
-  "description": "عضویت اجباری کانال با شمارش معکوس ۲۴ ثانیه‌ای، نقشه دوره A1.1 تا C1، موتور ۱۵ نوع تمرین، SRS و Mastery.",
+  "description": "مسیر CEFR، تمرین تطبیقی، Scenario Coach، Pronunciation Lab، Immersion و SRS برای فارسی‌زبانان.",
   "lang": "fa",
   "dir": "rtl",
-  "start_url": "./index.html",
+  "start_url": "./index.html?source=pwa",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#f4f7f6",
-  "theme_color": "#087f79",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "background_color": "#F3F6FA",
+  "theme_color": "#0B7F77",
   "orientation": "any",
+  "categories": ["education", "productivity"],
   "icons": [
-    {
-      "src": "./assets/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "./assets/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
+    {"src":"./assets/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"./assets/icon-maskable-192.png","sizes":"192x192","type":"image/png","purpose":"maskable"},
+    {"src":"./assets/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},
+    {"src":"./assets/icon-maskable-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}
+  ],
+  "shortcuts": [
+    {"name":"تمرین امروز","short_name":"تمرین","url":"./index.html?open=practice","icons":[{"src":"./assets/icon-192.png","sizes":"192x192"}]},
+    {"name":"مکالمه","short_name":"Speaking","url":"./index.html?open=speaking","icons":[{"src":"./assets/icon-192.png","sizes":"192x192"}]},
+    {"name":"مرور واژگان","short_name":"SRS","url":"./index.html?open=srs","icons":[{"src":"./assets/icon-192.png","sizes":"192x192"}]}
   ]
 }

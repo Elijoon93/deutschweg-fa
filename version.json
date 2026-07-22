@@ -1,29 +1,12 @@
 {
   "product": "DeutschWeg",
-  "version": "14.6.2-membership-preview.1",
-  "channel": "membership-preview",
-  "target": "GitHub Pages + Standalone HTML + PWA",
+  "version": "14.8.0-production-rc.1",
+  "channel": "production-release-candidate",
+  "target": "GitHub Pages / Installable PWA",
   "storage_key": "deutschweg_x14_6_integrated_state",
-  "migration_sources": [
-    "deutschweg_x14_state",
-    "deutschweg_x14_5_preview_state",
-    "deutschweg_x14_rc_preview_state",
-    "deutschweg_x14_preview_state",
-    "deutschweg_x12_user_data"
-  ],
-  "course_map": "A1.1-C1",
-  "exercise_types": 15,
-  "everyday_health_language": true,
-  "clinical_decision_support": false,
-  "build_date_utc": "2026-07-22T16:54:17.351724+00:00",
-  "local_account": false,
-  "username_password_login": false,
-  "online_auth": false,
-  "sponsor_gate": {
-    "channel": "@persian_Germanymovie",
-    "owner": "@kingman007",
-    "mandatory": true,
-    "delay_seconds": 24,
-    "verification": "local confirmation after countdown; no server validation"
-  }
+  "membership_gate": "mandatory-24-second-local-confirmation",
+  "analytics": "local-events-plus-optional-GA4-Plausible-or-custom-endpoint",
+  "content_quality": "12 editorial-reviewed packs; remaining packs project-draft",
+  "build_date_utc": "2026-07-22T00:00:00Z",
+  "notes": "Adds Scenario Coach, Pronunciation Evidence Portfolio, Immersion Studio, stage checkpoints, telemetry adapter, production center, accessibility improvements and hardened PWA caching."
 }
