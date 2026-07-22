@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "schemaVersion": 1,
+  "appVersion": "13.7.1-RC2",
+  "setup": true,
+  "theme": "light",
+  "lang": "bi",
+  "profile": {
+    "name": "Upgrade Acceptance User",
+    "currentLevel": "B1",
+    "targetLevel": "C1",
+    "dailyTarget": 75,
+    "weeklyTarget": 450,
+    "months": 4,
+    "weeks": 17,
+    "startDate": "2026-07-22"
+  },
+  "plan": {
+    "generatedAt": "2026-07-22T00:00:00.000Z",
+    "weeks": 17,
+    "sessions": [
+      {
+        "id": "upgrade-session-1",
+        "date": "2026-07-22",
+        "minutes": 75,
+        "module": "Lesen"
+      }
+    ]
+  },
+  "completed": {
+    "upgrade-task-1": true
+  },
+  "actualMinutes": {
+    "upgrade-task-1": 70
+  },
+  "notes": {
+    "upgrade-task-1": "preserve me"
+  },
+  "learning": {
+    "customVocab": [
+      {
+        "id": "upgrade-word-1",
+        "word": "Beständigkeit",
+        "fa": "پایداری",
+        "status": "learning"
+      }
+    ],
+    "exerciseProgress": {},
+    "resourceLog": {},
+    "promptLog": {},
+    "vocabProgress": {}
+  },
+  "studySessions": [
+    {
+      "id": "upgrade-study-1",
+      "date": "2026-07-22",
+      "minutes": 70,
+      "module": "Lesen",
+      "source": "acceptance"
+    }
+  ],
+  "cards": {
+    "upgrade-card-1": {
+      "due": "2026-07-23"
+    }
+  },
+  "ui": {
+    "view": "home",
+    "practiceTab": "learn"
+  }
+}

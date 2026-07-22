@@ -1,8 +1,8 @@
-/* DeutschWeg X13.7 RC1 — Web Finalization & Real Device Acceptance
+/* DeutschWeg X13.7 RC3 — Web Finalization & Real Device Acceptance
    No learning content is generated in this layer. Physical-device PASS remains manual. */
 (() => {
   'use strict';
-  const VERSION='13.7.1-RC2';
+  const VERSION='13.7.2-RC3';
   const STORAGE_KEY='deutschweg_x12_user_data';
   const BACKUP_KEY='deutschweg_x13_7_pre_update_backup';
   const MIRROR_DB='DeutschWegRecovery';
@@ -151,7 +151,10 @@
       {id:'auth-separation',labelFa:'تفکیک اصالت محتوا',labelDe:'Inhaltsstatus getrennt',pass:cs.verified===0&&cs.curated===346&&cs.candidate===5654,detail:`V${cs.verified}/C${cs.curated}/K${cs.candidate}`},
       {id:'strict-mode',labelFa:'حالت سخت‌گیرانه',labelDe:'Strenger Inhaltsmodus',pass:rootState().strictContent===true,detail:String(rootState().strictContent)},
       {id:'preflight-backup',labelFa:'Backup پیش از فاز',labelDe:'Preflight-Backup',pass:!!rootState().preflight.backupAt,detail:rootState().preflight.backupAt||'missing'},
-      {id:'service-worker-api',labelFa:'پشتیبانی Service Worker',labelDe:'Service-Worker-Unterstützung',pass:'serviceWorker' in navigator,detail:navigator.serviceWorker?.controller?'controlled':'supported'}
+      {id:'service-worker-api',labelFa:'پشتیبانی Service Worker',labelDe:'Service-Worker-Unterstützung',pass:'serviceWorker' in navigator,detail:navigator.serviceWorker?.controller?'controlled':'supported'},
+      {id:'schema-contract',labelFa:'قرارداد Schema ثابت',labelDe:'Stabiler Schema-Vertrag',pass:Number(state.schemaVersion||state.version)===1,detail:String(state.schemaVersion||state.version)},
+      {id:'core-data-shapes',labelFa:'ساختارهای حیاتی داده',labelDe:'Kritische Datenstrukturen',pass:!!state.profile&&Array.isArray(state.plan?.sessions)&&Array.isArray(state.learning?.customVocab)&&!!state.completed,detail:'profile/plan/customVocab/completed'},
+      {id:'release-policy',labelFa:'سیاست Release Gate',labelDe:'Release-Gate-Richtlinie',pass:!!window.DW_RELEASE_POLICY&&window.DW_RELEASE_POLICY.physicalDevicePassRequired===true,detail:window.DW_RELEASE_POLICY?.status||'missing'}
     ];
   }
   function releaseStatus(){

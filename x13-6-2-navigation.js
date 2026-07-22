@@ -124,6 +124,8 @@
     const m=document.querySelector('[data-dw1362-more]');if(m)m.outerHTML=moreHTML();
   }
   window.DW_X1362={
+    registry(){return APPS.map(a=>({id:a.id,cat:a.cat,fa:a.fa,de:a.de}))},
+    groups(){return GROUPS.map(g=>({id:g.id,domains:[...g.domains]}))},
     open:openApp,
     favorite:toggleFav,
     search(v){xs().query=String(v||'');save();const box=document.getElementById('dw1362AllApps');if(box)box.innerHTML=filteredApps().map(appTile).join('')||`<div class="dw1362-empty">${txt('موردی پیدا نشد.','Keine Treffer.')}</div>`},

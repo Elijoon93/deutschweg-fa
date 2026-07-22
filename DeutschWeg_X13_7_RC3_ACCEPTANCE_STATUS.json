@@ -1,0 +1,16 @@
+{
+  "version": "13.7.2-RC3",
+  "status": "RC",
+  "staticQA": {
+    "total": 48,
+    "passed": 48,
+    "failed": 0
+  },
+  "controlledBrowser": "PENDING_GITHUB_ACTIONS",
+  "localBrowserExecution": "BLOCKED_BY_ADMINISTRATOR",
+  "physicalDeviceAcceptance": "PENDING",
+  "finalClaimAllowed": false,
+  "contentDatasetsUnchanged": true,
+  "storageKey": "deutschweg_x12_user_data",
+  "dataSchemaVersion": 1
+}

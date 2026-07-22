@@ -1,0 +1,58 @@
+DeutschWeg X13.7 RC3 — Static QA Report
+
+Total checks: 48
+Passed: 48
+Failed: 0
+
+Browser runtime in this container: BLOCKED BY ADMINISTRATOR (not claimed PASS)
+GitHub Actions browser acceptance: PENDING RUN
+Physical-device acceptance: PENDING
+
+[PASS] required:index.html :: index.html
+[PASS] required:app-ui.css :: app-ui.css
+[PASS] required:manifest.webmanifest :: manifest.webmanifest
+[PASS] required:sw.js :: sw.js
+[PASS] required:version.json :: version.json
+[PASS] required:package.json :: package.json
+[PASS] required:x13-6-2-navigation.js :: x13-6-2-navigation.js
+[PASS] required:x13-7-finalization.js :: x13-7-finalization.js
+[PASS] required:release-policy.js :: release-policy.js
+[PASS] required:release-acceptance-policy.json :: release-acceptance-policy.json
+[PASS] required:tests/web-acceptance.mjs :: tests/web-acceptance.mjs
+[PASS] required:tests/upgrade-acceptance.mjs :: tests/upgrade-acceptance.mjs
+[PASS] required:tests/fixtures/rc2-state-contract.json :: tests/fixtures/rc2-state-contract.json
+[PASS] required:.github/workflows/web-acceptance.yml :: .github/workflows/web-acceptance.yml
+[PASS] required:content-authenticity-audit.json :: content-authenticity-audit.json
+[PASS] version RC3 :: 13.7.2-RC3
+[PASS] policy RC3 :: 13.7.2-RC3
+[PASS] physical device required :: True
+[PASS] final not auto claimed :: True
+[PASS] schema 1 :: 1
+[PASS] stable storage key :: deutschweg_x12_user_data
+[PASS] test all script :: {'test:web': 'node tests/web-acceptance.mjs', 'test:upgrade': 'node tests/upgrade-acceptance.mjs', 'test:all': 'npm run test:web && npm run test:upgrade'}
+[PASS] index APP_VERSION :: APP_VERSION
+[PASS] release policy loaded :: release-policy.js
+[PASS] release policy before finalization :: load-order
+[PASS] all query versions updated :: no 13.7.1 refs
+[PASS] 21 app registry :: 21
+[PASS] unique app ids :: 21
+[PASS] 11 category groups :: 11
+[PASS] registry exposed :: DW_X1362.registry
+[PASS] content unchanged:phase1-lexicon.json :: 07e9fdb221596fdfc767c67c9da131e4de471b1854b61c3e16b706046ec4f27b
+[PASS] content unchanged:phase1-sentences.json :: 4c97be39925a8162dc14d594f5e8e651faad9cbf78b91a07da7558a88668ed9b
+[PASS] content unchanged:vocabulary-core-6000.json :: 4995e5bf740ade78223650aa7ebc933eda7b4412651c7b640f39ffec0e68f77d
+[PASS] content unchanged:content-universe.json :: d14d97f9bd11edec088bd8e3d23679b3714d7a0d9717f79471601f22bd3c74cd
+[PASS] content unchanged:x13-content-data.js :: ac91697f864b1c1f4bd16d7d66081b23ba18daa0deb7fd5adcbe73b5d5248abe
+[PASS] content unchanged:x13-phase1-language-data.js :: 8b8e8989471855ff3ee28e224419a5ae6e2b0f06c962829172fb0dc0acb30e43
+[PASS] lexicon 6000 :: 6000
+[PASS] sentences 2579 :: 2579
+[PASS] RC3 cache name :: cache
+[PASS] service worker asset closure :: 65 assets; missing=[]
+[PASS] release policy cached :: policy assets
+[PASS] workflow test all :: test:all
+[PASS] workflow evidence both :: evidence paths
+[PASS] menu interaction test present :: 21 routes
+[PASS] backup roundtrip test present :: backup
+[PASS] service worker test present :: sw
+[PASS] upgrade fixture test present :: upgrade
+[PASS] upgrade second boot test present :: second boot

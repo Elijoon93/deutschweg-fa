@@ -1,0 +1,18 @@
+DeutschWeg X13.7 RC3 — Web Finalization & Acceptance
+
+Scope
+- No scattered learning features added.
+- Full interaction acceptance for all 21 registered menu destinations.
+- Backup/restore roundtrip acceptance.
+- Same-origin RC2-state-contract to RC3 update-persistence acceptance.
+- Service-worker activation and cache-version coherence checks.
+- Explicit release policy: Final cannot be auto-claimed.
+
+Data contracts
+- Storage Key: deutschweg_x12_user_data
+- Data Schema: 1
+- Content datasets are unchanged.
+
+Honest status
+- Controlled browser tests must be executed before claiming browser PASS.
+- Physical-device tests remain manual and pending until recorded on a real phone.

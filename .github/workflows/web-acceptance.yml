@@ -1,4 +1,4 @@
-name: DeutschWeg Web Acceptance
+name: DeutschWeg Web Finalization Acceptance
 
 on:
   workflow_dispatch:
@@ -33,12 +33,14 @@ jobs:
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
       - name: Run DeutschWeg web acceptance
-        run: npm run test:web
+        run: npm run test:all
       - name: Upload acceptance evidence
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: deutschweg-web-acceptance
-          path: test-results/web-acceptance/
+          name: deutschweg-web-finalization-acceptance
+          path: |
+            test-results/web-acceptance/
+            test-results/upgrade-acceptance/
           if-no-files-found: error
           retention-days: 30

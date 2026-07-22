@@ -1,8 +1,8 @@
 {
-  "appVersion": "13.7.1-RC2",
-  "version": "13.7.1-RC2",
-  "build": "X13.7 RC2 Web Finalization & Automated Browser Acceptance",
-  "channel": "x13-7-web-finalization-rc2",
+  "appVersion": "13.7.2-RC3",
+  "version": "13.7.2-RC3",
+  "build": "X13.7 RC3 Web Finalization: Interaction, Upgrade, Backup and Service Worker Acceptance",
+  "channel": "x13-7-web-finalization-rc3",
   "dataStorageKey": "deutschweg_x12_user_data",
   "dataSchemaVersion": 1,
   "uiSystem": "X12.3 Unified Planner-first UI",
@@ -21,7 +21,7 @@
     "teachingReady": 337,
     "deepReady": 49
   },
-  "runtimeStatus": "Static QA and automated Chromium acceptance are included; physical-device acceptance remains manual and is never auto-claimed.",
+  "runtimeStatus": "Controlled browser and same-origin upgrade acceptance are included; physical-device acceptance remains manual and is never auto-claimed.",
   "entryArchitecture": "Pflege-inspired seven-step mobile onboarding adapted to universal German learning",
   "categoryArchitecture": "11 umbrella categories covering all 30 domains and 341 existing topics",
   "updateSafety": {
@@ -70,6 +70,11 @@
     "dataSchemaPreserved": 1,
     "automatedBrowserAcceptance": true,
     "onboardingTargetPreservationFix": true,
-    "runtimeVersionDowngradeFix": true
+    "runtimeVersionDowngradeFix": true,
+    "fullMenuInteractionAcceptance": true,
+    "sameOriginUpgradePersistenceAcceptance": true,
+    "backupRoundtripAcceptance": true,
+    "serviceWorkerCoherenceAcceptance": true,
+    "releasePolicyFile": "release-acceptance-policy.json"
   }
 }

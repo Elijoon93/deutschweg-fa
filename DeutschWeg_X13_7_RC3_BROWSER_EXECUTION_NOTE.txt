@@ -1,0 +1,6 @@
+DeutschWeg X13.7 RC3 — Browser Execution Note
+
+The RC3 Playwright test suite was generated and statically validated.
+This container blocked Chromium navigation with ERR_BLOCKED_BY_ADMINISTRATOR for both localhost and file URLs, so RC3 controlled-browser PASS is not claimed here.
+The included GitHub Actions workflow runs the same tests on ubuntu-latest after push.
+Physical-device acceptance also remains manual and pending.

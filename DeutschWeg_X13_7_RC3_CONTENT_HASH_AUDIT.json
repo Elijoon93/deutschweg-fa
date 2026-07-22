@@ -1,0 +1,43 @@
+{
+  "version": "13.7.2-RC3",
+  "baseline": "13.7.1-RC2",
+  "files": [
+    {
+      "file": "phase1-lexicon.json",
+      "rc2Sha256": "07e9fdb221596fdfc767c67c9da131e4de471b1854b61c3e16b706046ec4f27b",
+      "rc3Sha256": "07e9fdb221596fdfc767c67c9da131e4de471b1854b61c3e16b706046ec4f27b",
+      "unchanged": true
+    },
+    {
+      "file": "phase1-sentences.json",
+      "rc2Sha256": "4c97be39925a8162dc14d594f5e8e651faad9cbf78b91a07da7558a88668ed9b",
+      "rc3Sha256": "4c97be39925a8162dc14d594f5e8e651faad9cbf78b91a07da7558a88668ed9b",
+      "unchanged": true
+    },
+    {
+      "file": "vocabulary-core-6000.json",
+      "rc2Sha256": "4995e5bf740ade78223650aa7ebc933eda7b4412651c7b640f39ffec0e68f77d",
+      "rc3Sha256": "4995e5bf740ade78223650aa7ebc933eda7b4412651c7b640f39ffec0e68f77d",
+      "unchanged": true
+    },
+    {
+      "file": "content-universe.json",
+      "rc2Sha256": "d14d97f9bd11edec088bd8e3d23679b3714d7a0d9717f79471601f22bd3c74cd",
+      "rc3Sha256": "d14d97f9bd11edec088bd8e3d23679b3714d7a0d9717f79471601f22bd3c74cd",
+      "unchanged": true
+    },
+    {
+      "file": "x13-content-data.js",
+      "rc2Sha256": "ac91697f864b1c1f4bd16d7d66081b23ba18daa0deb7fd5adcbe73b5d5248abe",
+      "rc3Sha256": "ac91697f864b1c1f4bd16d7d66081b23ba18daa0deb7fd5adcbe73b5d5248abe",
+      "unchanged": true
+    },
+    {
+      "file": "x13-phase1-language-data.js",
+      "rc2Sha256": "8b8e8989471855ff3ee28e224419a5ae6e2b0f06c962829172fb0dc0acb30e43",
+      "rc3Sha256": "8b8e8989471855ff3ee28e224419a5ae6e2b0f06c962829172fb0dc0acb30e43",
+      "unchanged": true
+    }
+  ],
+  "allUnchanged": true
+}
