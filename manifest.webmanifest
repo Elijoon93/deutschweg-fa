@@ -1,24 +1,24 @@
 {
-  "name": "DeutschWeg X16.0 Professional CEFR",
-  "short_name": "DeutschWeg X16",
+  "name": "DeutschWeg — German Learning A1–C2",
+  "short_name": "DeutschWeg",
+  "description": "مسیر حرفه‌ای A1 تا C2 با حالت راهنمای قدم‌به‌قدم برای مبتدیان",
+  "lang": "fa",
+  "dir": "rtl",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#f3f6fa",
+  "background_color": "#f4f7f6",
   "theme_color": "#087f79",
-  "lang": "fa",
-  "dir": "rtl",
   "icons": [
     {
-      "src": "./assets/icon-192.png",
+      "src": "assets/icon-192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "./assets/icon-512.png",
+      "src": "assets/icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
-  ],
-  "description": "آموزش ساختاری زبان آلمانی از الفبا و آرتیکل تا C1، همراه با مسیرهای موقعیتی و تمرین تطبیقی."
+  ]
 }

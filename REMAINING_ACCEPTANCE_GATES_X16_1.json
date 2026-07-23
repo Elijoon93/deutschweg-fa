@@ -1,0 +1,36 @@
+{
+  "version": "16.1.0",
+  "status": "review_build",
+  "gates": [
+    {
+      "id": "https_publish",
+      "status": "pending",
+      "description": "Publish the package on the real GitHub Pages HTTPS origin."
+    },
+    {
+      "id": "mobile_tts",
+      "status": "pending",
+      "description": "Test German natural and slow TTS on a physical phone."
+    },
+    {
+      "id": "mobile_microphone",
+      "status": "pending",
+      "description": "Test microphone permission, recording, playback and Speech Recognition."
+    },
+    {
+      "id": "pwa_offline",
+      "status": "pending",
+      "description": "Test install, reload, offline launch and service-worker update."
+    },
+    {
+      "id": "beginner_usability",
+      "status": "pending",
+      "description": "Observe several A1/A2 users completing listening and speaking without external explanation."
+    },
+    {
+      "id": "critical_high_defects",
+      "status": "pending",
+      "description": "Resolve any Critical or High defects found in external acceptance."
+    }
+  ]
+}

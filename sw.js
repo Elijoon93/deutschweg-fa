@@ -1,5 +1,5 @@
-const CACHE='deutschweg-x16-0-professional-cefr-r2';
-const ASSETS=["./index.html", "./404.html", "./offline.html", "./privacy.html", "./app.css", "./app-config.js", "./manifest.webmanifest", "./version.json", "./professional-curriculum-audit.html", "./PROFESSIONAL_CEFR_CURRICULUM_X16_0.json", "./CEFR_COVERAGE_MATRIX_X16_0.json", "./CHALLENGE_ENGINE_V2_FA.md", "./README_X16_0_FA.md", "./RELEASE_NOTES_X16_0_FA.md", "./assets/icon-192.png", "./assets/icon-512.png"];
+const CACHE='deutschweg-x16-1-guided-ux-v1';
+const ASSETS=['./','./index.html','./offline.html','./manifest.webmanifest','./app-config.js','./assets/icon-192.png','./assets/icon-512.png'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
-self.addEventListener('fetch',e=>{if(e.request.method!=='GET')return;e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request).then(resp=>{const copy=resp.clone();caches.open(CACHE).then(c=>c.put(e.request,copy));return resp;}).catch(()=>e.request.mode==='navigate'?caches.match('./offline.html'):undefined)));});
+self.addEventListener('fetch',e=>{if(e.request.method!=='GET')return;e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request).then(res=>{const copy=res.clone();caches.open(CACHE).then(c=>c.put(e.request,copy));return res}).catch(()=>caches.match('./offline.html'))))});

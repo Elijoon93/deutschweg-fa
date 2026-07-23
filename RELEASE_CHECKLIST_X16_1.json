@@ -1,0 +1,19 @@
+{
+  "version": "16.1.0",
+  "releaseCandidate": false,
+  "reviewBuild": true,
+  "completed": [
+    "single-action home",
+    "Beginner Guided Mode",
+    "guided listening",
+    "guided speaking",
+    "learning control center",
+    "controlled runtime QA"
+  ],
+  "pending": [
+    "real HTTPS acceptance",
+    "physical device audio/microphone",
+    "PWA offline acceptance",
+    "A1/A2 usability observation"
+  ]
+}

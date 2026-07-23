@@ -1,9 +1,6 @@
 {
-  "version": "16.0.0",
-  "release": "Professional CEFR Review",
-  "modules": 181,
-  "sessions": 724,
-  "tasks": 1810,
-  "levels": "Grundlagen-A1-A2-B1-B2-C1-C2",
-  "status": "review-build"
+  "version": "16.1.0",
+  "release": "Beginner Guided UX Review",
+  "date": "2026-07-23",
+  "storageKey": "deutschweg_x14_6_integrated_state"
 }

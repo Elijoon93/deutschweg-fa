@@ -1,0 +1,26 @@
+{
+  "mode": "inline-controlled-runtime",
+  "console_errors": [],
+  "page_errors": [],
+  "checks": {
+    "onboarding_visible": true,
+    "single_action_home": true,
+    "home_has_guided_note": true,
+    "advanced_tools_collapsed": true,
+    "no_horizontal_overflow_home": true,
+    "settings_center_visible": true,
+    "settings_sections": true,
+    "settings_has_listening": true,
+    "settings_has_accessibility": true,
+    "session_opened": true,
+    "guided_listening_visible": true,
+    "listening_step_1": true,
+    "listening_gate_blocks_next": true,
+    "guided_dictation_passes": true,
+    "guided_speaking_visible": true,
+    "speaking_clear_first_step": true,
+    "no_horizontal_overflow_modal": true
+  },
+  "passed": 17,
+  "total": 17
+}

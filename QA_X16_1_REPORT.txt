@@ -1,0 +1,29 @@
+DeutschWeg X16.1 — Beginner Guided UX Review
+
+STATUS: REVIEW BUILD
+
+STATIC QA: 40/40 PASS
+CONTROLLED RUNTIME QA: 17/17 PASS
+CONSOLE ERRORS: 0
+PAGE ERRORS: 0
+
+VERIFIED
+- Single-action home is rendered on 390×844 mobile viewport.
+- Advanced tools are collapsed by default.
+- Learning Control Center contains six configuration groups.
+- Guided listening opens in the enforced lesson order.
+- Listening cannot advance before a passing dictation.
+- Exact dictation passes and updates the legacy lesson assessment gate.
+- Guided speaking opens with an explicit no-microphone first step.
+- Home and modal have no horizontal overflow in controlled runtime.
+- Existing storage keys, sponsor gate, A1–C2 curriculum and Challenge Engine are preserved.
+
+NOT VERIFIED
+- Real German TTS quality on the user's phone.
+- Live microphone permission, recording and Speech Recognition on deployed HTTPS.
+- PWA install/offline update on the actual GitHub Pages URL.
+- Independent usability study with A1/A2 learners.
+- Comparative learning-outcome superiority over Duolingo.
+
+RUNTIME METHOD
+The execution environment blocked localhost and file navigation. Runtime QA therefore used complete inline HTML in controlled Chromium. Sponsor acceptance and service-worker registration were bypassed only in the QA harness; the distributed files retain the real 24-second sponsor gate and service worker.

@@ -1,25 +1,21 @@
 {
-  "version": "16.0.0",
-  "status": "PROJECT BASELINE — curriculum remains open for expansion",
-  "locked_project_assumptions": {
-    "sponsor_channel": "@persian_Germanymovie",
-    "presenter_admin": "@kingman007",
-    "membership_delay_seconds": 24,
-    "login_required": false,
-    "main_storage_key": "deutschweg_x14_6_integrated_state",
-    "indexeddb": "deutschweg-x14-6",
-    "preserve_user_data": true,
-    "remote_analytics_default": false,
-    "health_scope": "everyday communication only",
-    "clinical_diagnosis_treatment_prescription_dose": false
-  },
-  "not_locked": [
-    "curriculum size",
-    "lesson count",
-    "A1-C2 depth",
-    "exercise bank",
-    "assessment design",
-    "UI and pedagogy"
-  ],
-  "release_status": "review-build"
+  "version": "16.1.0",
+  "contentLocked": false,
+  "learningModulesRemainExpandable": true,
+  "storageKey": "deutschweg_x14_6_integrated_state",
+  "indexedDB": "deutschweg-x14-6",
+  "sponsorStorageKey": "deutschweg_sponsor_gate_24s_v2",
+  "sponsorDelaySeconds": 24,
+  "channel": "@persian_Germanymovie",
+  "admin": "@kingman007",
+  "accounts": false,
+  "remoteAnalyticsDefault": false,
+  "healthScope": "everyday communication only; no diagnosis, treatment, prescription or dosage",
+  "preserved": [
+    "A1-C2 curriculum",
+    "Challenge Engine v2",
+    "Audio Hotfix",
+    "Pronunciation Lab",
+    "local migration"
+  ]
 }
