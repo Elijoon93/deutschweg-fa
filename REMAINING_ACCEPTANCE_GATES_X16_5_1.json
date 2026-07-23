@@ -1,0 +1,22 @@
+{
+  "version": "16.5.1",
+  "status": "final-acceptance-candidate",
+  "completed_internal": [
+    "competency graph and diagnostic engine",
+    "level-aware unlocked A1-C2 path",
+    "mandatory 26-second sponsor gate",
+    "auditable acceptance center",
+    "defect severity blocking",
+    "guarded promotion script"
+  ],
+  "remaining_external": [
+    "published HTTPS evidence",
+    "Android physical-device acceptance",
+    "iPhone physical-device acceptance",
+    "PWA install/offline/persistence",
+    "backup/restore on published origin",
+    "two A1/A2 usability sessions",
+    "human language review A1-C2",
+    "zero open critical/high defects"
+  ]
+}

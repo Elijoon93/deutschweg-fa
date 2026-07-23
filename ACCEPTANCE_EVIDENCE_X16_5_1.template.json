@@ -1,0 +1,185 @@
+{
+  "schema": "deutschweg-acceptance-1",
+  "product": "DeutschWeg",
+  "version": "16.5.1",
+  "channel": "final-acceptance-candidate",
+  "status": "HOLD",
+  "promotionAllowed": false,
+  "exportedAt": null,
+  "decision": {
+    "pass": 0,
+    "total": 20,
+    "pct": 0,
+    "failed": [],
+    "pending": [
+      "published",
+      "secure",
+      "storage",
+      "indexeddb",
+      "manifest",
+      "serviceworker",
+      "cache",
+      "metadata",
+      "migration",
+      "sponsor",
+      "competency",
+      "backup",
+      "tts",
+      "microphone",
+      "speech",
+      "offline",
+      "install",
+      "restore",
+      "usability",
+      "language"
+    ],
+    "missing": [],
+    "blockers": [],
+    "final": false
+  },
+  "tests": {
+    "published": {
+      "status": "pending",
+      "mode": "external",
+      "details": "اجرا نشده است.",
+      "updatedAt": null,
+      "evidenceId": null
+    },
+    "secure": {
+      "status": "pending",
+      "mode": "auto",
+      "details": "اجرا نشده است.",
+      "updatedAt": null,
+      "evidenceId": null
+    },
+    "storage": {
+      "status": "pending",
+      "mode": "auto",
+      "details": "اجرا نشده است.",
+      "updatedAt": null,
+      "evidenceId": null
+    },
+    "indexeddb": {
+      "status": "pending",
+      "mode": "auto",
+      "details": "اجرا نشده است.",
+      "updatedAt": null,
+      "evidenceId": null
+    },
+    "manifest": {
+      "status": "pending",
+      "mode": "auto",
+      "details": "اجرا نشده است.",
+      "updatedAt": null,
+      "evidenceId": null
+    },
+    "serviceworker": {
+      "status": "pending",
+      "mode": "auto",
+      "details": "اجرا نشده است.",
+      "updatedAt": null,
+      "evidenceId": null
+    },
+    "cache": {
+      "status": "pending",
+      "mode": "auto",
+      "details": "اجرا نشده است.",
+      "updatedAt": null,
+      "evidenceId": null
+    },
+    "metadata": {
+      "status": "pending",
+      "mode": "auto",
+      "details": "اجرا نشده است.",
+      "updatedAt": null,
+      "evidenceId": null
+    },
+    "migration": {
+      "status": "pending",
+      "mode": "auto",
+      "details": "اجرا نشده است.",
+      "updatedAt": null,
+      "evidenceId": null
+    },
+    "sponsor": {
+      "status": "pending",
+      "mode": "auto",
+      "details": "اجرا نشده است.",
+      "updatedAt": null,
+      "evidenceId": null
+    },
+    "competency": {
+      "status": "pending",
+      "mode": "auto",
+      "details": "اجرا نشده است.",
+      "updatedAt": null,
+      "evidenceId": null
+    },
+    "backup": {
+      "status": "pending",
+      "mode": "auto",
+      "details": "اجرا نشده است.",
+      "updatedAt": null,
+      "evidenceId": null
+    },
+    "tts": {
+      "status": "pending",
+      "mode": "manual",
+      "details": "اجرا نشده است.",
+      "updatedAt": null,
+      "evidenceId": null
+    },
+    "microphone": {
+      "status": "pending",
+      "mode": "manual",
+      "details": "اجرا نشده است.",
+      "updatedAt": null,
+      "evidenceId": null
+    },
+    "speech": {
+      "status": "pending",
+      "mode": "manual",
+      "details": "اجرا نشده است.",
+      "updatedAt": null,
+      "evidenceId": null
+    },
+    "offline": {
+      "status": "pending",
+      "mode": "manual",
+      "details": "اجرا نشده است.",
+      "updatedAt": null,
+      "evidenceId": null
+    },
+    "install": {
+      "status": "pending",
+      "mode": "manual",
+      "details": "اجرا نشده است.",
+      "updatedAt": null,
+      "evidenceId": null
+    },
+    "restore": {
+      "status": "pending",
+      "mode": "manual",
+      "details": "اجرا نشده است.",
+      "updatedAt": null,
+      "evidenceId": null
+    },
+    "usability": {
+      "status": "pending",
+      "mode": "human",
+      "details": "اجرا نشده است.",
+      "updatedAt": null,
+      "evidenceId": null
+    },
+    "language": {
+      "status": "pending",
+      "mode": "human",
+      "details": "اجرا نشده است.",
+      "updatedAt": null,
+      "evidenceId": null
+    }
+  },
+  "evidence": [],
+  "defects": [],
+  "history": []
+}

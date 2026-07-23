@@ -1,0 +1,47 @@
+{
+  "runtime": "controlled-document-injection",
+  "results": [
+    {
+      "name": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "DeutschWeg X16.5.1 · مرکز پذیرش نهایی",
+      "decision": "تصمیم انتشار: HOLD\n20 گیت باز، 0 FAIL و 0 نقص مسدودکننده.",
+      "gateCount": 20,
+      "metricCount": 4,
+      "sponsorBlockCount": 0,
+      "horizontalOverflow": 0,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "usabilityOneParticipantGuard": true,
+      "highDefectBlocks": true,
+      "closedHighDefectClears": true,
+      "bodyHasHold": true,
+      "screenshot": "/mnt/data/qa-x1651-final-acceptance-mobile.png",
+      "controlledTestNote": "Page.set_content with sponsor check bypassed for QA only; no network/device acceptance claim."
+    },
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "title": "DeutschWeg X16.5.1 · مرکز پذیرش نهایی",
+      "decision": "تصمیم انتشار: HOLD\n20 گیت باز، 0 FAIL و 0 نقص مسدودکننده.",
+      "gateCount": 20,
+      "metricCount": 4,
+      "sponsorBlockCount": 0,
+      "horizontalOverflow": 0,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "usabilityOneParticipantGuard": true,
+      "highDefectBlocks": true,
+      "closedHighDefectClears": true,
+      "bodyHasHold": true,
+      "screenshot": "/mnt/data/qa-x1651-final-acceptance-desktop.png",
+      "controlledTestNote": "Page.set_content with sponsor check bypassed for QA only; no network/device acceptance claim."
+    }
+  ]
+}

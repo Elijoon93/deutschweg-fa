@@ -1,0 +1,12 @@
+{
+  "withoutEvidence": {
+    "exitCodeNonZero": true,
+    "message": "PROMOTION BLOCKED: pass an exported X16.5.1 acceptance JSON"
+  },
+  "syntheticIsolatedPromotion": {
+    "passed": true,
+    "promotionOutput": "PROMOTION READY: run node scripts/verify-release.mjs, regenerate SHA256SUMS.txt, review the diff, then commit.",
+    "verificationTail": "Release verification summary: 63 passed, 0 failed."
+  },
+  "disclaimer": "Synthetic evidence was used only in an isolated copy to test code paths. It is not acceptance evidence and is not included in the release package."
+}

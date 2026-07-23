@@ -1,0 +1,60 @@
+PASS required index.html
+PASS required 404.html
+PASS required final-acceptance.html
+PASS required manifest.webmanifest
+PASS required sw.js
+PASS required app-config.js
+PASS required version.json
+PASS required LOCKED_ASSUMPTIONS.json
+PASS required LOCKED_ASSUMPTIONS_X16_5_1.json
+PASS required HANDOFF_X16_5_1_FA.md
+PASS required ACCEPTANCE_PROTOCOL_X16_5_1_FA.md
+PASS required ACCEPTANCE_EVIDENCE_X16_5_1.template.json
+PASS required REMAINING_ACCEPTANCE_GATES_X16_5_1.json
+PASS required RELEASE_NOTES_X16_5_1_ACCEPTANCE.md
+PASS required CEFR_COMPETENCY_GRAPH_X16_5.json
+PASS required DIAGNOSTIC_BANK_X16_5.json
+PASS required scripts/promote-final-stable.mjs
+PASS required .github/workflows/x1651-release-qa.yml
+PASS version.json parses
+PASS version 16.5.1
+PASS valid release channel
+PASS build matches channel
+PASS runtime version
+PASS 26 second sponsor
+PASS sponsor key
+PASS storage key
+PASS acceptance link
+PASS acceptance version
+PASS two participant guard
+PASS language coverage
+PASS defect blocker
+PASS promotion decision
+PASS acceptance sponsor delay
+PASS 404 mirrors index
+PASS worker cache matches channel
+PASS worker version
+PASS worker precaches acceptance page
+PASS app config channel
+PASS app config build
+PASS manifest label matches channel
+PASS index label matches channel
+PASS LOCKED_ASSUMPTIONS.json parses
+PASS sponsor mandatory
+PASS sponsor delay locked
+PASS login disabled
+PASS CEFR_COMPETENCY_GRAPH_X16_5.json parses
+PASS DIAGNOSTIC_BANK_X16_5.json parses
+PASS 54 competency nodes
+PASS 108 descriptors
+PASS 18 diagnostic items
+PASS promotion guard PROMOTION BLOCKED
+PASS promotion guard promotionAllowed
+PASS promotion guard critical
+PASS promotion guard high
+PASS promotion guard participants
+PASS promotion guard A1
+PASS promotion guard C2
+PASS promotion guard ACCEPTANCE_EVIDENCE_LOCKED_X16_5_1.json
+
+Release verification summary: 58 passed, 0 failed.

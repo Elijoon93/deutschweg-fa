@@ -1,0 +1,52 @@
+DeutschWeg X16.5.1 — Final Acceptance & Stabilization Candidate
+Generated: 2026-07-23
+
+STATUS
+- Release decision: HOLD
+- Final Stable claimed: NO
+- External acceptance completed: NO
+
+INTERNAL QA
+- Static functional: 96 PASS / 0 FAIL
+- Release verification: 58 PASS / 0 FAIL
+- HTTP asset probes: 9 PASS / 0 FAIL
+- Controlled runtime assertions: 22 PASS / 0 FAIL
+- Inline/Node JavaScript syntax: PASS
+- Mobile horizontal overflow: 0
+- Desktop horizontal overflow: 0
+- Console errors: 0
+- Page errors: 0
+- ZIP integrity: PASS
+
+RUNTIME SCOPE
+- Controlled Chromium document injection
+- Sponsor check bypassed only in the in-memory QA copy
+- Production Sponsor Gate remains mandatory and unchanged
+- No claim of public HTTPS, physical Android/iPhone, real microphone/speaker, or PWA installation acceptance
+
+PROMOTION GUARD
+- Without evidence: BLOCKED as designed
+- Synthetic evidence in isolated copy: promotion path and stable verification PASS
+- Synthetic evidence is not included and is not product acceptance evidence
+
+PRESERVED ASSUMPTIONS
+- Mandatory sponsor gate: 26 seconds
+- Channel: @persian_Germanymovie
+- Presenter: @kingman007
+- Sponsor storage key: deutschweg_sponsor_gate_24s_v2
+- Main state: deutschweg_x14_6_integrated_state
+- IndexedDB: deutschweg-x14-6
+- No account/login
+- A1-C2 manually unlocked; selected level is actual path entry
+- Four tabs: امروز / مسیر / تمرین / من
+- 54 competencies, 108 descriptors, 18 diagnostic items
+
+REMAINING EXTERNAL GATES
+- Published public HTTPS
+- Android physical-device acceptance
+- iPhone physical-device acceptance
+- PWA install/offline/persistence
+- Backup/Restore on published origin
+- Two A1/A2 usability sessions
+- Human language review A1-C2
+- Zero open Critical/High defects

@@ -1,0 +1,47 @@
+{
+  "product": "DeutschWeg",
+  "version": "16.5.0",
+  "status": "Competency Graph, Diagnostic Assessment & Evidence Engine Review Candidate",
+  "preserved": {
+    "storage_key": "deutschweg_x14_6_integrated_state",
+    "indexeddb": "deutschweg-x14-6",
+    "legacy_migration": true,
+    "sponsor_gate": {
+      "required": true,
+      "delay_seconds": 26,
+      "channel": "@persian_Germanymovie",
+      "presenter": "@kingman007",
+      "server_verification": false,
+      "storage_key": "deutschweg_sponsor_gate_24s_v2",
+      "storage_key_compatibility_note": "legacy key intentionally preserved so previously accepted users are not forced through the gate again"
+    },
+    "account_login": false,
+    "levels": "A1-C2",
+    "coach_flow_tabs": [
+      "امروز",
+      "مسیر",
+      "تمرین",
+      "من"
+    ],
+    "beginner_guided_mode": true,
+    "health_boundary": "everyday communication only; no diagnosis, treatment, prescription, dose or clinical advice",
+    "remote_analytics_default": false
+  },
+  "new_scope": [
+    "54-node A1-C2 competency graph across nine operational domains",
+    "18-item internal multi-level diagnostic plus writing and optional speech sample",
+    "evidence ledger with confidence, timestamps and non-destructive migration",
+    "14-day checkpoint workflow",
+    "local content issue reporting and evidence export",
+    "four-tab Coach Flow remains unchanged"
+  ],
+  "not_claimed": [
+    "accredited CEFR certificate",
+    "official exam equivalence",
+    "phoneme-level pronunciation scoring",
+    "human-quality free-writing assessment",
+    "published GitHub deployment",
+    "physical-device PASS",
+    "final stable before external gates"
+  ]
+}

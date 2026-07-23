@@ -1,6 +1,6 @@
 {
-  "version": "16.5.0",
-  "channel": "review-candidate",
-  "build": "competency-graph-diagnostic-evidence-engine",
+  "version": "16.5.1",
+  "channel": "final-acceptance-candidate",
+  "build": "final-acceptance-stabilization",
   "date": "2026-07-23"
 }

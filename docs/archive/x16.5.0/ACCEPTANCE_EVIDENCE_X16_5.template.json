@@ -1,0 +1,11 @@
+{
+  "version": "16.5.0",
+  "status": "review-candidate",
+  "published_https": {"pass": false, "url": "", "tested_at": ""},
+  "android": {"pass": false, "device": "", "tts": false, "microphone": false, "speech": false, "pwa": false, "offline": false},
+  "iphone": {"pass": false, "device": "", "tts": false, "microphone_or_fallback": false, "pwa": false, "offline": false},
+  "usability": {"pass": false, "a1_a2_participants": 0, "critical_findings": []},
+  "language_review": {"pass": false, "levels_reviewed": [], "reviewer": "", "critical_findings": []},
+  "defects": {"critical_open": 0, "high_open": 0},
+  "promotion_allowed": false
+}

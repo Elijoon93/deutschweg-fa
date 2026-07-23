@@ -1,8 +1,8 @@
 {
   "id": "./index.html?source=pwa",
-  "name": "DeutschWeg X16.5 — Competency Evidence Coach",
+  "name": "DeutschWeg X16.5.1 — Final Acceptance Candidate",
   "short_name": "DeutschWeg",
-  "description": "مسیر حرفه‌ای آلمانی A1 تا C2 با نقشه شایستگی، تعیین سطح چندمهارتی، مربی تطبیقی و پرونده شواهد محلی.",
+  "description": "مسیر شایستگی‌محور آلمانی A1 تا C2 با مرکز پذیرش نهایی قابل ممیزی.",
   "lang": "fa",
   "dir": "rtl",
   "start_url": "./index.html",

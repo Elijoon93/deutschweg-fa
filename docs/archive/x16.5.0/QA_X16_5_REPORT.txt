@@ -1,0 +1,41 @@
+DeutschWeg X16.5 — Competency Graph, Diagnostic Assessment & Evidence Engine
+Status: Review Candidate (NOT Final Stable)
+
+Implemented
+- 54 competency nodes: 6 CEFR levels × 9 operational domains
+- 108 product-specific Can-Do descriptors
+- 18 objective diagnostic items: 3 per level, varied answer positions
+- Writing performance stage with offline rule-based scoring
+- Optional speech stage with explicit non-phoneme limitation
+- 14-day checkpoint flow
+- Evidence ledger, confidence values and JSON export
+- Session-to-competency evidence connection
+- Local content issue reporting
+- Four-tab Coach Flow preserved
+- Mandatory sponsor gate preserved at 26 seconds
+- Legacy LocalStorage, IndexedDB and sponsor keys preserved
+
+Quality results
+- Static functional QA: 205/205 PASS
+- Release payload verification: 224/224 PASS
+- Inline JavaScript syntax: PASS
+- Controlled mobile runtime: PASS
+- Controlled desktop runtime: PASS
+- Competency nodes at runtime: 54
+- Evidence rows after diagnostic: 7
+- Mobile horizontal overflow: 0
+- Desktop horizontal overflow: 0
+- Console errors: 0
+- Page errors: 0
+
+Runtime limitation
+The automated runtime used a controlled set_content harness because direct localhost/file navigation is blocked in the execution environment. It validates interaction logic and layout, but does not replace published HTTPS, Service Worker, Android, iPhone, microphone, speech or PWA acceptance.
+
+Remaining external gates
+- Published HTTPS verification
+- Android physical-device acceptance
+- iPhone physical-device acceptance
+- PWA install/offline/persistence
+- Two A1/A2 usability sessions
+- Human language review A1-C2
+- Zero open Critical/High defects

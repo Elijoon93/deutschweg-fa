@@ -1,0 +1,1033 @@
+{
+  "version": "16.5.0",
+  "total": 205,
+  "passed": 205,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "file:index.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "file:404.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "file:version.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "file:manifest.webmanifest",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "file:sw.js",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "file:LOCKED_ASSUMPTIONS_X16_5.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "file:CEFR_COMPETENCY_GRAPH_X16_5.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "file:DIAGNOSTIC_BANK_X16_5.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "file:HANDOFF_X16_5_FA.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "file:COMPETENCY_EVIDENCE_ARCHITECTURE_X16_5_FA.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "file:QA_X16_5_RUNTIME.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "index-404-match",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "version-runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "version-title",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sponsor-26",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sponsor-key",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "storage-key",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "indexeddb-key",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no-stale-24-copy",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "marker:function x165Ensure",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "marker:function x165StartDiagnostic",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "marker:function x165ApplyEvidence",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "marker:function x165Center",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "marker:function x165Feedback",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "marker:function x165SessionEvidence",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "marker:function x165CompleteDiagnostic",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "four-tabs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no-external-script",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no-external-css",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "graph-node-count",
+      "pass": true,
+      "detail": "54"
+    },
+    {
+      "name": "graph-descriptor-count",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "graph-domains",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "graph-levels",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "graph-unique",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "graph-level-A1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "graph-level-A2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "graph-level-B1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "graph-level-B2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "graph-level-C1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "graph-level-C2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-A1-LISTENING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-A1-LISTENING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-A1-READING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-A1-READING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-A1-INTERACTION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-A1-INTERACTION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-A1-PRODUCTION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-A1-PRODUCTION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-A1-WRITING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-A1-WRITING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-A1-MEDIATION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-A1-MEDIATION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-A1-GRAMMAR-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-A1-GRAMMAR-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-A1-VOCABULARY-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-A1-VOCABULARY-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-A1-PHONOLOGY-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-A1-PHONOLOGY-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-A2-LISTENING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-A2-LISTENING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-A2-READING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-A2-READING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-A2-INTERACTION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-A2-INTERACTION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-A2-PRODUCTION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-A2-PRODUCTION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-A2-WRITING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-A2-WRITING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-A2-MEDIATION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-A2-MEDIATION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-A2-GRAMMAR-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-A2-GRAMMAR-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-A2-VOCABULARY-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-A2-VOCABULARY-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-A2-PHONOLOGY-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-A2-PHONOLOGY-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-B1-LISTENING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-B1-LISTENING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-B1-READING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-B1-READING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-B1-INTERACTION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-B1-INTERACTION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-B1-PRODUCTION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-B1-PRODUCTION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-B1-WRITING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-B1-WRITING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-B1-MEDIATION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-B1-MEDIATION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-B1-GRAMMAR-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-B1-GRAMMAR-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-B1-VOCABULARY-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-B1-VOCABULARY-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-B1-PHONOLOGY-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-B1-PHONOLOGY-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-B2-LISTENING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-B2-LISTENING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-B2-READING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-B2-READING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-B2-INTERACTION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-B2-INTERACTION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-B2-PRODUCTION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-B2-PRODUCTION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-B2-WRITING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-B2-WRITING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-B2-MEDIATION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-B2-MEDIATION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-B2-GRAMMAR-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-B2-GRAMMAR-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-B2-VOCABULARY-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-B2-VOCABULARY-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-B2-PHONOLOGY-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-B2-PHONOLOGY-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-C1-LISTENING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-C1-LISTENING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-C1-READING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-C1-READING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-C1-INTERACTION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-C1-INTERACTION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-C1-PRODUCTION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-C1-PRODUCTION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-C1-WRITING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-C1-WRITING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-C1-MEDIATION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-C1-MEDIATION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-C1-GRAMMAR-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-C1-GRAMMAR-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-C1-VOCABULARY-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-C1-VOCABULARY-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-C1-PHONOLOGY-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-C1-PHONOLOGY-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-C2-LISTENING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-C2-LISTENING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-C2-READING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-C2-READING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-C2-INTERACTION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-C2-INTERACTION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-C2-PRODUCTION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-C2-PRODUCTION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-C2-WRITING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-C2-WRITING-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-C2-MEDIATION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-C2-MEDIATION-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-C2-GRAMMAR-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-C2-GRAMMAR-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-C2-VOCABULARY-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-C2-VOCABULARY-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-canDo-C2-PHONOLOGY-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node-threshold-C2-PHONOLOGY-01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-count",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-varied-answer-positions",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-level-A1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-level-A2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-level-B1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-level-B2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-level-C1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-level-C2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-options-A1-G-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-answer-A1-G-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-options-A1-R-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-answer-A1-R-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-options-A1-L-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-answer-A1-L-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-options-A2-G-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-answer-A2-G-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-options-A2-R-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-answer-A2-R-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-options-A2-L-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-answer-A2-L-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-options-B1-G-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-answer-B1-G-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-options-B1-R-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-answer-B1-R-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-options-B1-L-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-answer-B1-L-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-options-B2-G-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-answer-B2-G-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-options-B2-R-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-answer-B2-R-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-options-B2-L-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-answer-B2-L-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-options-C1-G-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-answer-C1-G-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-options-C1-R-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-answer-C1-R-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-options-C1-L-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-answer-C1-L-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-options-C2-G-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-answer-C2-G-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-options-C2-R-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-answer-C2-R-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-options-C2-L-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "diag-answer-C2-L-1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime-pass",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime-mobile-errors",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime-desktop-errors",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime-overflow",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime-competencies",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime-evidence",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest-x165",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest-relative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest-icons",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sw-cache",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sw-version",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sw-new-json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "inline-js-syntax",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}

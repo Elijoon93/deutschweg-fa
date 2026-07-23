@@ -1,0 +1,488 @@
+{
+  "version": "16.5.1",
+  "suite": "static-functional",
+  "passed": 96,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "required:index.html",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "required:404.html",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "required:final-acceptance.html",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "required:manifest.webmanifest",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "required:sw.js",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "required:app-config.js",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "required:version.json",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "required:LOCKED_ASSUMPTIONS.json",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "required:LOCKED_ASSUMPTIONS_X16_5_1.json",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "required:HANDOFF_X16_5_1_FA.md",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "required:ACCEPTANCE_PROTOCOL_X16_5_1_FA.md",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "required:ACCEPTANCE_EVIDENCE_X16_5_1.template.json",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "required:REMAINING_ACCEPTANCE_GATES_X16_5_1.json",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "required:RELEASE_NOTES_X16_5_1_ACCEPTANCE.md",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "required:CEFR_COMPETENCY_GRAPH_X16_5.json",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "required:DIAGNOSTIC_BANK_X16_5.json",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "required:scripts/promote-final-stable.mjs",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "required:scripts/verify-release.mjs",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "required:.github/workflows/x1651-release-qa.yml",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "json:version.json",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "json:LOCKED_ASSUMPTIONS.json",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "json:LOCKED_ASSUMPTIONS_X16_5_1.json",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "json:ACCEPTANCE_EVIDENCE_X16_5_1.template.json",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "json:REMAINING_ACCEPTANCE_GATES_X16_5_1.json",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "json:CEFR_COMPETENCY_GRAPH_X16_5.json",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "json:DIAGNOSTIC_BANK_X16_5.json",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "json:manifest.webmanifest",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "version=16.5.1",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "channel=candidate",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "build=candidate",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "sponsor-required",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "sponsor-delay-26",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "sponsor-channel",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "sponsor-presenter",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "sponsor-no-server-verification",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "sponsor-legacy-key",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "storage-key",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "indexeddb-key",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "no-login",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "all-levels-unlocked",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "selected-level-entry",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "four-tabs",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "remote-analytics-off",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "competency-54",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "descriptors-108",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "diagnostic-18",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "index-runtime-version",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "index-sponsor-26",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "index-sponsor-key",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "index-storage-key",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "index-acceptance-link",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "index-version-label",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "acceptance-version",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "acceptance-delay",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "acceptance-store",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "usability-guard",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "language-guard",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "defect-blocker",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "promotion-flag",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "production-sponsor-check-intact",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "20-gates",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "404-mirrors-index",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "worker-cache",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "worker-version",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "worker-acceptance-precache",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "config-channel",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "manifest-label",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "promotion-token:PROMOTION BLOCKED",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "promotion-token:promotionAllowed",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "promotion-token:FINAL_ELIGIBLE",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "promotion-token:critical",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "promotion-token:high",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "promotion-token:participants",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "promotion-token:A1",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "promotion-token:C2",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "promotion-token:ACCEPTANCE_EVIDENCE_LOCKED_X16_5_1.json",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "promotion-token:RELEASE_NOTES_X16_5_1_FINAL_STABLE.md",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "promotion-token:app-config.js",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "promotion-token:sw.js",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "promotion-token:manifest.webmanifest",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "js-syntax:index.html:2",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "js-syntax:index.html:3",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "js-syntax:404.html:2",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "js-syntax:404.html:3",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "js-syntax:final-acceptance.html:1",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "js-syntax:standalone:1",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "js-syntax:standalone:2",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "js-syntax:standalone:3",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "node-syntax:scripts/promote-final-stable.mjs",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "node-syntax:scripts/verify-release.mjs",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "standalone-exists",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "standalone-version",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "standalone-sponsor-26",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "standalone-no-external-script",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "standalone-no-external-stylesheet",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "synthetic-evidence-not-packaged",
+      "pass": true,
+      "details": ""
+    }
+  ]
+}
