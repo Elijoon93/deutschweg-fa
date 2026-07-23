@@ -1,0 +1,43 @@
+{
+  "version": "16.0.0",
+  "status": "open",
+  "required_before_final_stable": [
+    {
+      "gate": "GitHub Pages HTTPS deployment smoke test",
+      "status": "pending"
+    },
+    {
+      "gate": "Android Chrome TTS, microphone, recording and playback",
+      "status": "pending"
+    },
+    {
+      "gate": "SpeechRecognition on supported mobile browser",
+      "status": "pending"
+    },
+    {
+      "gate": "PWA install/offline/update acceptance",
+      "status": "pending"
+    },
+    {
+      "gate": "backup/restore with existing real user data",
+      "status": "pending"
+    },
+    {
+      "gate": "sample human linguistic review across A1-C2, especially C1/C2",
+      "status": "pending"
+    },
+    {
+      "gate": "adult learner acceptance test for depth, repetition and difficulty",
+      "status": "pending"
+    },
+    {
+      "gate": "no open Critical/High defects",
+      "status": "pending"
+    }
+  ],
+  "not_claimed": [
+    "official CEFR certification",
+    "independent superiority over Duolingo",
+    "human-equivalent grading of free writing or speaking"
+  ]
+}

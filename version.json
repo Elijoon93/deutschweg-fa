@@ -1,12 +1,9 @@
 {
-  "product": "DeutschWeg",
-  "version": "14.8.0-production-rc.1",
-  "channel": "production-release-candidate",
-  "target": "GitHub Pages / Installable PWA",
-  "storage_key": "deutschweg_x14_6_integrated_state",
-  "membership_gate": "mandatory-24-second-local-confirmation",
-  "analytics": "local-events-plus-optional-GA4-Plausible-or-custom-endpoint",
-  "content_quality": "12 editorial-reviewed packs; remaining packs project-draft",
-  "build_date_utc": "2026-07-22T00:00:00Z",
-  "notes": "Adds Scenario Coach, Pronunciation Evidence Portfolio, Immersion Studio, stage checkpoints, telemetry adapter, production center, accessibility improvements and hardened PWA caching."
+  "version": "16.0.0",
+  "release": "Professional CEFR Review",
+  "modules": 181,
+  "sessions": 724,
+  "tasks": 1810,
+  "levels": "Grundlagen-A1-A2-B1-B2-C1-C2",
+  "status": "review-build"
 }

@@ -1,0 +1,55 @@
+DeutschWeg X16.0 — Professional CEFR Review Build
+
+Static QA: 39/39 PASS
+Runtime QA: PASS
+Modules: 181
+Sessions: 724
+Tasks: 1810
+Levels: {"Grundlagen": 16, "A1": 32, "A2": 32, "B1": 30, "B2": 24, "C1": 26, "C2": 21}
+
+Important:
+- Curriculum content is open; only project assumptions and data compatibility are fixed.
+- This build is not claimed to be independently benchmarked as stronger than Duolingo.
+- Free writing/speaking assessment remains offline and rule-based.
+- Real HTTPS microphone, TTS, speech recognition, PWA install and offline acceptance remain external gates.
+
+Checks:
+[PASS] version — 16.0.0
+[PASS] title — DeutschWeg X16.0 · Professional CEFR Review
+[PASS] module-count — 181
+[PASS] level-counts — {"Grundlagen": 16, "A1": 32, "A2": 32, "B1": 30, "B2": 24, "C1": 26, "C2": 21}
+[PASS] unique-lesson-ids — 181
+[PASS] four-sessions-each — 724
+[PASS] ten-tasks-each — 1810
+[PASS] task-type-choice — choice
+[PASS] task-type-cloze — cloze
+[PASS] task-type-reorder — reorder
+[PASS] task-type-correction — correction
+[PASS] task-type-dictation — dictation
+[PASS] task-type-translation — translation
+[PASS] task-type-production — production
+[PASS] all-curriculum-unlocked — no artificial lesson lock
+[PASS] C2-present — 21 C2 modules
+[PASS] placement-A1-C2 — 18-question placement
+[PASS] mastery-gate — 80% + productive task floor
+[PASS] error-book — failed tasks recorded
+[PASS] storage-key-preserved — deutschweg_x14_6_integrated_state
+[PASS] indexeddb-preserved — deutschweg-x14-6
+[PASS] sponsor-preserved — 24s sponsor gate
+[PASS] health-guard — everyday communication only
+[PASS] core-render-helpers — runtime blocker fixed
+[PASS] mobile-contrast — hero contrast + skip link
+[PASS] file-index.html — index.html
+[PASS] file-404.html — 404.html
+[PASS] file-manifest.webmanifest — manifest.webmanifest
+[PASS] file-sw.js — sw.js
+[PASS] file-version.json — version.json
+[PASS] file-PROFESSIONAL_CEFR_CURRICULUM_X16_0.json — PROFESSIONAL_CEFR_CURRICULUM_X16_0.json
+[PASS] file-CEFR_COVERAGE_MATRIX_X16_0.json — CEFR_COVERAGE_MATRIX_X16_0.json
+[PASS] file-professional-curriculum-audit.html — professional-curriculum-audit.html
+[PASS] json-version.json — version.json
+[PASS] json-PROFESSIONAL_CEFR_CURRICULUM_X16_0.json — PROFESSIONAL_CEFR_CURRICULUM_X16_0.json
+[PASS] json-CEFR_COVERAGE_MATRIX_X16_0.json — CEFR_COVERAGE_MATRIX_X16_0.json
+[PASS] json-QA_X16_0_RUNTIME.json — QA_X16_0_RUNTIME.json
+[PASS] inline-js-syntax — [[1, 0, ""], [2, 0, ""]]
+[PASS] runtime-qa — {"cards_all": 181, "cards_c2": 21, "lesson_tasks": 10, "lesson_sessions": 4, "placement_questions": 18, "runtime_exceptions": 0}

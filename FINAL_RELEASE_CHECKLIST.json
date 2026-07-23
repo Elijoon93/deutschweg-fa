@@ -1,0 +1,16 @@
+{
+  "version": "16.0.0",
+  "release": "Professional CEFR Review Build",
+  "automated": {
+    "static_qa": "39/39 PASS",
+    "runtime_qa": "PASS",
+    "modules": 181,
+    "sessions": 724,
+    "tasks": 1810,
+    "all_learning_content_unlocked": true,
+    "mobile_horizontal_overflow": false,
+    "runtime_exceptions": 0
+  },
+  "external_acceptance_required": true,
+  "final_stable": false
+}

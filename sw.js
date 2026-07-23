@@ -1,18 +1,5 @@
-const VERSION='x14-8-0-rc1';
-const STATIC_CACHE=`deutschweg-static-${VERSION}`;
-const RUNTIME_CACHE=`deutschweg-runtime-${VERSION}`;
-const APP_SHELL=['./','./index.html','./offline.html','./privacy.html','./x148.css','./app-config.js','./manifest.webmanifest','./version.json','./assets/icon-192.png','./assets/icon-512.png','./assets/icon-maskable-192.png','./assets/icon-maskable-512.png'];
-self.addEventListener('install',event=>{event.waitUntil(caches.open(STATIC_CACHE).then(cache=>cache.addAll(APP_SHELL)));self.skipWaiting()});
-self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>![STATIC_CACHE,RUNTIME_CACHE].includes(k)).map(k=>caches.delete(k)))));self.clients.claim()});
-self.addEventListener('message',event=>{if(event.data?.type==='SKIP_WAITING')self.skipWaiting()});
-self.addEventListener('fetch',event=>{
-  if(event.request.method!=='GET')return;
-  const req=event.request,url=new URL(req.url);
-  if(req.mode==='navigate'){
-    event.respondWith(fetch(req).then(async response=>{if(response?.ok){const cache=await caches.open(RUNTIME_CACHE);cache.put('./index.html',response.clone())}return response}).catch(async()=>await caches.match('./index.html')||await caches.match('./offline.html','./privacy.html')));
-    return;
-  }
-  if(url.origin===self.location.origin){
-    event.respondWith(caches.match(req).then(cached=>{const network=fetch(req).then(async response=>{if(response?.ok){const cache=await caches.open(RUNTIME_CACHE);cache.put(req,response.clone())}return response}).catch(()=>cached);return cached||network}));
-  }
-});
+const CACHE='deutschweg-x16-0-professional-cefr-r2';
+const ASSETS=["./index.html", "./404.html", "./offline.html", "./privacy.html", "./app.css", "./app-config.js", "./manifest.webmanifest", "./version.json", "./professional-curriculum-audit.html", "./PROFESSIONAL_CEFR_CURRICULUM_X16_0.json", "./CEFR_COVERAGE_MATRIX_X16_0.json", "./CHALLENGE_ENGINE_V2_FA.md", "./README_X16_0_FA.md", "./RELEASE_NOTES_X16_0_FA.md", "./assets/icon-192.png", "./assets/icon-512.png"];
+self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting())));
+self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
+self.addEventListener('fetch',e=>{if(e.request.method!=='GET')return;e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request).then(resp=>{const copy=resp.clone();caches.open(CACHE).then(c=>c.put(e.request,copy));return resp;}).catch(()=>e.request.mode==='navigate'?caches.match('./offline.html'):undefined)));});
