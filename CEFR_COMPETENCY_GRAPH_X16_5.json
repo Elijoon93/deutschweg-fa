@@ -1,0 +1,1291 @@
+{
+  "version": "16.5.0",
+  "status": "review-candidate",
+  "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2",
+    "C1",
+    "C2"
+  ],
+  "domains": [
+    {
+      "id": "listening",
+      "fa": "شنیداری",
+      "en": "Listening"
+    },
+    {
+      "id": "reading",
+      "fa": "خواندن",
+      "en": "Reading"
+    },
+    {
+      "id": "interaction",
+      "fa": "تعامل گفتاری",
+      "en": "Spoken interaction"
+    },
+    {
+      "id": "production",
+      "fa": "تولید گفتاری",
+      "en": "Spoken production"
+    },
+    {
+      "id": "writing",
+      "fa": "نوشتن",
+      "en": "Writing"
+    },
+    {
+      "id": "mediation",
+      "fa": "میانجی‌گری",
+      "en": "Mediation"
+    },
+    {
+      "id": "grammar",
+      "fa": "کنترل دستوری",
+      "en": "Grammar control"
+    },
+    {
+      "id": "vocabulary",
+      "fa": "دامنه واژگان",
+      "en": "Vocabulary range"
+    },
+    {
+      "id": "phonology",
+      "fa": "آوا و آهنگ گفتار",
+      "en": "Phonological control"
+    }
+  ],
+  "nodeCount": 54,
+  "descriptorCount": 108,
+  "nodes": [
+    {
+      "id": "A1-LISTENING-01",
+      "level": "A1",
+      "domain": "listening",
+      "domainFa": "شنیداری",
+      "domainEn": "Listening",
+      "title": "شنیداری در سطح A1",
+      "canDo": [
+        "عبارت‌های بسیار آشنا، اعداد و اطلاعات شخصی را در گفتار آهسته تشخیص می‌دهد.",
+        "دستورهای کوتاه و روشن روزمره را با کمک بافت دنبال می‌کند."
+      ],
+      "prerequisites": [],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "A1-READING-01",
+      "level": "A1",
+      "domain": "reading",
+      "domainFa": "خواندن",
+      "domainEn": "Reading",
+      "title": "خواندن در سطح A1",
+      "canDo": [
+        "نام‌ها، تابلوها، زمان‌ها و پیام‌های بسیار کوتاه را می‌فهمد.",
+        "اطلاعات صریح را در فرم‌ها و اعلان‌های ساده پیدا می‌کند."
+      ],
+      "prerequisites": [],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "A1-INTERACTION-01",
+      "level": "A1",
+      "domain": "interaction",
+      "domainFa": "تعامل گفتاری",
+      "domainEn": "Spoken interaction",
+      "title": "تعامل گفتاری در سطح A1",
+      "canDo": [
+        "سلام می‌کند، معرفی می‌شود و سؤال‌های بسیار ساده می‌پرسد یا پاسخ می‌دهد.",
+        "با تکرار یا کمک مخاطب یک تبادل کوتاه را ادامه می‌دهد."
+      ],
+      "prerequisites": [],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "A1-PRODUCTION-01",
+      "level": "A1",
+      "domain": "production",
+      "domainFa": "تولید گفتاری",
+      "domainEn": "Spoken production",
+      "title": "تولید گفتاری در سطح A1",
+      "canDo": [
+        "با جمله‌های کوتاه درباره خود، محل زندگی و نیازهای فوری صحبت می‌کند.",
+        "اطلاعات شخصی را با الگوهای پایه بیان می‌کند."
+      ],
+      "prerequisites": [],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "A1-WRITING-01",
+      "level": "A1",
+      "domain": "writing",
+      "domainFa": "نوشتن",
+      "domainEn": "Writing",
+      "title": "نوشتن در سطح A1",
+      "canDo": [
+        "فرم‌های ساده را تکمیل و پیام بسیار کوتاه می‌نویسد.",
+        "نام، نشانی، زمان و اطلاعات پایه را با املای قابل فهم ثبت می‌کند."
+      ],
+      "prerequisites": [],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "A1-MEDIATION-01",
+      "level": "A1",
+      "domain": "mediation",
+      "domainFa": "میانجی‌گری",
+      "domainEn": "Mediation",
+      "title": "میانجی‌گری در سطح A1",
+      "canDo": [
+        "اطلاعات بسیار ساده مانند زمان، شماره و مکان را برای فرد دیگری منتقل می‌کند.",
+        "مفهوم اصلی یک پیام کوتاه و آشنا را به زبان ساده بازگو می‌کند."
+      ],
+      "prerequisites": [],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "A1-GRAMMAR-01",
+      "level": "A1",
+      "domain": "grammar",
+      "domainFa": "کنترل دستوری",
+      "domainEn": "Grammar control",
+      "title": "کنترل دستوری در سطح A1",
+      "canDo": [
+        "الگوهای پایه جمله خبری، پرسشی و منفی را با خطاهای قابل انتظار به‌کار می‌برد.",
+        "صرف چند فعل پرکاربرد و جایگاه فعل در جمله ساده را کنترل می‌کند."
+      ],
+      "prerequisites": [],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "A1-VOCABULARY-01",
+      "level": "A1",
+      "domain": "vocabulary",
+      "domainFa": "دامنه واژگان",
+      "domainEn": "Vocabulary range",
+      "title": "دامنه واژگان در سطح A1",
+      "canDo": [
+        "واژگان پایه هویت، خانواده، زمان، خرید و مکان را به‌کار می‌برد.",
+        "برای نیازهای فوری از مجموعه محدودی از عبارت‌های حفظ‌شده استفاده می‌کند."
+      ],
+      "prerequisites": [],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "A1-PHONOLOGY-01",
+      "level": "A1",
+      "domain": "phonology",
+      "domainFa": "آوا و آهنگ گفتار",
+      "domainEn": "Phonological control",
+      "title": "آوا و آهنگ گفتار در سطح A1",
+      "canDo": [
+        "صداها و آهنگ گفتار در عبارت‌های تمرین‌شده عموماً قابل فهم است.",
+        "تفاوت چند صدای پایه و حروف ویژه آلمانی را در واژه‌های آشنا تشخیص می‌دهد."
+      ],
+      "prerequisites": [],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "A2-LISTENING-01",
+      "level": "A2",
+      "domain": "listening",
+      "domainFa": "شنیداری",
+      "domainEn": "Listening",
+      "title": "شنیداری در سطح A2",
+      "canDo": [
+        "نکات اصلی مکالمه‌های کوتاه درباره کارهای روزمره را می‌فهمد.",
+        "زمان، مسیر، خرید، قرار و درخواست‌های رایج را در گفتار روشن دنبال می‌کند."
+      ],
+      "prerequisites": [
+        "A1-LISTENING-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "A2-READING-01",
+      "level": "A2",
+      "domain": "reading",
+      "domainFa": "خواندن",
+      "domainEn": "Reading",
+      "title": "خواندن در سطح A2",
+      "canDo": [
+        "متن‌های کوتاه کاربردی مانند ایمیل، آگهی و دستورالعمل ساده را می‌فهمد.",
+        "اطلاعات مشخص را در چند بند کوتاه پیدا و مقایسه می‌کند."
+      ],
+      "prerequisites": [
+        "A1-READING-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "A2-INTERACTION-01",
+      "level": "A2",
+      "domain": "interaction",
+      "domainFa": "تعامل گفتاری",
+      "domainEn": "Spoken interaction",
+      "title": "تعامل گفتاری در سطح A2",
+      "canDo": [
+        "در موقعیت‌های روزمره اطلاعات می‌گیرد، درخواست می‌کند و مشکل ساده را توضیح می‌دهد.",
+        "با پرسش تکمیلی و عبارت‌های جبرانی یک گفت‌وگوی کوتاه را حفظ می‌کند."
+      ],
+      "prerequisites": [
+        "A1-INTERACTION-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "A2-PRODUCTION-01",
+      "level": "A2",
+      "domain": "production",
+      "domainFa": "تولید گفتاری",
+      "domainEn": "Spoken production",
+      "title": "تولید گفتاری در سطح A2",
+      "canDo": [
+        "رویداد، برنامه و تجربه شخصی را در چند جمله پیوسته شرح می‌دهد.",
+        "درباره ترجیح‌ها و نیازهای روزمره دلیل کوتاه ارائه می‌کند."
+      ],
+      "prerequisites": [
+        "A1-PRODUCTION-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "A2-WRITING-01",
+      "level": "A2",
+      "domain": "writing",
+      "domainFa": "نوشتن",
+      "domainEn": "Writing",
+      "title": "نوشتن در سطح A2",
+      "canDo": [
+        "ایمیل و پیام کوتاه درباره درخواست، برنامه یا تجربه می‌نویسد.",
+        "چند جمله را با پیوندهای پایه به متن منسجم کوتاه تبدیل می‌کند."
+      ],
+      "prerequisites": [
+        "A1-WRITING-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "A2-MEDIATION-01",
+      "level": "A2",
+      "domain": "mediation",
+      "domainFa": "میانجی‌گری",
+      "domainEn": "Mediation",
+      "title": "میانجی‌گری در سطح A2",
+      "canDo": [
+        "اطلاعات اصلی یک پیام یا اعلان روزمره را برای دیگری خلاصه می‌کند.",
+        "بین دو نفر در تبادل اطلاعات عملی و آشنا کمک می‌کند."
+      ],
+      "prerequisites": [
+        "A1-MEDIATION-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "A2-GRAMMAR-01",
+      "level": "A2",
+      "domain": "grammar",
+      "domainFa": "کنترل دستوری",
+      "domainEn": "Grammar control",
+      "title": "کنترل دستوری در سطح A2",
+      "canDo": [
+        "زمان حال، Perfekt و ساخت‌های وجهی رایج را با کنترل قابل قبول به‌کار می‌برد.",
+        "پیوندهای پایه و ترتیب واژه در جمله اصلی و وابسته ساده را مدیریت می‌کند."
+      ],
+      "prerequisites": [
+        "A1-GRAMMAR-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "A2-VOCABULARY-01",
+      "level": "A2",
+      "domain": "vocabulary",
+      "domainFa": "دامنه واژگان",
+      "domainEn": "Vocabulary range",
+      "title": "دامنه واژگان در سطح A2",
+      "canDo": [
+        "واژگان کافی برای خانه، کار، رفت‌وآمد، خدمات و سلامت روزمره دارد.",
+        "با توصیف یا واژه جایگزین کمبود واژگان را تا حدی جبران می‌کند."
+      ],
+      "prerequisites": [
+        "A1-VOCABULARY-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "A2-PHONOLOGY-01",
+      "level": "A2",
+      "domain": "phonology",
+      "domainFa": "آوا و آهنگ گفتار",
+      "domainEn": "Phonological control",
+      "title": "آوا و آهنگ گفتار در سطح A2",
+      "canDo": [
+        "گفتار تمرین‌شده معمولاً بدون تلاش زیاد قابل فهم است.",
+        "تکیه واژه و جمله را در عبارت‌های رایج تا حد قابل قبول رعایت می‌کند."
+      ],
+      "prerequisites": [
+        "A1-PHONOLOGY-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "B1-LISTENING-01",
+      "level": "B1",
+      "domain": "listening",
+      "domainFa": "شنیداری",
+      "domainEn": "Listening",
+      "title": "شنیداری در سطح B1",
+      "canDo": [
+        "نکات اصلی گفتار روشن درباره کار، تحصیل و امور روزمره را دنبال می‌کند.",
+        "در روایت یا توضیح آشنا، ترتیب رویداد و دیدگاه اصلی را تشخیص می‌دهد."
+      ],
+      "prerequisites": [
+        "A2-LISTENING-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "B1-READING-01",
+      "level": "B1",
+      "domain": "reading",
+      "domainFa": "خواندن",
+      "domainEn": "Reading",
+      "title": "خواندن در سطح B1",
+      "canDo": [
+        "متن‌های اطلاعاتی و مکاتبات استاندارد را برای هدف عملی می‌فهمد.",
+        "استدلال اصلی و جزئیات مهم متن آشنا را استخراج می‌کند."
+      ],
+      "prerequisites": [
+        "A2-READING-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "B1-INTERACTION-01",
+      "level": "B1",
+      "domain": "interaction",
+      "domainFa": "تعامل گفتاری",
+      "domainEn": "Spoken interaction",
+      "title": "تعامل گفتاری در سطح B1",
+      "canDo": [
+        "در بیشتر موقعیت‌های سفر، کار و زندگی روزمره بدون آمادگی وارد گفت‌وگو می‌شود.",
+        "نظر، موافقت، مخالفت و توضیح را با دلیل ساده بیان می‌کند."
+      ],
+      "prerequisites": [
+        "A2-INTERACTION-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "B1-PRODUCTION-01",
+      "level": "B1",
+      "domain": "production",
+      "domainFa": "تولید گفتاری",
+      "domainEn": "Spoken production",
+      "title": "تولید گفتاری در سطح B1",
+      "canDo": [
+        "تجربه، هدف و رویداد را با توالی روشن و جزئیات مرتبط شرح می‌دهد.",
+        "یک موضوع آشنا را چند دقیقه منسجم ارائه می‌کند."
+      ],
+      "prerequisites": [
+        "A2-PRODUCTION-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "B1-WRITING-01",
+      "level": "B1",
+      "domain": "writing",
+      "domainFa": "نوشتن",
+      "domainEn": "Writing",
+      "title": "نوشتن در سطح B1",
+      "canDo": [
+        "متن پیوسته درباره تجربه، درخواست یا نظر می‌نویسد.",
+        "ایمیل نیمه‌رسمی را با ساختار و لحن مناسب تنظیم می‌کند."
+      ],
+      "prerequisites": [
+        "A2-WRITING-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "B1-MEDIATION-01",
+      "level": "B1",
+      "domain": "mediation",
+      "domainFa": "میانجی‌گری",
+      "domainEn": "Mediation",
+      "title": "میانجی‌گری در سطح B1",
+      "canDo": [
+        "نکات اصلی متن یا گفت‌وگوی آشنا را برای دیگری روشن می‌کند.",
+        "اطلاعات چند منبع کوتاه را برای تصمیم عملی کنار هم می‌گذارد."
+      ],
+      "prerequisites": [
+        "A2-MEDIATION-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "B1-GRAMMAR-01",
+      "level": "B1",
+      "domain": "grammar",
+      "domainFa": "کنترل دستوری",
+      "domainEn": "Grammar control",
+      "title": "کنترل دستوری در سطح B1",
+      "canDo": [
+        "ساخت‌های پرکاربرد را با دقت کافی برای انتقال روشن معنا کنترل می‌کند.",
+        "جمله‌های وابسته، افعال جداشدنی و زمان‌های اصلی را نسبتاً پایدار به‌کار می‌برد."
+      ],
+      "prerequisites": [
+        "A2-GRAMMAR-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "B1-VOCABULARY-01",
+      "level": "B1",
+      "domain": "vocabulary",
+      "domainFa": "دامنه واژگان",
+      "domainEn": "Vocabulary range",
+      "title": "دامنه واژگان در سطح B1",
+      "canDo": [
+        "دامنه واژگان کافی برای موضوعات آشنا و حوزه شخصی/شغلی دارد.",
+        "می‌تواند با بازگویی و ترکیب واژه‌ها از توقف طولانی جلوگیری کند."
+      ],
+      "prerequisites": [
+        "A2-VOCABULARY-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "B1-PHONOLOGY-01",
+      "level": "B1",
+      "domain": "phonology",
+      "domainFa": "آوا و آهنگ گفتار",
+      "domainEn": "Phonological control",
+      "title": "آوا و آهنگ گفتار در سطح B1",
+      "canDo": [
+        "گفتار پیوسته عموماً روشن است، هرچند اثر زبان اول باقی می‌ماند.",
+        "تکیه و آهنگ جمله را برای تمایز خبر، پرسش و تأکید به‌کار می‌برد."
+      ],
+      "prerequisites": [
+        "A2-PHONOLOGY-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "B2-LISTENING-01",
+      "level": "B2",
+      "domain": "listening",
+      "domainFa": "شنیداری",
+      "domainEn": "Listening",
+      "title": "شنیداری در سطح B2",
+      "canDo": [
+        "گفتار نسبتاً طولانی و استدلال روشن درباره موضوعات عمومی یا تخصصی آشنا را دنبال می‌کند.",
+        "نگرش، تأکید و رابطه میان ایده‌ها را در سرعت طبیعی تشخیص می‌دهد."
+      ],
+      "prerequisites": [
+        "B1-LISTENING-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "B2-READING-01",
+      "level": "B2",
+      "domain": "reading",
+      "domainFa": "خواندن",
+      "domainEn": "Reading",
+      "title": "خواندن در سطح B2",
+      "canDo": [
+        "مقالات، گزارش‌ها و مکاتبات نسبتاً پیچیده را با هدف مشخص تحلیل می‌کند.",
+        "موضع نویسنده، شواهد و استثناهای مهم را تشخیص می‌دهد."
+      ],
+      "prerequisites": [
+        "B1-READING-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "B2-INTERACTION-01",
+      "level": "B2",
+      "domain": "interaction",
+      "domainFa": "تعامل گفتاری",
+      "domainEn": "Spoken interaction",
+      "title": "تعامل گفتاری در سطح B2",
+      "canDo": [
+        "با روانی کافی در بحث شرکت و دیدگاه خود را دقیق دفاع می‌کند.",
+        "ابهام را روشن، مذاکره و پاسخ متناسب با موضع طرف مقابل ارائه می‌کند."
+      ],
+      "prerequisites": [
+        "B1-INTERACTION-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "B2-PRODUCTION-01",
+      "level": "B2",
+      "domain": "production",
+      "domainFa": "تولید گفتاری",
+      "domainEn": "Spoken production",
+      "title": "تولید گفتاری در سطح B2",
+      "canDo": [
+        "موضوع پیچیده را منظم ارائه و نکات مهم را برجسته می‌کند.",
+        "مزایا، معایب و پیامدهای چند گزینه را مقایسه می‌کند."
+      ],
+      "prerequisites": [
+        "B1-PRODUCTION-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "B2-WRITING-01",
+      "level": "B2",
+      "domain": "writing",
+      "domainFa": "نوشتن",
+      "domainEn": "Writing",
+      "title": "نوشتن در سطح B2",
+      "canDo": [
+        "متن روشن و تفصیلی با ساختار، استدلال و لحن مناسب می‌نویسد.",
+        "منابع یا دیدگاه‌ها را جمع‌بندی و نتیجه‌گیری قابل دفاع ارائه می‌کند."
+      ],
+      "prerequisites": [
+        "B1-WRITING-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "B2-MEDIATION-01",
+      "level": "B2",
+      "domain": "mediation",
+      "domainFa": "میانجی‌گری",
+      "domainEn": "Mediation",
+      "title": "میانجی‌گری در سطح B2",
+      "canDo": [
+        "اطلاعات و استدلال چند منبع را برای مخاطب دیگر بازسازی می‌کند.",
+        "در تعامل گروهی اختلاف برداشت را روشن و نقاط مشترک را صورت‌بندی می‌کند."
+      ],
+      "prerequisites": [
+        "B1-MEDIATION-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "B2-GRAMMAR-01",
+      "level": "B2",
+      "domain": "grammar",
+      "domainFa": "کنترل دستوری",
+      "domainEn": "Grammar control",
+      "title": "کنترل دستوری در سطح B2",
+      "canDo": [
+        "دامنه گسترده‌ای از ساخت‌ها را با کنترل خوب و خطاهای غیرنظام‌مند به‌کار می‌برد.",
+        "ساخت‌های شرطی، مجهول و پیوندهای پیچیده را متناسب با معنا انتخاب می‌کند."
+      ],
+      "prerequisites": [
+        "B1-GRAMMAR-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "B2-VOCABULARY-01",
+      "level": "B2",
+      "domain": "vocabulary",
+      "domainFa": "دامنه واژگان",
+      "domainEn": "Vocabulary range",
+      "title": "دامنه واژگان در سطح B2",
+      "canDo": [
+        "دامنه گسترده برای موضوعات عمومی و تخصصی آشنا دارد.",
+        "هم‌نشینی‌ها و تفاوت‌های معنایی را با دقت نسبتاً خوب انتخاب می‌کند."
+      ],
+      "prerequisites": [
+        "B1-VOCABULARY-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "B2-PHONOLOGY-01",
+      "level": "B2",
+      "domain": "phonology",
+      "domainFa": "آوا و آهنگ گفتار",
+      "domainEn": "Phonological control",
+      "title": "آوا و آهنگ گفتار در سطح B2",
+      "canDo": [
+        "گفتار روان و روشن با کنترل مناسب آهنگ، گروه‌بندی و تأکید تولید می‌کند.",
+        "تأکید را برای برجسته‌سازی موضع یا اصلاح معنا تغییر می‌دهد."
+      ],
+      "prerequisites": [
+        "B1-PHONOLOGY-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "C1-LISTENING-01",
+      "level": "C1",
+      "domain": "listening",
+      "domainFa": "شنیداری",
+      "domainEn": "Listening",
+      "title": "شنیداری در سطح C1",
+      "canDo": [
+        "گفتار طولانی، ضمنی و کم‌ساختار را در موضوعات پیچیده دنبال می‌کند.",
+        "کنایه، نگرش و تغییر ظریف موضع را با اتکای محدود به نشانه‌های آشکار درمی‌یابد."
+      ],
+      "prerequisites": [
+        "B2-LISTENING-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "C1-READING-01",
+      "level": "C1",
+      "domain": "reading",
+      "domainFa": "خواندن",
+      "domainEn": "Reading",
+      "title": "خواندن در سطح C1",
+      "canDo": [
+        "متن‌های طولانی و پیچیده را از نظر استدلال، سبک و منظور ضمنی تحلیل می‌کند.",
+        "اطلاعات پراکنده و دیدگاه‌های متعارض را برای هدف مشخص تلفیق می‌کند."
+      ],
+      "prerequisites": [
+        "B2-READING-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "C1-INTERACTION-01",
+      "level": "C1",
+      "domain": "interaction",
+      "domainFa": "تعامل گفتاری",
+      "domainEn": "Spoken interaction",
+      "title": "تعامل گفتاری در سطح C1",
+      "canDo": [
+        "به‌صورت روان و دقیق در گفت‌وگوهای پیچیده مشارکت می‌کند.",
+        "لحن، میزان صراحت و راهبرد تعاملی را با رابطه و موقعیت تطبیق می‌دهد."
+      ],
+      "prerequisites": [
+        "B2-INTERACTION-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "C1-PRODUCTION-01",
+      "level": "C1",
+      "domain": "production",
+      "domainFa": "تولید گفتاری",
+      "domainEn": "Spoken production",
+      "title": "تولید گفتاری در سطح C1",
+      "canDo": [
+        "ارائه پیچیده را با ساختار انعطاف‌پذیر و تأکید هدفمند مدیریت می‌کند.",
+        "مفاهیم دشوار را با مثال، بازگویی و تمایز دقیق توضیح می‌دهد."
+      ],
+      "prerequisites": [
+        "B2-PRODUCTION-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "C1-WRITING-01",
+      "level": "C1",
+      "domain": "writing",
+      "domainFa": "نوشتن",
+      "domainEn": "Writing",
+      "title": "نوشتن در سطح C1",
+      "canDo": [
+        "متن پیچیده، منسجم و سبک‌مند برای مخاطب و هدف مشخص می‌نویسد.",
+        "موضع را با شواهد، احتیاط زبانی و انسجام پیشرفته توسعه می‌دهد."
+      ],
+      "prerequisites": [
+        "B2-WRITING-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "C1-MEDIATION-01",
+      "level": "C1",
+      "domain": "mediation",
+      "domainFa": "میانجی‌گری",
+      "domainEn": "Mediation",
+      "title": "میانجی‌گری در سطح C1",
+      "canDo": [
+        "محتوای پیچیده را برای مخاطب متفاوت ساده‌سازی یا بازساخت می‌کند.",
+        "دیدگاه‌های چند طرف را تلفیق و زمینه مشترک برای همکاری ایجاد می‌کند."
+      ],
+      "prerequisites": [
+        "B2-MEDIATION-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "C1-GRAMMAR-01",
+      "level": "C1",
+      "domain": "grammar",
+      "domainFa": "کنترل دستوری",
+      "domainEn": "Grammar control",
+      "title": "کنترل دستوری در سطح C1",
+      "canDo": [
+        "ساخت‌های پیچیده را با کنترل بالا و انعطاف سبکی به‌کار می‌برد.",
+        "خطاهای اندک را معمولاً خوداصلاح و ساخت را با اثر ارتباطی موردنظر تنظیم می‌کند."
+      ],
+      "prerequisites": [
+        "B2-GRAMMAR-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "C1-VOCABULARY-01",
+      "level": "C1",
+      "domain": "vocabulary",
+      "domainFa": "دامنه واژگان",
+      "domainEn": "Vocabulary range",
+      "title": "دامنه واژگان در سطح C1",
+      "canDo": [
+        "دامنه گسترده و دقیق شامل اصطلاحات و ترکیب‌های کم‌بسامد دارد.",
+        "برای ظرافت معنایی، لحن و محدودسازی ادعا واژه مناسب انتخاب می‌کند."
+      ],
+      "prerequisites": [
+        "B2-VOCABULARY-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "C1-PHONOLOGY-01",
+      "level": "C1",
+      "domain": "phonology",
+      "domainFa": "آوا و آهنگ گفتار",
+      "domainEn": "Phonological control",
+      "title": "آوا و آهنگ گفتار در سطح C1",
+      "canDo": [
+        "ویژگی‌های آهنگی و تأکیدی را برای انتقال ظرافت معنا کنترل می‌کند.",
+        "سرعت، مکث و برجسته‌سازی را متناسب با ساختار و مخاطب تنظیم می‌کند."
+      ],
+      "prerequisites": [
+        "B2-PHONOLOGY-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "C2-LISTENING-01",
+      "level": "C2",
+      "domain": "listening",
+      "domainFa": "شنیداری",
+      "domainEn": "Listening",
+      "title": "شنیداری در سطح C2",
+      "canDo": [
+        "تقریباً هر نوع گفتار را با سرعت طبیعی، تنوع لهجه و معنای ضمنی دنبال می‌کند.",
+        "اشاره‌های فرهنگی، طنز و تغییرات بسیار ظریف نگرش را تحلیل می‌کند."
+      ],
+      "prerequisites": [
+        "C1-LISTENING-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "C2-READING-01",
+      "level": "C2",
+      "domain": "reading",
+      "domainFa": "خواندن",
+      "domainEn": "Reading",
+      "title": "خواندن در سطح C2",
+      "canDo": [
+        "طیف گسترده متن‌های تخصصی، ادبی و چندلایه را با حساسیت سبکی تحلیل می‌کند.",
+        "پیش‌فرض‌ها، بینامتنیت و اثر انتخاب‌های زبانی را ارزیابی می‌کند."
+      ],
+      "prerequisites": [
+        "C1-READING-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "C2-INTERACTION-01",
+      "level": "C2",
+      "domain": "interaction",
+      "domainFa": "تعامل گفتاری",
+      "domainEn": "Spoken interaction",
+      "title": "تعامل گفتاری در سطح C2",
+      "canDo": [
+        "تعامل پیچیده را با دقت، انعطاف و حساسیت بین‌فردی هدایت می‌کند.",
+        "اختلاف، طنز، ادب و چرخش موضع را بدون از دست‌رفتن ظرافت مدیریت می‌کند."
+      ],
+      "prerequisites": [
+        "C1-INTERACTION-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "C2-PRODUCTION-01",
+      "level": "C2",
+      "domain": "production",
+      "domainFa": "تولید گفتاری",
+      "domainEn": "Spoken production",
+      "title": "تولید گفتاری در سطح C2",
+      "canDo": [
+        "گفتار دقیق، روان و اثرگذار را با سازمان‌دهی متناسب با مخاطب تولید می‌کند.",
+        "معناهای ظریف را با بازفرمول‌بندی فوری و انتخاب سبکی کنترل می‌کند."
+      ],
+      "prerequisites": [
+        "C1-PRODUCTION-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "C2-WRITING-01",
+      "level": "C2",
+      "domain": "writing",
+      "domainFa": "نوشتن",
+      "domainEn": "Writing",
+      "title": "نوشتن در سطح C2",
+      "canDo": [
+        "متن بسیار دقیق و اثرگذار در ژانرها و سبک‌های متفاوت می‌نویسد.",
+        "ساختار، لحن، ارجاع و ظرافت استدلال را در سطح حرفه‌ای مدیریت می‌کند."
+      ],
+      "prerequisites": [
+        "C1-WRITING-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "C2-MEDIATION-01",
+      "level": "C2",
+      "domain": "mediation",
+      "domainFa": "میانجی‌گری",
+      "domainEn": "Mediation",
+      "title": "میانجی‌گری در سطح C2",
+      "canDo": [
+        "محتوا و موضع‌های بسیار پیچیده را بدون تحریف برای مخاطبان مختلف بازآفرینی می‌کند.",
+        "تعامل چندطرفه را با تشخیص ظرافت‌های فرهنگی و مفهومی تسهیل می‌کند."
+      ],
+      "prerequisites": [
+        "C1-MEDIATION-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "C2-GRAMMAR-01",
+      "level": "C2",
+      "domain": "grammar",
+      "domainFa": "کنترل دستوری",
+      "domainEn": "Grammar control",
+      "title": "کنترل دستوری در سطح C2",
+      "canDo": [
+        "تقریباً همه ساخت‌ها را با کنترل پایدار و انتخاب آگاهانه سبکی به‌کار می‌برد.",
+        "از تغییر ساخت نحوی برای تأکید، ریتم و اثر بلاغی استفاده می‌کند."
+      ],
+      "prerequisites": [
+        "C1-GRAMMAR-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "C2-VOCABULARY-01",
+      "level": "C2",
+      "domain": "vocabulary",
+      "domainFa": "دامنه واژگان",
+      "domainEn": "Vocabulary range",
+      "title": "دامنه واژگان در سطح C2",
+      "canDo": [
+        "دامنه بسیار گسترده، دقیق و انعطاف‌پذیر در ثبت‌های مختلف دارد.",
+        "تفاوت‌های بسیار ظریف معنایی، اصطلاحی و کاربردشناختی را کنترل می‌کند."
+      ],
+      "prerequisites": [
+        "C1-VOCABULARY-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    },
+    {
+      "id": "C2-PHONOLOGY-01",
+      "level": "C2",
+      "domain": "phonology",
+      "domainFa": "آوا و آهنگ گفتار",
+      "domainEn": "Phonological control",
+      "title": "آوا و آهنگ گفتار در سطح C2",
+      "canDo": [
+        "کنترل کامل و انعطاف‌پذیر آهنگ، ریتم، تأکید و پیوستگی گفتار دارد.",
+        "ویژگی‌های آوایی را آگاهانه برای معنا، هویت و اثر ارتباطی تنظیم می‌کند."
+      ],
+      "prerequisites": [
+        "C1-PHONOLOGY-01"
+      ],
+      "threshold": 80,
+      "evidenceTypes": [
+        "diagnostic",
+        "session",
+        "checkpoint",
+        "human-review"
+      ],
+      "officialStatus": "product-operational-descriptor; not an official certificate"
+    }
+  ],
+  "limitations": [
+    "Operational product descriptors; not verbatim official CEFR descriptors.",
+    "Scores are learning evidence, not an accredited language certificate."
+  ]
+}

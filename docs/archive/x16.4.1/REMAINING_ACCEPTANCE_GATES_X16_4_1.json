@@ -1,0 +1,20 @@
+{
+  "version": "16.4.1",
+  "status": "review-candidate",
+  "completed_internal": [
+    "26-second sponsor gate",
+    "level-aware entry",
+    "unlocked A1-C2 course map",
+    "progress-preserving replanning",
+    "static release verification"
+  ],
+  "remaining_external": [
+    "published HTTPS verification",
+    "Android physical-device acceptance",
+    "iPhone physical-device acceptance",
+    "PWA install/offline/persistence",
+    "two beginner usability tests",
+    "human language review A1-C2",
+    "critical/high defect closure"
+  ]
+}

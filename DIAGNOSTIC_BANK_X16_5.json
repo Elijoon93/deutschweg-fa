@@ -1,0 +1,286 @@
+{
+  "version": "16.5.0",
+  "status": "internal-screening-not-accredited",
+  "estimatedMinutes": "10-15",
+  "items": [
+    {
+      "id": "A1-G-1",
+      "level": "A1",
+      "domain": "grammar",
+      "type": "choice",
+      "prompt": "جمله درست را انتخاب کنید.",
+      "stimulus": "Ich ___ Saeed.",
+      "options": [
+        "heiße",
+        "bist",
+        "haben"
+      ],
+      "answer": 0,
+      "explanation": "برای معرفی خود از Ich heiße … استفاده می‌شود."
+    },
+    {
+      "id": "A1-R-1",
+      "level": "A1",
+      "domain": "reading",
+      "type": "choice",
+      "prompt": "این پرسش چه اطلاعاتی می‌خواهد؟",
+      "stimulus": "Wo wohnen Sie?",
+      "options": [
+        "سن",
+        "شغل",
+        "محل زندگی"
+      ],
+      "answer": 2,
+      "explanation": "Wo wohnen Sie? یعنی کجا زندگی می‌کنید؟"
+    },
+    {
+      "id": "A1-L-1",
+      "level": "A1",
+      "domain": "listening",
+      "type": "listening",
+      "prompt": "عبارت را گوش کنید. قرار چه زمانی است؟",
+      "audio": "Der Termin ist am Montag um zehn Uhr.",
+      "options": [
+        "جمعه ساعت ۱۰",
+        "دوشنبه ساعت ۱۰",
+        "سه‌شنبه ساعت ۹"
+      ],
+      "answer": 1,
+      "explanation": "Montag um zehn Uhr."
+    },
+    {
+      "id": "A2-G-1",
+      "level": "A2",
+      "domain": "grammar",
+      "type": "choice",
+      "prompt": "صورت درست Perfekt را انتخاب کنید.",
+      "stimulus": "Gestern ___ ich lange gearbeitet.",
+      "options": [
+        "habe",
+        "bin",
+        "hat"
+      ],
+      "answer": 0,
+      "explanation": "arbeiten با haben در Perfekt می‌آید."
+    },
+    {
+      "id": "A2-R-1",
+      "level": "A2",
+      "domain": "reading",
+      "type": "choice",
+      "prompt": "پیام را بخوانید. چرا فروشگاه بسته است؟",
+      "stimulus": "Wegen Renovierungsarbeiten bleibt das Geschäft bis Freitag geschlossen.",
+      "options": [
+        "به‌دلیل تعطیلات",
+        "به‌دلیل کمبود کارکنان",
+        "به‌دلیل بازسازی"
+      ],
+      "answer": 2,
+      "explanation": "Wegen Renovierungsarbeiten یعنی به‌دلیل عملیات بازسازی."
+    },
+    {
+      "id": "A2-L-1",
+      "level": "A2",
+      "domain": "listening",
+      "type": "listening",
+      "prompt": "عبارت را گوش کنید. گوینده چه درخواستی دارد؟",
+      "audio": "Könnten Sie mir bitte die Rechnung per E-Mail schicken?",
+      "options": [
+        "پرداخت نقدی",
+        "ارسال صورتحساب با ایمیل",
+        "تغییر قرار ملاقات"
+      ],
+      "answer": 1,
+      "explanation": "درخواست ارسال Rechnung per E-Mail است."
+    },
+    {
+      "id": "B1-G-1",
+      "level": "B1",
+      "domain": "grammar",
+      "type": "choice",
+      "prompt": "ترتیب درست جمله وابسته را انتخاب کنید.",
+      "stimulus": "Obwohl ich müde bin, …",
+      "options": [
+        "arbeite ich weiter.",
+        "ich arbeite weiter.",
+        "weiter ich arbeite."
+      ],
+      "answer": 0,
+      "explanation": "بعد از جمله وابسته، فعل جمله اصلی در جایگاه دوم می‌آید."
+    },
+    {
+      "id": "B1-R-1",
+      "level": "B1",
+      "domain": "reading",
+      "type": "choice",
+      "prompt": "هدف اصلی ایمیل چیست؟",
+      "stimulus": "Leider kann ich den Termin am Mittwoch nicht wahrnehmen. Wäre Donnerstagvormittag für Sie möglich?",
+      "options": [
+        "لغو دائمی همکاری",
+        "درخواست سند جدید",
+        "درخواست تغییر زمان قرار"
+      ],
+      "answer": 2,
+      "explanation": "نویسنده زمان جایگزین پیشنهاد می‌کند."
+    },
+    {
+      "id": "B1-L-1",
+      "level": "B1",
+      "domain": "listening",
+      "type": "listening",
+      "prompt": "عبارت را گوش کنید. علت تأخیر چیست؟",
+      "audio": "Wegen einer technischen Störung fährt der Zug heute etwa zwanzig Minuten später ab.",
+      "options": [
+        "اعتصاب",
+        "نقص فنی",
+        "شرایط جوی"
+      ],
+      "answer": 1,
+      "explanation": "technische Störung علت تأخیر است."
+    },
+    {
+      "id": "B2-G-1",
+      "level": "B2",
+      "domain": "grammar",
+      "type": "choice",
+      "prompt": "صورت درست جمله شرطی غیرواقعی را انتخاب کنید.",
+      "stimulus": "Wenn ich mehr Zeit ___, würde ich einen Intensivkurs besuchen.",
+      "options": [
+        "hätte",
+        "habe",
+        "hatte"
+      ],
+      "answer": 0,
+      "explanation": "برای شرط غیرواقعی از Konjunktiv II: hätte استفاده می‌شود."
+    },
+    {
+      "id": "B2-R-1",
+      "level": "B2",
+      "domain": "reading",
+      "type": "choice",
+      "prompt": "برداشت دقیق‌تر از متن کدام است؟",
+      "stimulus": "Die Maßnahme senkte zwar kurzfristig die Kosten, führte jedoch langfristig zu einem höheren Schulungsbedarf.",
+      "options": [
+        "هزینه‌ها در تمام دوره کاهش یافت.",
+        "نیاز آموزشی فوراً حذف شد.",
+        "صرفه‌جویی کوتاه‌مدت هزینه آموزشی آینده را افزایش داد."
+      ],
+      "answer": 2,
+      "explanation": "zwar … jedoch تضاد میان کاهش کوتاه‌مدت و پیامد بلندمدت را نشان می‌دهد."
+    },
+    {
+      "id": "B2-L-1",
+      "level": "B2",
+      "domain": "listening",
+      "type": "listening",
+      "prompt": "عبارت را گوش کنید. موضع گوینده چیست؟",
+      "audio": "Grundsätzlich unterstütze ich den Vorschlag, allerdings müssten die finanziellen Folgen genauer geprüft werden.",
+      "options": [
+        "بی‌اطلاعی کامل",
+        "موافقت مشروط",
+        "مخالفت کامل"
+      ],
+      "answer": 1,
+      "explanation": "گوینده اصل پیشنهاد را می‌پذیرد ولی بررسی بیشتر می‌خواهد."
+    },
+    {
+      "id": "C1-G-1",
+      "level": "C1",
+      "domain": "grammar",
+      "type": "choice",
+      "prompt": "پیوند مناسب برای محدودکردن ادعا را انتخاب کنید.",
+      "stimulus": "Die Ergebnisse sind aussagekräftig, ___ die Stichprobe hinreichend repräsentativ ist.",
+      "options": [
+        "sofern",
+        "während",
+        "obwohl"
+      ],
+      "answer": 0,
+      "explanation": "sofern شرط لازم برای اعتبار ادعا را بیان می‌کند."
+    },
+    {
+      "id": "C1-R-1",
+      "level": "C1",
+      "domain": "reading",
+      "type": "choice",
+      "prompt": "موضع ضمنی نویسنده چیست؟",
+      "stimulus": "Die Reform wird häufig als alternativlos dargestellt. Diese Darstellung übersieht jedoch, dass mehrere weniger einschneidende Optionen kaum geprüft wurden.",
+      "options": [
+        "نویسنده همه گزینه‌های دیگر را رد می‌کند.",
+        "نویسنده از نبود اطلاعات درباره اصلاح سخن می‌گوید.",
+        "نویسنده ادعای بی‌جایگزین‌بودن اصلاح را نقد می‌کند."
+      ],
+      "answer": 2,
+      "explanation": "متن بر بررسی‌نشدن گزینه‌های کم‌هزینه‌تر تأکید دارد."
+    },
+    {
+      "id": "C1-L-1",
+      "level": "C1",
+      "domain": "listening",
+      "type": "listening",
+      "prompt": "عبارت را گوش کنید. کارکرد عبارت پایانی چیست؟",
+      "audio": "Die Daten sprechen für einen Zusammenhang. Von einem eindeutigen Kausalnachweis kann allerdings noch keine Rede sein.",
+      "options": [
+        "تغییر کامل موضوع",
+        "محدودکردن نتیجه‌گیری",
+        "تقویت قطعیت علت و معلولی"
+      ],
+      "answer": 1,
+      "explanation": "گوینده وجود ارتباط را می‌پذیرد اما علیت قطعی را رد می‌کند."
+    },
+    {
+      "id": "C2-G-1",
+      "level": "C2",
+      "domain": "grammar",
+      "type": "choice",
+      "prompt": "کدام بازنویسی ظرافت جمله را بهتر حفظ می‌کند؟",
+      "stimulus": "Kaum hatte die Sitzung begonnen, da zeichnete sich bereits ein grundlegender Dissens ab.",
+      "options": [
+        "بلافاصله پس از آغاز جلسه، اختلافی بنیادی آشکار شد.",
+        "جلسه به‌دلیل اختلاف هرگز آغاز نشد.",
+        "اختلاف فقط در پایان جلسه پدیدار شد."
+      ],
+      "answer": 0,
+      "explanation": "ساخت Kaum … da توالی بسیار سریع دو رویداد را بیان می‌کند."
+    },
+    {
+      "id": "C2-R-1",
+      "level": "C2",
+      "domain": "reading",
+      "type": "choice",
+      "prompt": "اثر کاربردشناختی عبارت برجسته چیست؟",
+      "stimulus": "Der Vorschlag ist, vorsichtig formuliert, nicht frei von erheblichen Risiken.",
+      "options": [
+        "تأیید بی‌قیدوشرط",
+        "بیان خنثی بدون ارزیابی",
+        "انتقاد شدید با صورت‌بندی محتاطانه"
+      ],
+      "answer": 2,
+      "explanation": "vorsichtig formuliert شدت انتقاد را از نظر لحن تعدیل می‌کند، نه از نظر محتوا."
+    },
+    {
+      "id": "C2-L-1",
+      "level": "C2",
+      "domain": "listening",
+      "type": "listening",
+      "prompt": "عبارت را گوش کنید. معنای ضمنی چیست؟",
+      "audio": "Man kann dem Bericht vieles vorwerfen, nur mangelnde Detailfülle gehört gewiss nicht dazu.",
+      "options": [
+        "گزارش هیچ ایرادی ندارد.",
+        "گزارش بسیار مفصل است، هرچند شاید ایرادهای دیگری داشته باشد.",
+        "گزارش فاقد جزئیات است."
+      ],
+      "answer": 1,
+      "explanation": "ساخت nur … gehört nicht dazu با طنز ملایم بر فراوانی جزئیات تأکید می‌کند."
+    }
+  ],
+  "performanceTasks": {
+    "writing": true,
+    "speaking": true
+  },
+  "limitations": [
+    "Internal screening only.",
+    "Speech Recognition measures transcript availability/similarity, not phoneme-level pronunciation.",
+    "Writing score is offline and rule-based."
+  ]
+}

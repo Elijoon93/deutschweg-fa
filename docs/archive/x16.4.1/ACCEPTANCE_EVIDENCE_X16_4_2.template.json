@@ -1,0 +1,101 @@
+{
+  "product": "DeutschWeg",
+  "sourceVersion": "16.4.1",
+  "targetVersionAfterAcceptance": "16.4.1",
+  "releaseDecision": "HOLD",
+  "publishedOrigin": "https://elijoon93.github.io/deutschweg-fa/",
+  "releaseCommit": "",
+  "testedAt": "",
+  "automated": {
+    "githubActions": {
+      "status": "pending",
+      "runUrl": "",
+      "notes": ""
+    },
+    "publishedVersionJson": {
+      "status": "pending",
+      "observedVersion": "",
+      "notes": ""
+    },
+    "publishedChecksums": {
+      "status": "pending",
+      "notes": ""
+    },
+    "serviceWorker": {
+      "status": "pending",
+      "cacheName": "",
+      "notes": ""
+    },
+    "offlineReload": {
+      "status": "pending",
+      "notes": ""
+    },
+    "backupRestore": {
+      "status": "pending",
+      "notes": ""
+    }
+  },
+  "android": {
+    "status": "pending",
+    "device": "",
+    "androidVersion": "",
+    "browser": "",
+    "tts": "pending",
+    "microphone": "pending",
+    "recordPlayback": "pending",
+    "speechRecognition": "pending",
+    "pwaInstall": "pending",
+    "standalone": "pending",
+    "offline": "pending",
+    "persistence": "pending",
+    "notes": ""
+  },
+  "iphone": {
+    "status": "pending",
+    "device": "",
+    "iosVersion": "",
+    "safariVersion": "",
+    "tts": "pending",
+    "microphone": "pending",
+    "recordPlayback": "pending",
+    "speechRecognitionOrFallback": "pending",
+    "addToHomeScreen": "pending",
+    "standalone": "pending",
+    "offline": "pending",
+    "persistence": "pending",
+    "notes": ""
+  },
+  "beginnerUsability": {
+    "status": "pending",
+    "learner1": {
+      "level": "",
+      "completedWithoutExternalHelp": false,
+      "criticalFindings": []
+    },
+    "learner2": {
+      "level": "",
+      "completedWithoutExternalHelp": false,
+      "criticalFindings": []
+    },
+    "notes": ""
+  },
+  "humanLanguageReview": {
+    "status": "pending",
+    "reviewer": "",
+    "A1": "pending",
+    "A2": "pending",
+    "B1": "pending",
+    "B2": "pending",
+    "C1": "pending",
+    "C2": "pending",
+    "openCriticalOrHighFindings": []
+  },
+  "signoff": {
+    "criticalDefects": 0,
+    "highDefects": 0,
+    "approvedBy": "",
+    "approvedAt": "",
+    "notes": ""
+  },
+  "targetVersion": "16.4.2"
+}

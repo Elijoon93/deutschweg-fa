@@ -1,0 +1,24 @@
+{
+  "version": "16.5.0",
+  "status": "review-candidate",
+  "completed_internal": [
+    "54-node competency graph",
+    "18-item diagnostic bank",
+    "writing and optional speech performance stages",
+    "evidence ledger",
+    "14-day checkpoint",
+    "session-to-competency evidence",
+    "local content feedback",
+    "26-second sponsor gate preserved",
+    "level-aware unlocked A1-C2 path"
+  ],
+  "remaining_external": [
+    "published HTTPS verification",
+    "Android physical-device acceptance",
+    "iPhone physical-device acceptance",
+    "PWA install/offline/persistence",
+    "two beginner usability tests",
+    "human language review A1-C2",
+    "critical/high defect closure"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": "16.5.0",
+  "mode": "controlled set_content harness",
+  "mobile": {
+    "pageErrors": [],
+    "consoleErrors": [],
+    "overflow": 0,
+    "evidenceRows": 7,
+    "latestLevel": "C2",
+    "competencyNodes": 54
+  },
+  "desktop": {
+    "pageErrors": [],
+    "consoleErrors": [],
+    "overflow": 0,
+    "focusNodes": 3
+  },
+  "pass": true
+}

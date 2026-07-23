@@ -1,0 +1,17 @@
+DeutschWeg X16.4.1 — Level-Aware Entry & Sponsor 26s Review Candidate
+
+Commit message:
+fix(path): start learning plan at selected CEFR level and set sponsor gate to 26s
+
+Commands:
+git checkout main
+git pull --ff-only origin main
+git add .
+git commit -m "fix(path): start learning plan at selected CEFR level and set sponsor gate to 26s"
+git push origin main
+
+Alternative on Windows PowerShell:
+Set-ExecutionPolicy -Scope Process Bypass
+.\PUBLISH_X16_4_1_LEVEL_AWARE_REVIEW.ps1 -RepositoryPath "C:\PATH\TO\deutschweg-fa"
+
+Do not label this build Final Stable before the external acceptance gates pass.

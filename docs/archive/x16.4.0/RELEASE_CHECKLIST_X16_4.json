@@ -1,0 +1,301 @@
+{
+  "version": "16.4.0",
+  "release_name": "Professional Experience Hardening Final Candidate",
+  "locked_assumptions_preserved": true,
+  "controlled_decision": "CONTROLLED_QA_PASS_EXTERNAL_ACCEPTANCE_HOLD",
+  "required_final_decision": "All external gates PASS",
+  "checks": [
+    {
+      "id": "version_json",
+      "status": "PASS",
+      "detail": "{'version': '16.4.0', 'channel': 'final-candidate', 'build': 'professional-experience-hardening', 'date': '2026-07-23'}"
+    },
+    {
+      "id": "title",
+      "status": "PASS",
+      "detail": "DeutschWeg X16.4.0 · Professional Experience Hardening Final Candidate"
+    },
+    {
+      "id": "no_stale_identity",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "404_parity",
+      "status": "PASS",
+      "detail": "index=1388329 bytes, 404=1388329 bytes"
+    },
+    {
+      "id": "nojekyll",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "js_inline_1",
+      "status": "PASS",
+      "detail": "node --check PASS"
+    },
+    {
+      "id": "js_inline_2",
+      "status": "PASS",
+      "detail": "node --check PASS"
+    },
+    {
+      "id": "js_service_worker",
+      "status": "PASS",
+      "detail": "node --check PASS"
+    },
+    {
+      "id": "js_app_config",
+      "status": "PASS",
+      "detail": "node --check PASS"
+    },
+    {
+      "id": "json_valid",
+      "status": "PASS",
+      "detail": "10 files: ADAPTIVE_COACH_POLICY_X16_3.json, CEFR_COVERAGE_MATRIX_X16_1.json, LOCKED_ASSUMPTIONS.json, LOCKED_ASSUMPTIONS_X16_4.json, PROFESSIONAL_CEFR_CURRICULUM_X16_1.json, QA_X16_4_RUNTIME.json, QA_X16_4_STATIC.json, RELEASE_CHECKLIST_X16_4.json, REMAINING_ACCEPTANCE_GATES_X16_4.json, version.json"
+    },
+    {
+      "id": "curriculum_count",
+      "status": "PASS",
+      "detail": "lessons=181, declared=181"
+    },
+    {
+      "id": "curriculum_sessions",
+      "status": "PASS",
+      "detail": "724"
+    },
+    {
+      "id": "curriculum_tasks",
+      "status": "PASS",
+      "detail": "1810"
+    },
+    {
+      "id": "levels",
+      "status": "PASS",
+      "detail": "actual=['A1', 'A2', 'B1', 'B2', 'C1', 'C2', 'Grundlagen']; counts={'Grundlagen': 16, 'A1': 32, 'A2': 32, 'B1': 30, 'B2': 24, 'C1': 26, 'C2': 21}"
+    },
+    {
+      "id": "curriculum_unlocked",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "storage_key",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "indexeddb",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "sponsor_key",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "sponsor_channel",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "sponsor_timer",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "no_password",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "no_account",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "health_boundary",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "analytics_default",
+      "status": "PASS",
+      "detail": "window.DEUTSCHWEG_CONFIG = window.DEUTSCHWEG_CONFIG || { analytics: {} };"
+    },
+    {
+      "id": "coach_tabs_locked",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "runtime_nav4",
+      "status": "PASS",
+      "detail": "4"
+    },
+    {
+      "id": "ten_stage",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "three_step_onboarding",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "onboarding_override",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "automatic_tour_disabled",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "one_primary_action",
+      "status": "PASS",
+      "detail": "Runtime heading: معرفی و آشنایی"
+    },
+    {
+      "id": "dialog_semantics",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "fullscreen_mobile",
+      "status": "PASS",
+      "detail": "{'h': 844, 'vh': 844, 'top': 0, 'bottom': 844}"
+    },
+    {
+      "id": "scroll_lock",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "focus_visible",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "reduced_motion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "high_contrast",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "touch_targets",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "runtime_no_page_errors",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "id": "runtime_no_console_errors",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "id": "runtime_mobile_overflow",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "runtime_desktop_overflow",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "runtime_lesson_open",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "runtime_lesson_close",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "manifest_identity",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "manifest_scope",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "manifest_shortcuts",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "manifest_assets",
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "id": "manifest_images_valid",
+      "status": "PASS",
+      "detail": "assets/icon-192.png:192x192; assets/icon-512.png:512x512; assets/screenshot-home-390x844.png:390x844; assets/screenshot-session-390x844.png:390x844"
+    },
+    {
+      "id": "sw_cache_name",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "sw_version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "sw_navigation_fallback",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "sw_precache_assets",
+      "status": "PASS",
+      "detail": "12 assets; missing=[]"
+    },
+    {
+      "id": "sw_runtime_not_rerun",
+      "status": "NOT_RUN",
+      "detail": "Not rerun in this environment because localhost/file navigation is policy-restricted; must be verified after HTTPS deployment."
+    },
+    {
+      "id": "external_gates_hold",
+      "status": "PASS",
+      "detail": "deploy exact root to HTTPS GitHub Pages; German TTS audible on at least one Android and one iPhone; microphone permission/record/playback on real phone; German speech recognition on supported phone/browser; PWA install and standalone launch; offline reload after first online visit; backup/restore on published origin; two unassisted A1/A2 usability sessions; human linguistic sampling A1-C2; zero unresolved critical/high defects"
+    },
+    {
+      "id": "not_final_claim",
+      "status": "PASS",
+      "detail": ""
+    }
+  ],
+  "external_gates": [
+    "deploy exact root to HTTPS GitHub Pages",
+    "German TTS audible on at least one Android and one iPhone",
+    "microphone permission/record/playback on real phone",
+    "German speech recognition on supported phone/browser",
+    "PWA install and standalone launch",
+    "offline reload after first online visit",
+    "backup/restore on published origin",
+    "two unassisted A1/A2 usability sessions",
+    "human linguistic sampling A1-C2",
+    "zero unresolved critical/high defects"
+  ]
+}

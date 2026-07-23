@@ -1,0 +1,66 @@
+name: DeutschWeg X16.4.1 Level-Aware Review
+
+on:
+  push:
+    branches:
+      - main
+      - 'release/**'
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: x16-4-1-level-aware-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  release-integrity:
+    name: Release integrity and PWA structure
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'none'
+
+      - name: Verify release payload
+        run: node scripts/verify-release.mjs
+
+      - name: Serve release root
+        run: |
+          python3 -m http.server 4173 --bind 127.0.0.1 > /tmp/deutschweg-http.log 2>&1 &
+          echo $! > /tmp/deutschweg-http.pid
+          for attempt in {1..20}; do
+            curl --fail --silent http://127.0.0.1:4173/version.json >/dev/null && exit 0
+            sleep 1
+          done
+          cat /tmp/deutschweg-http.log
+          exit 1
+
+      - name: Verify HTTP delivery of critical PWA assets
+        run: |
+          set -euo pipefail
+          for asset in \
+            index.html \
+            manifest.webmanifest \
+            sw.js \
+            offline.html \
+            app.css \
+            app-config.js \
+            assets/icon-192.png \
+            assets/icon-512.png; do
+            curl --fail --silent --show-error "http://127.0.0.1:4173/${asset}" >/dev/null
+            echo "PASS ${asset}"
+          done
+
+      - name: Stop local server
+        if: always()
+        run: |
+          test -f /tmp/deutschweg-http.pid && kill "$(cat /tmp/deutschweg-http.pid)" || true

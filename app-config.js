@@ -1,1 +1,1 @@
-window.DEUTSCHWEG_CONFIG = window.DEUTSCHWEG_CONFIG || { analytics: {} };
+window.DEUTSCHWEG_CONFIG={version:'16.5.0',channel:'review-candidate',analytics:false};

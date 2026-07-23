@@ -1,0 +1,124 @@
+{
+  "product": "DeutschWeg",
+  "version": "16.4.1",
+  "build": "level-aware-entry-sponsor-26s-hotfix",
+  "environment": "Controlled headless Chromium using Page.setDocumentContent with an in-memory localStorage compatibility shim because managed Chromium blocks localhost/file URLs. Sponsor bypass occurred only after initial 26-second gate validation.",
+  "generatedAt": "2026-07-23T15:16:07Z",
+  "summary": {
+    "total": 22,
+    "passed": 22,
+    "failed": 0
+  },
+  "results": [
+    {
+      "name": "document_content_loaded",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "sponsor_gate_visible",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "sponsor_starts_at_26",
+      "status": "PASS",
+      "detail": "count=۲۶"
+    },
+    {
+      "name": "sponsor_button_initially_disabled",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "sponsor_identity_preserved",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "legacy_sponsor_key_written",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "onboarding_visible_after_gate",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "level_step_visible",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "schedule_step_visible",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "home_after_onboarding",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "profile_current_B2",
+      "status": "PASS",
+      "detail": "{'name': 'زبان\\u200cآموز', 'current': 'B2', 'target': 'C1', 'goal': 'work', 'deadlineMonths': 6, 'minutes': 20, 'days': 5, 'skillPriorities': ['listening', 'speaking'], 'interests': ['daily', 'travel', 'work'], 'preferredTime': 'evening'}"
+    },
+    {
+      "name": "profile_target_C1",
+      "status": "PASS",
+      "detail": "{'name': 'زبان\\u200cآموز', 'current': 'B2', 'target': 'C1', 'goal': 'work', 'deadlineMonths': 6, 'minutes': 20, 'days': 5, 'skillPriorities': ['listening', 'speaking'], 'interests': ['daily', 'travel', 'work'], 'preferredTime': 'evening'}"
+    },
+    {
+      "name": "first_future_session_B2",
+      "status": "PASS",
+      "detail": "['B2', 'B2', 'B2', 'B2', 'B2', 'B2', 'B2', 'B2']"
+    },
+    {
+      "name": "future_sessions_only_B2_C1",
+      "status": "PASS",
+      "detail": "['B2', 'C1']"
+    },
+    {
+      "name": "plan_entry_metadata",
+      "status": "PASS",
+      "detail": "{'entryLevel': 'B2', 'targetLevel': 'C1'}"
+    },
+    {
+      "name": "course_map_contains_C2_static",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "no_locked_course_actions_static",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "completed_progress_preservation_static",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "legacy_sponsor_acceptance_preserved",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "mobile_horizontal_overflow_zero",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "name": "desktop_horizontal_overflow_zero",
+      "status": "PASS",
+      "detail": "-15"
+    },
+    {
+      "name": "runtime_page_errors_zero",
+      "status": "PASS",
+      "detail": "[]"
+    }
+  ]
+}

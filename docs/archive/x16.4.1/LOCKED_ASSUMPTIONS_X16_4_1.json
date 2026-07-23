@@ -1,7 +1,7 @@
 {
   "product": "DeutschWeg",
-  "version": "16.5.0",
-  "status": "Competency Graph, Diagnostic Assessment & Evidence Engine Review Candidate",
+  "version": "16.4.1",
+  "status": "Level-Aware Entry & Sponsor 26s Review Candidate",
   "preserved": {
     "storage_key": "deutschweg_x14_6_integrated_state",
     "indexeddb": "deutschweg-x14-6",
@@ -28,20 +28,17 @@
     "remote_analytics_default": false
   },
   "new_scope": [
-    "54-node A1-C2 competency graph across nine operational domains",
-    "18-item internal multi-level diagnostic plus writing and optional speech sample",
-    "evidence ledger with confidence, timestamps and non-destructive migration",
-    "14-day checkpoint workflow",
-    "local content issue reporting and evidence export",
-    "four-tab Coach Flow remains unchanged"
+    "selected current CEFR level becomes the real entry point for generated future sessions",
+    "all A1-C2 course-map levels remain manually accessible without artificial locks",
+    "completed sessions and progress survive level changes",
+    "future plan and adaptive practice exclude lower levels unless the learner opens them manually",
+    "mandatory sponsor countdown changed from 24 to 26 seconds"
   ],
   "not_claimed": [
-    "accredited CEFR certificate",
-    "official exam equivalence",
-    "phoneme-level pronunciation scoring",
-    "human-quality free-writing assessment",
     "published GitHub deployment",
     "physical-device PASS",
+    "native-speaker certification",
+    "independent superiority over Duolingo or Babbel",
     "final stable before external gates"
   ]
 }

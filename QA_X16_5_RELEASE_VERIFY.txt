@@ -1,0 +1,226 @@
+PASS  required file exists: .nojekyll
+PASS  required file exists: index.html
+PASS  required file exists: 404.html
+PASS  required file exists: offline.html
+PASS  required file exists: privacy.html
+PASS  required file exists: professional-curriculum-audit.html
+PASS  required file exists: manifest.webmanifest
+PASS  required file exists: sw.js
+PASS  required file exists: app.css
+PASS  required file exists: app-config.js
+PASS  required file exists: version.json
+PASS  required file exists: LOCKED_ASSUMPTIONS.json
+PASS  required file exists: LOCKED_ASSUMPTIONS_X16_5.json
+PASS  required file exists: HANDOFF_X16_5_FA.md
+PASS  required file exists: COMPETENCY_EVIDENCE_ARCHITECTURE_X16_5_FA.md
+PASS  required file exists: CEFR_COMPETENCY_GRAPH_X16_5.json
+PASS  required file exists: DIAGNOSTIC_BANK_X16_5.json
+PASS  required file exists: REMAINING_ACCEPTANCE_GATES_X16_5.json
+PASS  required file exists: RELEASE_NOTES_X16_5_REVIEW.md
+PASS  required file exists: DIAGNOSTIC_VALIDITY_NOTE_X16_5_FA.md
+PASS  required file exists: CONTENT_REVIEW_WORKFLOW_X16_5_FA.md
+PASS  required file exists: ACCEPTANCE_EVIDENCE_X16_5.template.json
+PASS  required file exists: QA_X16_5_STATIC.json
+PASS  required file exists: QA_X16_5_RUNTIME.json
+PASS  required file exists: QA_X16_5_REPORT.txt
+PASS  required file exists: assets/icon-192.png
+PASS  required file exists: assets/icon-512.png
+PASS  required file exists: assets/screenshot-home-390x844.png
+PASS  required file exists: assets/screenshot-session-390x844.png
+PASS  required file exists: scripts/verify-release.mjs
+PASS  required file exists: .github/workflows/x165-release-qa.yml
+PASS  version.json parses as JSON
+PASS  version is 16.5.0
+PASS  channel remains review-candidate
+PASS  build identity is correct
+PASS  CEFR_COMPETENCY_GRAPH_X16_5.json parses as JSON
+PASS  competency graph has 54 nodes
+PASS  competency graph has 108 descriptors
+PASS  competency graph covers A1-C2
+PASS  competency graph has nine domains
+PASS  competency node ids are unique
+PASS  A1 has nine competency nodes
+PASS  A2 has nine competency nodes
+PASS  B1 has nine competency nodes
+PASS  B2 has nine competency nodes
+PASS  C1 has nine competency nodes
+PASS  C2 has nine competency nodes
+PASS  DIAGNOSTIC_BANK_X16_5.json parses as JSON
+PASS  diagnostic bank has 18 objective items
+PASS  A1 has three diagnostic items
+PASS  A2 has three diagnostic items
+PASS  B1 has three diagnostic items
+PASS  B2 has three diagnostic items
+PASS  C1 has three diagnostic items
+PASS  C2 has three diagnostic items
+PASS  A1-G-1 has three options
+PASS  A1-G-1 answer index is valid
+PASS  A1-R-1 has three options
+PASS  A1-R-1 answer index is valid
+PASS  A1-L-1 has three options
+PASS  A1-L-1 answer index is valid
+PASS  A2-G-1 has three options
+PASS  A2-G-1 answer index is valid
+PASS  A2-R-1 has three options
+PASS  A2-R-1 answer index is valid
+PASS  A2-L-1 has three options
+PASS  A2-L-1 answer index is valid
+PASS  B1-G-1 has three options
+PASS  B1-G-1 answer index is valid
+PASS  B1-R-1 has three options
+PASS  B1-R-1 answer index is valid
+PASS  B1-L-1 has three options
+PASS  B1-L-1 answer index is valid
+PASS  B2-G-1 has three options
+PASS  B2-G-1 answer index is valid
+PASS  B2-R-1 has three options
+PASS  B2-R-1 answer index is valid
+PASS  B2-L-1 has three options
+PASS  B2-L-1 answer index is valid
+PASS  C1-G-1 has three options
+PASS  C1-G-1 answer index is valid
+PASS  C1-R-1 has three options
+PASS  C1-R-1 answer index is valid
+PASS  C1-L-1 has three options
+PASS  C1-L-1 answer index is valid
+PASS  C2-G-1 has three options
+PASS  C2-G-1 answer index is valid
+PASS  C2-R-1 has three options
+PASS  C2-R-1 answer index is valid
+PASS  C2-L-1 has three options
+PASS  C2-L-1 answer index is valid
+PASS  index identifies X16.5
+PASS  runtime version is 16.5.0
+PASS  sponsor delay remains 26 seconds
+PASS  legacy sponsor key is preserved
+PASS  legacy localStorage key is preserved
+PASS  legacy IndexedDB name is preserved
+PASS  embedded competency graph exists
+PASS  embedded diagnostic bank exists
+PASS  diagnostic workflow exists
+PASS  evidence weighting exists
+PASS  competency center exists
+PASS  local content feedback exists
+PASS  sessions feed the evidence ledger
+PASS  diagnostic limitation is visible
+PASS  non-accreditation limitation is visible
+PASS  four-tab Coach Flow keeps Today
+PASS  four-tab Coach Flow keeps Path
+PASS  four-tab Coach Flow keeps Practice
+PASS  four-tab Coach Flow keeps Profile
+PASS  no stale 24-second button copy
+PASS  no externally hosted executable script
+PASS  no externally hosted stylesheet
+PASS  404.html mirrors index.html
+PASS  LOCKED_ASSUMPTIONS.json parses as JSON
+PASS  locked assumptions match X16.5
+PASS  sponsor gate remains mandatory
+PASS  locked sponsor delay is 26 seconds
+PASS  account/login remains disabled
+PASS  A1-C2 remains preserved
+PASS  manifest.webmanifest parses as JSON
+PASS  manifest identifies X16.5
+PASS  manifest start_url is relative
+PASS  manifest scope is relative
+PASS  manifest requests standalone display
+PASS  manifest icon exists: assets/icon-192.png
+PASS  manifest icon exists: assets/icon-512.png
+PASS  manifest screenshot exists: assets/screenshot-home-390x844.png
+PASS  manifest screenshot exists: assets/screenshot-session-390x844.png
+PASS  service worker cache is X16.5
+PASS  service worker reports X16.5
+PASS  service worker precaches index.html
+PASS  service worker precaches offline.html
+PASS  service worker precaches manifest.webmanifest
+PASS  service worker precaches app-config.js
+PASS  service worker precaches app.css
+PASS  service worker precaches privacy.html
+PASS  service worker precaches professional-curriculum-audit.html
+PASS  service worker precaches CEFR_COMPETENCY_GRAPH_X16_5.json
+PASS  service worker precaches DIAGNOSTIC_BANK_X16_5.json
+PASS  service worker precaches assets/icon-192.png
+PASS  service worker precaches assets/icon-512.png
+PASS  assets/icon-192.png dimensions are 192x192
+PASS  assets/icon-512.png dimensions are 512x512
+PASS  assets/screenshot-home-390x844.png dimensions are 390x844
+PASS  assets/screenshot-session-390x844.png dimensions are 390x844
+PASS  checksum inventory is substantial
+PASS  checksum matches: .gitattributes
+PASS  checksum matches: .github/workflows/x165-release-qa.yml
+PASS  checksum matches: .nojekyll
+PASS  checksum matches: 404.html
+PASS  checksum matches: ACCEPTANCE_EVIDENCE_X16_5.template.json
+PASS  checksum matches: ADAPTIVE_COACH_POLICY_X16_3.json
+PASS  checksum matches: CEFR_COMPETENCY_GRAPH_X16_5.json
+PASS  checksum matches: CEFR_COVERAGE_MATRIX_X16_1.json
+PASS  checksum matches: CHALLENGE_ENGINE_V2_FA.md
+PASS  checksum matches: COACH_FLOW_ARCHITECTURE_X16_2_FA.md
+PASS  checksum matches: COMPETENCY_EVIDENCE_ARCHITECTURE_X16_5_FA.md
+PASS  checksum matches: CONTENT_REVIEW_WORKFLOW_X16_5_FA.md
+PASS  checksum matches: CURRICULUM_BENCHMARK_X16_1_FA.md
+PASS  checksum matches: DIAGNOSTIC_BANK_X16_5.json
+PASS  checksum matches: DIAGNOSTIC_VALIDITY_NOTE_X16_5_FA.md
+PASS  checksum matches: HANDOFF_X16_5_FA.md
+PASS  checksum matches: LEARNING_EXPERIENCE_ARCHITECTURE_X16_3_FA.md
+PASS  checksum matches: LOCKED_ASSUMPTIONS.json
+PASS  checksum matches: LOCKED_ASSUMPTIONS_X16_5.json
+PASS  checksum matches: PROFESSIONAL_CEFR_CURRICULUM_X16_1.json
+PASS  checksum matches: PUSH_X16_5_REVIEW.txt
+PASS  checksum matches: QA_X16_5_REPORT.txt
+PASS  checksum matches: QA_X16_5_RUNTIME.json
+PASS  checksum matches: QA_X16_5_STATIC.json
+PASS  checksum matches: README_FA.md
+PASS  checksum matches: RELEASE_NOTES_X16_5_REVIEW.md
+PASS  checksum matches: REMAINING_ACCEPTANCE_GATES_X16_5.json
+PASS  checksum matches: SOURCE_BASIS_X16_0.md
+PASS  checksum matches: app-config.js
+PASS  checksum matches: app.css
+PASS  checksum matches: assets/icon-192.png
+PASS  checksum matches: assets/icon-512.png
+PASS  checksum matches: assets/screenshot-home-390x844.png
+PASS  checksum matches: assets/screenshot-listening-390x844.png
+PASS  checksum matches: assets/screenshot-session-390x844.png
+PASS  checksum matches: docs/archive/x16.4.0/ACCEPTANCE_EVIDENCE_X16_4_1.template.json
+PASS  checksum matches: docs/archive/x16.4.0/FINAL_ACCEPTANCE_X16_4_1.md
+PASS  checksum matches: docs/archive/x16.4.0/FINAL_RELEASE_PROMOTION_X16_4_1_FA.md
+PASS  checksum matches: docs/archive/x16.4.0/HANDOFF_X16_4_FA.md
+PASS  checksum matches: docs/archive/x16.4.0/PROFESSIONAL_PRODUCT_HARDENING_X16_4_FA.md
+PASS  checksum matches: docs/archive/x16.4.0/QA_X16_4_REPORT.txt
+PASS  checksum matches: docs/archive/x16.4.0/QA_X16_4_RUNTIME.json
+PASS  checksum matches: docs/archive/x16.4.0/QA_X16_4_STATIC.json
+PASS  checksum matches: docs/archive/x16.4.0/RELEASE_CHECKLIST_X16_4.json
+PASS  checksum matches: docs/archive/x16.4.0/RELEASE_NOTES_X16_4_FA.md
+PASS  checksum matches: docs/archive/x16.4.0/REMAINING_ACCEPTANCE_GATES_X16_4.json
+PASS  checksum matches: docs/archive/x16.4.1/ACCEPTANCE_EVIDENCE_X16_4_2.template.json
+PASS  checksum matches: docs/archive/x16.4.1/FINAL_ACCEPTANCE_X16_4_2.md
+PASS  checksum matches: docs/archive/x16.4.1/FINAL_RELEASE_PROMOTION_X16_4_2_FA.md
+PASS  checksum matches: docs/archive/x16.4.1/HANDOFF_X16_4_1_FA.md
+PASS  checksum matches: docs/archive/x16.4.1/LEVEL_AWARE_ENTRY_HOTFIX_X16_4_1_FA.md
+PASS  checksum matches: docs/archive/x16.4.1/LOCKED_ASSUMPTIONS_X16_4.json
+PASS  checksum matches: docs/archive/x16.4.1/LOCKED_ASSUMPTIONS_X16_4_1.json
+PASS  checksum matches: docs/archive/x16.4.1/PUBLISH_X16_4_1_LEVEL_AWARE_REVIEW.ps1
+PASS  checksum matches: docs/archive/x16.4.1/PUSH_X16_4_1_LEVEL_AWARE_REVIEW.txt
+PASS  checksum matches: docs/archive/x16.4.1/QA_X16_4_1_REPORT.txt
+PASS  checksum matches: docs/archive/x16.4.1/QA_X16_4_1_RUNTIME.json
+PASS  checksum matches: docs/archive/x16.4.1/QA_X16_4_1_STATIC.json
+PASS  checksum matches: docs/archive/x16.4.1/RELEASE_NOTES_X16_4_1_REVIEW.md
+PASS  checksum matches: docs/archive/x16.4.1/REMAINING_ACCEPTANCE_GATES_X16_4_1.json
+PASS  checksum matches: docs/archive/x16.4.1/scripts/promote-final-stable.mjs
+PASS  checksum matches: docs/archive/x16.4.1/workflows/x16-final-acceptance.yml
+PASS  checksum matches: docs/qa/x16.4.1/qa-x1641-home-b2-mobile.png
+PASS  checksum matches: docs/qa/x16.4.1/qa-x1641-level-entry-mobile.png
+PASS  checksum matches: docs/qa/x16.4.1/qa-x1641-sponsor-26s-mobile.png
+PASS  checksum matches: index.html
+PASS  checksum matches: manifest.webmanifest
+PASS  checksum matches: offline.html
+PASS  checksum matches: privacy.html
+PASS  checksum matches: professional-curriculum-audit.html
+PASS  checksum matches: qa/qa-x165-competency-center-mobile.png
+PASS  checksum matches: qa/qa-x165-competency-home-mobile.png
+PASS  checksum matches: qa/qa-x165-diagnostic-result-mobile.png
+PASS  checksum matches: qa/qa-x165-path-evidence-desktop.png
+PASS  checksum matches: scripts/verify-release.mjs
+PASS  checksum matches: sw.js
+PASS  checksum matches: version.json
+
+Release verification summary: 224 passed, 0 failed.

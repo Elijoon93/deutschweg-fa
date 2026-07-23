@@ -1,0 +1,218 @@
+{
+  "product": "DeutschWeg",
+  "version": "16.4.1",
+  "build": "level-aware-entry-sponsor-26s-hotfix",
+  "generatedAt": "2026-07-23T15:17:13Z",
+  "summary": {
+    "total": 41,
+    "passed": 41,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "name": "version_16_4_1",
+      "status": "PASS",
+      "detail": "{'version': '16.4.1', 'channel': 'review-candidate', 'build': 'level-aware-entry-sponsor-26s-hotfix', 'date': '2026-07-23'}"
+    },
+    {
+      "name": "review_candidate_channel",
+      "status": "PASS",
+      "detail": "{'version': '16.4.1', 'channel': 'review-candidate', 'build': 'level-aware-entry-sponsor-26s-hotfix', 'date': '2026-07-23'}"
+    },
+    {
+      "name": "build_identity",
+      "status": "PASS",
+      "detail": "{'version': '16.4.1', 'channel': 'review-candidate', 'build': 'level-aware-entry-sponsor-26s-hotfix', 'date': '2026-07-23'}"
+    },
+    {
+      "name": "index_404_identical",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "sponsor_constant_26",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "countdown_uses_constant",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "initial_26_copy",
+      "status": "PASS",
+      "detail": "occurrences=14"
+    },
+    {
+      "name": "no_stale_24_countdown",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "legacy_sponsor_key_preserved",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "sponsor_channel_preserved",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "sponsor_presenter_preserved",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "level_helper_present",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "level_topic_pool_present",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "level_position_selector_present",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "plan_entry_metadata",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "level_aware_source_marker",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "completed_progress_preservation",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "future_rebuild_on_settings",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "no_artificial_course_locks",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "course_map_C2",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "all_levels_in_onboarding",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "local_storage_key_preserved",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "indexeddb_name_preserved",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "four_tabs_preserved",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "health_boundary_preserved",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "acceptance_center_preserved",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "release_hold_preserved",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "manifest_relative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "manifest_standalone",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "manifest_rtl",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "sw_16_4_1_cache",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "locked_assumptions_26",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "locked_assumptions_required",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "locked_account_login_false",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "locked_A1_C2",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "runtime_22_22",
+      "status": "PASS",
+      "detail": "{'total': 22, 'passed': 22, 'failed': 0}"
+    },
+    {
+      "name": "no_external_executable_script",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "no_external_stylesheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "inline_javascript_syntax",
+      "status": "PASS",
+      "detail": "scripts=2 "
+    },
+    {
+      "name": "scripts_verify-release.mjs_syntax",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "scripts_promote-final-stable.mjs_syntax",
+      "status": "PASS",
+      "detail": ""
+    }
+  ]
+}

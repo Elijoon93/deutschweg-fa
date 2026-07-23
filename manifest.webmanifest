@@ -1,8 +1,8 @@
 {
   "id": "./index.html?source=pwa",
-  "name": "DeutschWeg X16.4 — Professional Adaptive Coach",
+  "name": "DeutschWeg X16.5 — Competency Evidence Coach",
   "short_name": "DeutschWeg",
-  "description": "مسیر حرفه‌ای آلمانی A1 تا C2 با تجربه متمرکز، جلسه ده‌مرحله‌ای، مربی تطبیقی و پذیرش قابل ممیزی.",
+  "description": "مسیر حرفه‌ای آلمانی A1 تا C2 با نقشه شایستگی، تعیین سطح چندمهارتی، مربی تطبیقی و پرونده شواهد محلی.",
   "lang": "fa",
   "dir": "rtl",
   "start_url": "./index.html",

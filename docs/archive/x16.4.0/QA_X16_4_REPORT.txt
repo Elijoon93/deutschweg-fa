@@ -1,0 +1,107 @@
+DeutschWeg X16.4.0 — Professional Experience Hardening Final Candidate
+QA REPORT
+==============================================================================
+
+Decision: CONTROLLED_QA_PASS_EXTERNAL_ACCEPTANCE_HOLD
+PASS: 55
+FAIL: 0
+NOT RUN: 1
+TOTAL: 56
+
+[PASS] version_json — Version is 16.4.0
+  {'version': '16.4.0', 'channel': 'final-candidate', 'build': 'professional-experience-hardening', 'date': '2026-07-23'}
+[PASS] title — Document title identifies X16.4.0 Final Candidate
+  DeutschWeg X16.4.0 · Professional Experience Hardening Final Candidate
+[PASS] no_stale_identity — No stale X16.3.1 identity in published app
+[PASS] 404_parity — 404.html exactly matches index.html
+  index=1388329 bytes, 404=1388329 bytes
+[PASS] nojekyll — .nojekyll exists
+[PASS] js_inline_1 — JavaScript syntax: inline_1
+  node --check PASS
+[PASS] js_inline_2 — JavaScript syntax: inline_2
+  node --check PASS
+[PASS] js_service_worker — JavaScript syntax: service_worker
+  node --check PASS
+[PASS] js_app_config — JavaScript syntax: app_config
+  node --check PASS
+[PASS] json_valid — All root JSON files parse
+  10 files: ADAPTIVE_COACH_POLICY_X16_3.json, CEFR_COVERAGE_MATRIX_X16_1.json, LOCKED_ASSUMPTIONS.json, LOCKED_ASSUMPTIONS_X16_4.json, PROFESSIONAL_CEFR_CURRICULUM_X16_1.json, QA_X16_4_RUNTIME.json, QA_X16_4_STATIC.json, RELEASE_CHECKLIST_X16_4.json, REMAINING_ACCEPTANCE_GATES_X16_4.json, version.json
+[PASS] curriculum_count — 181 professional curriculum modules preserved
+  lessons=181, declared=181
+[PASS] curriculum_sessions — 724 curriculum sessions preserved
+  724
+[PASS] curriculum_tasks — 1810 curriculum tasks preserved
+  1810
+[PASS] levels — All Grundlagen/A1–C2 levels are represented
+  actual=['A1', 'A2', 'B1', 'B2', 'C1', 'C2', 'Grundlagen']; counts={'Grundlagen': 16, 'A1': 32, 'A2': 32, 'B1': 30, 'B2': 24, 'C1': 26, 'C2': 21}
+[PASS] curriculum_unlocked — Curriculum remains unlocked
+[PASS] storage_key — Legacy localStorage key preserved
+[PASS] indexeddb — Legacy IndexedDB name preserved
+[PASS] sponsor_key — Sponsor gate key preserved
+[PASS] sponsor_channel — Sponsor channel and presenter preserved
+[PASS] sponsor_timer — Real 24-second local timer preserved
+[PASS] no_password — No password input exists
+[PASS] no_account — No account/login requirement remains
+[PASS] health_boundary — Everyday-health boundary is documented
+[PASS] analytics_default — Remote analytics default remains disabled
+  window.DEUTSCHWEG_CONFIG = window.DEUTSCHWEG_CONFIG || { analytics: {} };
+[PASS] coach_tabs_locked — Locked Coach Flow contains four tabs
+[PASS] runtime_nav4 — Controlled runtime rendered exactly four primary navigation items
+  4
+[PASS] ten_stage — Ten-stage learning engine preserved
+[PASS] three_step_onboarding — Three-step Coach Flow onboarding implemented
+[PASS] onboarding_override — First-run and edit actions use Coach Flow onboarding
+[PASS] automatic_tour_disabled — Automatic legacy tour is suppressed after onboarding
+[PASS] one_primary_action — Controlled home has one dominant next action
+  Runtime heading: معرفی و آشنایی
+[PASS] dialog_semantics — Lesson shell exposes dialog semantics
+[PASS] fullscreen_mobile — Lesson shell fills mobile viewport
+  {'h': 844, 'vh': 844, 'top': 0, 'bottom': 844}
+[PASS] scroll_lock — Overlay scroll lock and restoration work
+[PASS] focus_visible — Keyboard focus-visible styling exists
+[PASS] reduced_motion — Reduced-motion support exists
+[PASS] high_contrast — High-contrast preference support exists
+[PASS] touch_targets — Minimum touch target hardening is present
+[PASS] runtime_no_page_errors — Controlled runtime has no page errors
+  []
+[PASS] runtime_no_console_errors — Controlled runtime has no console errors
+  []
+[PASS] runtime_mobile_overflow — No mobile horizontal overflow
+[PASS] runtime_desktop_overflow — No desktop horizontal overflow
+[PASS] runtime_lesson_open — Lesson opens in controlled runtime
+[PASS] runtime_lesson_close — Lesson closes and releases overlay state
+[PASS] manifest_identity — Manifest identifies X16.4 professional coach
+[PASS] manifest_scope — Manifest start_url/scope are local and valid
+[PASS] manifest_shortcuts — Manifest contains three shortcuts
+[PASS] manifest_assets — All manifest icons/screenshots exist
+  missing=[]
+[PASS] manifest_images_valid — Manifest images are valid image files
+  assets/icon-192.png:192x192; assets/icon-512.png:512x512; assets/screenshot-home-390x844.png:390x844; assets/screenshot-session-390x844.png:390x844
+[PASS] sw_cache_name — Service Worker cache identifies X16.4 Final Candidate
+[PASS] sw_version — Service Worker responds with version 16.4.0
+[PASS] sw_navigation_fallback — Service Worker has index/offline navigation fallback
+[PASS] sw_precache_assets — All Service Worker precache assets exist
+  12 assets; missing=[]
+[NOT_RUN] sw_runtime_not_rerun — Service Worker runtime on X16.4 external origin
+  Not rerun in this environment because localhost/file navigation is policy-restricted; must be verified after HTTPS deployment.
+[PASS] external_gates_hold — External gates keep Final Candidate on HOLD
+  deploy exact root to HTTPS GitHub Pages; German TTS audible on at least one Android and one iPhone; microphone permission/record/playback on real phone; German speech recognition on supported phone/browser; PWA install and standalone launch; offline reload after first online visit; backup/restore on published origin; two unassisted A1/A2 usability sessions; human linguistic sampling A1-C2; zero unresolved critical/high defects
+[PASS] not_final_claim — Locked assumptions explicitly prohibit premature Final Stable claim
+
+EXTERNAL ACCEPTANCE STILL REQUIRED
+- deploy exact root to HTTPS GitHub Pages
+- German TTS audible on at least one Android and one iPhone
+- microphone permission/record/playback on real phone
+- German speech recognition on supported phone/browser
+- PWA install and standalone launch
+- offline reload after first online visit
+- backup/restore on published origin
+- two unassisted A1/A2 usability sessions
+- human linguistic sampling A1-C2
+- zero unresolved critical/high defects
+
+LIMITATIONS
+- No GitHub Pages deployment was performed.
+- No physical Android/iPhone acceptance was performed.
+- Service Worker runtime was not rerun for X16.4 due local navigation restrictions; static syntax/assets were verified.
+- No independent human linguistic certification was performed.

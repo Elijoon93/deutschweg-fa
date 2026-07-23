@@ -1,32 +1,34 @@
-# DeutschWeg X16.4.0 — Professional Experience Hardening Final Candidate
+# DeutschWeg X16.5
 
-نسخه تجمعی A1 تا C2 با Coach Flow چهارقسمتی، جلسه ده‌مرحله‌ای، شنیداری و گفتار هدایت‌شده، مربی تطبیقی، داده محلی و مرکز پذیرش دستگاه/PWA.
+نسخه جاری: **Competency Graph, Diagnostic Assessment & Evidence Engine Review Candidate**
 
-## تغییرات محوری X16.4
-- بازطراحی حرفه‌ای سلسله‌مراتب بصری در موبایل و دسکتاپ
-- صفحه «امروز» کم‌تراکم با یک اقدام اصلی
-- چهار مقصد ثابت: امروز، مسیر، تمرین، من
-- جلسه آموزشی تمام‌صفحه با یک Scroll Context
-- قفل Scroll صفحه زیرین و بازیابی موقعیت پس از بستن جلسه
-- Touch Target، Focus Visible، Reduced Motion و High Contrast
-- اصلاح یک خطای واقعی First-run: Onboarding قدیمی هفت‌مرحله‌ای حذف و مسیر سه‌مرحله‌ای Coach Flow به‌عنوان مسیر اصلی فعال شد
-- جلوگیری از اجرای خودکار تور قدیمی؛ راهنما فقط با درخواست کاربر باز می‌شود
+## هسته محصول
 
-## نتیجه کنترل‌شده
-- Static QA: 55 PASS، 0 FAIL، 1 NOT RUN
-- Runtime موبایل و دسکتاپ: بدون Page/Console Error و بدون Horizontal Overflow
-- شمارش محتوای حرفه‌ای: 181 ماژول، 724 جلسه و 1810 تکلیف
-- Service Worker: Syntax/Precache/Version PASS؛ اجرای Runtime آن برای X16.4 باید پس از انتشار HTTPS تکرار شود
+- مسیر A1 تا C2 بدون قفل مصنوعی
+- شروع واقعی از سطح انتخابی
+- چهار بخش ثابت: امروز، مسیر، تمرین، من
+- جلسه حرفه‌ای ده‌مرحله‌ای و مربی تطبیقی
+- Sponsor Gate اجباری ۲۶ ثانیه‌ای
+- ذخیره محلی و مهاجرت غیرمخرب داده
 
-## وضعیت رسمی
-`Final Candidate` — نه `Final Stable`.
+## افزوده‌های X16.5
 
-انتشار HTTPS، آزمون واقعی Android و iPhone، TTS، میکروفون، ضبط/بازپخش، Speech Recognition، نصب و Offline PWA، Backup/Restore روی Origin منتشرشده، آزمون دو کاربر مبتدی و بازبینی انسانی A1 تا C2 هنوز الزامی است.
+- ۵۴ گره شایستگی در ۹ حوزه
+- ۱۰۸ توصیف عملیاتی Can-Do
+- تعیین سطح داخلی ۱۸ سؤال به‌همراه نوشتار و گفتار اختیاری
+- Checkpoint دوره‌ای ۱۴روزه
+- Evidence Ledger و سطح اطمینان
+- اتصال شواهد جلسات به مسیر
+- گزارش محلی اشکال محتوا و خروجی JSON
 
-## فایل شروع
-`index.html`
+## وضعیت
 
-## داده‌های حفظ‌شده
-- localStorage: `deutschweg_x14_6_integrated_state`
-- IndexedDB: `deutschweg-x14-6`
-- Sponsor Gate: `deutschweg_sponsor_gate_24s_v2`
+این نسخه Review Candidate است. تعیین سطح داخلی مدرک رسمی نیست و نسخه تا عبور آزمون‌های واقعی HTTPS، Android، iPhone، PWA، کاربران مبتدی و بازبینی انسانی محتوا Final Stable نامیده نمی‌شود.
+
+## Commit
+
+```bash
+git add .
+git commit -m "feat(learning): add competency graph diagnostic assessment and evidence engine in X16.5"
+git push origin main
+```

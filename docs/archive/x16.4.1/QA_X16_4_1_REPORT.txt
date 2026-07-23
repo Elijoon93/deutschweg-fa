@@ -1,0 +1,20 @@
+DeutschWeg X16.4.1 — Level-Aware Entry & Sponsor 26s Review Candidate
+
+Static QA: 41/41 PASS
+Controlled runtime QA: 22/22 PASS
+
+Implemented:
+- Mandatory sponsor countdown is 26 seconds.
+- Legacy sponsor acceptance key remains unchanged for migration compatibility.
+- Selected CEFR level is the real entry point for newly generated future sessions.
+- All A1-C2 course-map levels remain manually open.
+- Completed sessions are preserved when the learner changes level.
+
+Not verified externally:
+- Published HTTPS origin
+- Android and iPhone physical devices
+- Real PWA installation/offline lifecycle
+- Two beginner usability sessions
+- Human language review across A1-C2
+
+Status: REVIEW CANDIDATE — NOT FINAL STABLE
