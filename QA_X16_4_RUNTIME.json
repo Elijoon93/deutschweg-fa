@@ -1,0 +1,24 @@
+{
+  "page_errors": [],
+  "console_errors": [],
+  "title": "DeutschWeg X16.4.0 · Professional Experience Hardening Final Candidate",
+  "home_heading": "معرفی و آشنایی",
+  "nav_count": 4,
+  "horizontal_overflow": false,
+  "topbar_visible": true,
+  "reason_open": null,
+  "lesson_open": true,
+  "lesson_role": "dialog",
+  "html_overlay_class": true,
+  "lesson_height": {
+    "h": 844,
+    "vh": 844,
+    "top": 0,
+    "bottom": 844
+  },
+  "body_position": "fixed",
+  "overlay_closed": true,
+  "html_overlay_class_after_close": false,
+  "body_position_after_close": "static",
+  "desktop_horizontal_overflow": false
+}

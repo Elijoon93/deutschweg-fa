@@ -1,0 +1,39 @@
+{
+  "version": "16.3.0",
+  "engine": "Adaptive Coach v1",
+  "inputs": [
+    "skillProfile",
+    "openErrors",
+    "dueSRS",
+    "sessionHistory",
+    "currentLevel"
+  ],
+  "skills": [
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "vocabulary"
+  ],
+  "decisionRule": "prioritize lowest active skill, then overdue review and unresolved errors",
+  "sessionStages": 10,
+  "gates": {
+    "comprehension": "correct gist selection",
+    "listening": "dictation threshold by CEFR band",
+    "speaking": "speech recognition, recording attempt, or explicit no-microphone fallback",
+    "production": "rule-based score >= 60",
+    "writing": "level-based length and topic coverage score >= 65",
+    "exit": "grammar and situational quiz both correct"
+  },
+  "listeningThresholds": {
+    "A1-A2": 65,
+    "B1": 70,
+    "B2-C2": 75
+  },
+  "limitations": [
+    "speech score is transcript similarity, not phoneme-level pronunciation scoring",
+    "free response scoring is offline and rule-based",
+    "no scientific superiority claim over other products without independent user study"
+  ]
+}

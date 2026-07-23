@@ -1,5 +1,6 @@
-const CACHE='deutschweg-x16-2-coach-flow';
-const ASSETS=['./','./index.html','./offline.html','./manifest.webmanifest','./app-config.js','./assets/icon-192.png','./assets/icon-512.png'];
-self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting())));
-self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
-self.addEventListener('fetch',e=>{if(e.request.method!=='GET')return;e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request).then(res=>{const copy=res.clone();caches.open(CACHE).then(c=>c.put(e.request,copy));return res}).catch(()=>caches.match('./offline.html'))))});
+const CACHE='deutschweg-x16-4-0-professional-final-candidate';
+const ASSETS=['./','./index.html','./offline.html','./manifest.webmanifest','./app-config.js','./app.css','./privacy.html','./professional-curriculum-audit.html','./assets/icon-192.png','./assets/icon-512.png','./assets/screenshot-home-390x844.png','./assets/screenshot-session-390x844.png'];
+self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS)).then(()=>self.skipWaiting())));
+self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));
+self.addEventListener('message',event=>{if(event.data?.type==='SKIP_WAITING')self.skipWaiting();if(event.data?.type==='GET_VERSION')event.source?.postMessage({type:'VERSION',version:'16.4.0',cache:CACHE})});
+self.addEventListener('fetch',event=>{if(event.request.method!=='GET')return;const url=new URL(event.request.url);if(url.origin!==location.origin)return;event.respondWith(caches.match(event.request).then(cached=>cached||fetch(event.request).then(response=>{if(response&&response.ok){const copy=response.clone();caches.open(CACHE).then(cache=>cache.put(event.request,copy))}return response}).catch(()=>event.request.mode==='navigate'?caches.match('./index.html').then(r=>r||caches.match('./offline.html')):caches.match('./offline.html'))))});

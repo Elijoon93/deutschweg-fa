@@ -1,24 +1,89 @@
 {
-  "name": "DeutschWeg X16.2 — Coach Flow",
+  "id": "./index.html?source=pwa",
+  "name": "DeutschWeg X16.4 — Professional Adaptive Coach",
   "short_name": "DeutschWeg",
-  "description": "مسیر ساده و مربی‌محور یادگیری آلمانی از A1 تا C2",
+  "description": "مسیر حرفه‌ای آلمانی A1 تا C2 با تجربه متمرکز، جلسه ده‌مرحله‌ای، مربی تطبیقی و پذیرش قابل ممیزی.",
   "lang": "fa",
   "dir": "rtl",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#f4f7f6",
-  "theme_color": "#087f79",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "portrait-primary",
+  "background_color": "#f6f8f8",
+  "theme_color": "#0a746c",
+  "categories": [
+    "education",
+    "productivity"
+  ],
+  "prefer_related_applications": false,
   "icons": [
     {
       "src": "assets/icon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "assets/icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "assets/screenshot-home-390x844.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "برنامه امروز با یک اقدام اصلی"
+    },
+    {
+      "src": "assets/screenshot-session-390x844.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "جلسه حرفه‌ای تمام‌صفحه"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "تمرین امروز",
+      "short_name": "امروز",
+      "url": "./index.html?open=practice",
+      "icons": [
+        {
+          "src": "assets/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "تمرین گفتار",
+      "short_name": "گفتار",
+      "url": "./index.html?open=speaking",
+      "icons": [
+        {
+          "src": "assets/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "مرور واژه‌ها",
+      "short_name": "مرور",
+      "url": "./index.html?open=srs",
+      "icons": [
+        {
+          "src": "assets/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "version": "16.2",
-  "build": "coach-flow-review",
-  "status": "review",
+  "version": "16.4.0",
+  "channel": "final-candidate",
+  "build": "professional-experience-hardening",
   "date": "2026-07-23"
 }

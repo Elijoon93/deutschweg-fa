@@ -1,0 +1,27 @@
+{
+  "version": "16.4.0",
+  "status": "FINAL_CANDIDATE_HOLD",
+  "completed_in_controlled_environment": [
+    "professional visual hardening",
+    "mobile hierarchy",
+    "single-scroll lesson shell",
+    "overlay isolation",
+    "storage key preservation",
+    "curriculum preservation",
+    "static QA",
+    "controlled runtime QA",
+    "zip integrity"
+  ],
+  "external_required_before_final_stable": [
+    "deploy exact root to HTTPS GitHub Pages",
+    "German TTS audible on at least one Android and one iPhone",
+    "microphone permission/record/playback on real phone",
+    "German speech recognition on supported phone/browser",
+    "PWA install and standalone launch",
+    "offline reload after first online visit",
+    "backup/restore on published origin",
+    "two unassisted A1/A2 usability sessions",
+    "human linguistic sampling A1-C2",
+    "zero unresolved critical/high defects"
+  ]
+}

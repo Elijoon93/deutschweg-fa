@@ -1,0 +1,357 @@
+{
+  "product": "DeutschWeg",
+  "version": "16.4.0",
+  "release": "Professional Experience Hardening Final Candidate",
+  "generated_at": "2026-07-23T13:54:16.820714+00:00",
+  "summary": {
+    "pass": 55,
+    "fail": 0,
+    "not_run": 1,
+    "total": 56
+  },
+  "decision": "CONTROLLED_QA_PASS_EXTERNAL_ACCEPTANCE_HOLD",
+  "checks": [
+    {
+      "id": "version_json",
+      "title": "Version is 16.4.0",
+      "status": "PASS",
+      "detail": "{'version': '16.4.0', 'channel': 'final-candidate', 'build': 'professional-experience-hardening', 'date': '2026-07-23'}"
+    },
+    {
+      "id": "title",
+      "title": "Document title identifies X16.4.0 Final Candidate",
+      "status": "PASS",
+      "detail": "DeutschWeg X16.4.0 · Professional Experience Hardening Final Candidate"
+    },
+    {
+      "id": "no_stale_identity",
+      "title": "No stale X16.3.1 identity in published app",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "404_parity",
+      "title": "404.html exactly matches index.html",
+      "status": "PASS",
+      "detail": "index=1388329 bytes, 404=1388329 bytes"
+    },
+    {
+      "id": "nojekyll",
+      "title": ".nojekyll exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "js_inline_1",
+      "title": "JavaScript syntax: inline_1",
+      "status": "PASS",
+      "detail": "node --check PASS"
+    },
+    {
+      "id": "js_inline_2",
+      "title": "JavaScript syntax: inline_2",
+      "status": "PASS",
+      "detail": "node --check PASS"
+    },
+    {
+      "id": "js_service_worker",
+      "title": "JavaScript syntax: service_worker",
+      "status": "PASS",
+      "detail": "node --check PASS"
+    },
+    {
+      "id": "js_app_config",
+      "title": "JavaScript syntax: app_config",
+      "status": "PASS",
+      "detail": "node --check PASS"
+    },
+    {
+      "id": "json_valid",
+      "title": "All root JSON files parse",
+      "status": "PASS",
+      "detail": "10 files: ADAPTIVE_COACH_POLICY_X16_3.json, CEFR_COVERAGE_MATRIX_X16_1.json, LOCKED_ASSUMPTIONS.json, LOCKED_ASSUMPTIONS_X16_4.json, PROFESSIONAL_CEFR_CURRICULUM_X16_1.json, QA_X16_4_RUNTIME.json, QA_X16_4_STATIC.json, RELEASE_CHECKLIST_X16_4.json, REMAINING_ACCEPTANCE_GATES_X16_4.json, version.json"
+    },
+    {
+      "id": "curriculum_count",
+      "title": "181 professional curriculum modules preserved",
+      "status": "PASS",
+      "detail": "lessons=181, declared=181"
+    },
+    {
+      "id": "curriculum_sessions",
+      "title": "724 curriculum sessions preserved",
+      "status": "PASS",
+      "detail": "724"
+    },
+    {
+      "id": "curriculum_tasks",
+      "title": "1810 curriculum tasks preserved",
+      "status": "PASS",
+      "detail": "1810"
+    },
+    {
+      "id": "levels",
+      "title": "All Grundlagen/A1–C2 levels are represented",
+      "status": "PASS",
+      "detail": "actual=['A1', 'A2', 'B1', 'B2', 'C1', 'C2', 'Grundlagen']; counts={'Grundlagen': 16, 'A1': 32, 'A2': 32, 'B1': 30, 'B2': 24, 'C1': 26, 'C2': 21}"
+    },
+    {
+      "id": "curriculum_unlocked",
+      "title": "Curriculum remains unlocked",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "storage_key",
+      "title": "Legacy localStorage key preserved",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "indexeddb",
+      "title": "Legacy IndexedDB name preserved",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "sponsor_key",
+      "title": "Sponsor gate key preserved",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "sponsor_channel",
+      "title": "Sponsor channel and presenter preserved",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "sponsor_timer",
+      "title": "Real 24-second local timer preserved",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "no_password",
+      "title": "No password input exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "no_account",
+      "title": "No account/login requirement remains",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "health_boundary",
+      "title": "Everyday-health boundary is documented",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "analytics_default",
+      "title": "Remote analytics default remains disabled",
+      "status": "PASS",
+      "detail": "window.DEUTSCHWEG_CONFIG = window.DEUTSCHWEG_CONFIG || { analytics: {} };"
+    },
+    {
+      "id": "coach_tabs_locked",
+      "title": "Locked Coach Flow contains four tabs",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "runtime_nav4",
+      "title": "Controlled runtime rendered exactly four primary navigation items",
+      "status": "PASS",
+      "detail": "4"
+    },
+    {
+      "id": "ten_stage",
+      "title": "Ten-stage learning engine preserved",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "three_step_onboarding",
+      "title": "Three-step Coach Flow onboarding implemented",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "onboarding_override",
+      "title": "First-run and edit actions use Coach Flow onboarding",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "automatic_tour_disabled",
+      "title": "Automatic legacy tour is suppressed after onboarding",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "one_primary_action",
+      "title": "Controlled home has one dominant next action",
+      "status": "PASS",
+      "detail": "Runtime heading: معرفی و آشنایی"
+    },
+    {
+      "id": "dialog_semantics",
+      "title": "Lesson shell exposes dialog semantics",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "fullscreen_mobile",
+      "title": "Lesson shell fills mobile viewport",
+      "status": "PASS",
+      "detail": "{'h': 844, 'vh': 844, 'top': 0, 'bottom': 844}"
+    },
+    {
+      "id": "scroll_lock",
+      "title": "Overlay scroll lock and restoration work",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "focus_visible",
+      "title": "Keyboard focus-visible styling exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "reduced_motion",
+      "title": "Reduced-motion support exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "high_contrast",
+      "title": "High-contrast preference support exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "touch_targets",
+      "title": "Minimum touch target hardening is present",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "runtime_no_page_errors",
+      "title": "Controlled runtime has no page errors",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "id": "runtime_no_console_errors",
+      "title": "Controlled runtime has no console errors",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "id": "runtime_mobile_overflow",
+      "title": "No mobile horizontal overflow",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "runtime_desktop_overflow",
+      "title": "No desktop horizontal overflow",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "runtime_lesson_open",
+      "title": "Lesson opens in controlled runtime",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "runtime_lesson_close",
+      "title": "Lesson closes and releases overlay state",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "manifest_identity",
+      "title": "Manifest identifies X16.4 professional coach",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "manifest_scope",
+      "title": "Manifest start_url/scope are local and valid",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "manifest_shortcuts",
+      "title": "Manifest contains three shortcuts",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "manifest_assets",
+      "title": "All manifest icons/screenshots exist",
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "id": "manifest_images_valid",
+      "title": "Manifest images are valid image files",
+      "status": "PASS",
+      "detail": "assets/icon-192.png:192x192; assets/icon-512.png:512x512; assets/screenshot-home-390x844.png:390x844; assets/screenshot-session-390x844.png:390x844"
+    },
+    {
+      "id": "sw_cache_name",
+      "title": "Service Worker cache identifies X16.4 Final Candidate",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "sw_version",
+      "title": "Service Worker responds with version 16.4.0",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "sw_navigation_fallback",
+      "title": "Service Worker has index/offline navigation fallback",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "sw_precache_assets",
+      "title": "All Service Worker precache assets exist",
+      "status": "PASS",
+      "detail": "12 assets; missing=[]"
+    },
+    {
+      "id": "sw_runtime_not_rerun",
+      "title": "Service Worker runtime on X16.4 external origin",
+      "status": "NOT_RUN",
+      "detail": "Not rerun in this environment because localhost/file navigation is policy-restricted; must be verified after HTTPS deployment."
+    },
+    {
+      "id": "external_gates_hold",
+      "title": "External gates keep Final Candidate on HOLD",
+      "status": "PASS",
+      "detail": "deploy exact root to HTTPS GitHub Pages; German TTS audible on at least one Android and one iPhone; microphone permission/record/playback on real phone; German speech recognition on supported phone/browser; PWA install and standalone launch; offline reload after first online visit; backup/restore on published origin; two unassisted A1/A2 usability sessions; human linguistic sampling A1-C2; zero unresolved critical/high defects"
+    },
+    {
+      "id": "not_final_claim",
+      "title": "Locked assumptions explicitly prohibit premature Final Stable claim",
+      "status": "PASS",
+      "detail": ""
+    }
+  ],
+  "limitations": [
+    "No GitHub Pages deployment was performed.",
+    "No physical Android/iPhone acceptance was performed.",
+    "Service Worker runtime was not rerun for X16.4 due local navigation restrictions; static syntax/assets were verified.",
+    "No independent human linguistic certification was performed."
+  ]
+}
