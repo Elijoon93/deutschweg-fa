@@ -1,0 +1,19 @@
+{
+  "version": "16.2",
+  "passed": 12,
+  "total": 12,
+  "checks": {
+    "version_16_2": true,
+    "four_primary_destinations": true,
+    "single_primary_home_action": true,
+    "near_term_path": true,
+    "four_skill_practice": true,
+    "focused_lesson_no_sidebar": true,
+    "three_step_onboarding": true,
+    "full_library_on_demand": true,
+    "old_auto_tour_suppressed": true,
+    "storage_preserved": true,
+    "sponsor_gate_preserved": true,
+    "c2_preserved": true
+  }
+}

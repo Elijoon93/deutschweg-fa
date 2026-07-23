@@ -1,0 +1,18 @@
+{
+  "console_errors": [],
+  "page_errors": [],
+  "checks": {
+    "onboarding_completed": true,
+    "title_x162": true,
+    "four_bottom_nav": true,
+    "home_action": true,
+    "home_no_tool_grid": true,
+    "path_near_only": true,
+    "practice_four_skills": true,
+    "one_coach_recommendation": true,
+    "profile_clean": true,
+    "focused_lesson": true,
+    "lesson_sidebar_hidden": true,
+    "no_horizontal_overflow": true
+  }
+}

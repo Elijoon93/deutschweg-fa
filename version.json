@@ -1,6 +1,6 @@
 {
-  "version": "16.1.0",
-  "release": "Beginner Guided UX Review",
-  "date": "2026-07-23",
-  "storageKey": "deutschweg_x14_6_integrated_state"
+  "version": "16.2",
+  "build": "coach-flow-review",
+  "status": "review",
+  "date": "2026-07-23"
 }
