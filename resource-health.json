@@ -1,28 +1,20 @@
 {
   "_meta": {
-    "generatedAt": "2026-10-05T09:12:57.644Z",
+    "generatedAt": "2026-10-06T09:05:33.192Z",
     "checked": 41,
     "checker": "DeutschWeg-X1"
   },
-  "goethe-exam": {
+  "goethe-meinweg": {
     "ok": false,
     "primary": {
-      "url": "https://www.goethe.de/de/spr/prf/ueb.html",
+      "url": "https://www.goethe.de/prj/mwd/de/deu.html",
       "ok": false,
       "status": 403,
-      "finalUrl": "https://www.goethe.de/de/spr/prf/ueb.html",
-      "checkedAt": "2026-10-05T09:12:57.847Z"
+      "finalUrl": "https://www.goethe.de/prj/mwd/de/deu.html",
+      "checkedAt": "2026-10-06T09:05:33.507Z"
     },
-    "fallbacks": [
-      {
-        "url": "https://www.goethe.de/de/spr/prf.html",
-        "ok": false,
-        "status": 403,
-        "finalUrl": "https://www.goethe.de/de/spr/prf.html",
-        "checkedAt": "2026-10-05T09:12:57.863Z"
-      }
-    ],
-    "bestUrl": "https://www.goethe.de/de/spr/prf/ueb.html"
+    "fallbacks": [],
+    "bestUrl": "https://www.goethe.de/prj/mwd/de/deu.html"
   },
   "goethe-free": {
     "ok": false,
@@ -31,7 +23,7 @@
       "ok": false,
       "status": 403,
       "finalUrl": "https://www.goethe.de/de/spr/ueb.html",
-      "checkedAt": "2026-10-05T09:12:57.881Z"
+      "checkedAt": "2026-10-06T09:05:33.514Z"
     },
     "fallbacks": [],
     "bestUrl": "https://www.goethe.de/de/spr/ueb.html"
@@ -43,42 +35,30 @@
       "ok": false,
       "status": 403,
       "finalUrl": "https://www.goethe.de/de/spr/ueb/dt1.html",
-      "checkedAt": "2026-10-05T09:12:57.900Z"
+      "checkedAt": "2026-10-06T09:05:33.530Z"
     },
     "fallbacks": [],
     "bestUrl": "https://www.goethe.de/de/spr/ueb/dt1.html"
   },
-  "goethe-meinweg": {
+  "goethe-exam": {
     "ok": false,
     "primary": {
-      "url": "https://www.goethe.de/prj/mwd/de/deu.html",
+      "url": "https://www.goethe.de/de/spr/prf/ueb.html",
       "ok": false,
       "status": 403,
-      "finalUrl": "https://www.goethe.de/prj/mwd/de/deu.html",
-      "checkedAt": "2026-10-05T09:12:57.929Z"
-    },
-    "fallbacks": [],
-    "bestUrl": "https://www.goethe.de/prj/mwd/de/deu.html"
-  },
-  "goethe-dfd": {
-    "ok": false,
-    "primary": {
-      "url": "https://www.goethe.de/deutsch-fuer-dich",
-      "ok": false,
-      "status": 403,
-      "finalUrl": "https://www.goethe.de/prj/dfd/de/home.cfm?wt_sc=deutsch-fuer-dich",
-      "checkedAt": "2026-10-05T09:12:57.984Z"
+      "finalUrl": "https://www.goethe.de/de/spr/prf/ueb.html",
+      "checkedAt": "2026-10-06T09:05:33.526Z"
     },
     "fallbacks": [
       {
-        "url": "https://www.goethe.de/prj/dfd/de/home.cfm",
+        "url": "https://www.goethe.de/de/spr/prf.html",
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.goethe.de/prj/dfd/de/home.cfm",
-        "checkedAt": "2026-10-05T09:12:58.003Z"
+        "finalUrl": "https://www.goethe.de/de/spr/prf.html",
+        "checkedAt": "2026-10-06T09:05:33.540Z"
       }
     ],
-    "bestUrl": "https://www.goethe.de/deutsch-fuer-dich"
+    "bestUrl": "https://www.goethe.de/de/spr/prf/ueb.html"
   },
   "goethe-24h": {
     "ok": false,
@@ -87,7 +67,7 @@
       "ok": false,
       "status": 404,
       "finalUrl": "https://www.youtube.com/@24hDeutsch",
-      "checkedAt": "2026-10-05T09:12:58.008Z"
+      "checkedAt": "2026-10-06T09:05:33.581Z"
     },
     "fallbacks": [],
     "bestUrl": "https://www.youtube.com/@24hDeutsch"
@@ -99,7 +79,7 @@
       "ok": false,
       "status": 403,
       "finalUrl": "https://www.goethe.de/de/spr/ueb/led.html",
-      "checkedAt": "2026-10-05T09:12:58.034Z"
+      "checkedAt": "2026-10-06T09:05:33.596Z"
     },
     "fallbacks": [],
     "bestUrl": "https://www.goethe.de/de/spr/ueb/led.html"
@@ -111,7 +91,7 @@
       "ok": false,
       "status": 403,
       "finalUrl": "https://www.goethe.de/lrn/pro/30-item/m/de/index.html",
-      "checkedAt": "2026-10-05T09:12:58.026Z"
+      "checkedAt": "2026-10-06T09:05:33.608Z"
     },
     "fallbacks": [
       {
@@ -119,17 +99,37 @@
         "ok": false,
         "status": 403,
         "finalUrl": "https://www.goethe.de/de/spr/kur/tsd.html",
-        "checkedAt": "2026-10-05T09:12:58.043Z"
+        "checkedAt": "2026-10-06T09:05:33.619Z"
       },
       {
         "url": "https://www.goethe.de/de/spr/kur.html",
         "ok": false,
         "status": 403,
         "finalUrl": "https://www.goethe.de/de/spr/kur.html",
-        "checkedAt": "2026-10-05T09:12:58.073Z"
+        "checkedAt": "2026-10-06T09:05:33.630Z"
       }
     ],
     "bestUrl": "https://www.goethe.de/lrn/pro/30-item/m/de/index.html"
+  },
+  "goethe-dfd": {
+    "ok": false,
+    "primary": {
+      "url": "https://www.goethe.de/deutsch-fuer-dich",
+      "ok": false,
+      "status": 403,
+      "finalUrl": "https://www.goethe.de/prj/dfd/de/home.cfm?wt_sc=deutsch-fuer-dich",
+      "checkedAt": "2026-10-06T09:05:33.837Z"
+    },
+    "fallbacks": [
+      {
+        "url": "https://www.goethe.de/prj/dfd/de/home.cfm",
+        "ok": false,
+        "status": 403,
+        "finalUrl": "https://www.goethe.de/prj/dfd/de/home.cfm",
+        "checkedAt": "2026-10-06T09:05:33.850Z"
+      }
+    ],
+    "bestUrl": "https://www.goethe.de/deutsch-fuer-dich"
   },
   "goethe-pron": {
     "ok": true,
@@ -138,7 +138,7 @@
       "ok": false,
       "status": 403,
       "finalUrl": "https://www.goethe.de/de/spr/ueb/ast.html",
-      "checkedAt": "2026-10-05T09:12:57.845Z"
+      "checkedAt": "2026-10-06T09:05:33.510Z"
     },
     "fallbacks": [
       {
@@ -146,7 +146,7 @@
         "ok": true,
         "status": 200,
         "finalUrl": "https://aussprachetraining.goethe.de/",
-        "checkedAt": "2026-10-05T09:12:58.294Z"
+        "checkedAt": "2026-10-06T09:05:34.233Z"
       }
     ],
     "bestUrl": "https://aussprachetraining.goethe.de/"
@@ -158,46 +158,10 @@
       "ok": true,
       "status": 200,
       "finalUrl": "https://junioruni.goethe.de/?lang=de",
-      "checkedAt": "2026-10-05T09:12:58.553Z"
+      "checkedAt": "2026-10-06T09:05:34.512Z"
     },
     "fallbacks": [],
     "bestUrl": "https://junioruni.goethe.de/?lang=de"
-  },
-  "goethe-kinderuni": {
-    "ok": true,
-    "primary": {
-      "url": "https://kinderuni.goethe.de/?lang=de",
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://kinderuni.goethe.de/?lang=de",
-      "checkedAt": "2026-10-05T09:12:58.715Z"
-    },
-    "fallbacks": [],
-    "bestUrl": "https://kinderuni.goethe.de/?lang=de"
-  },
-  "dw-nicos": {
-    "ok": true,
-    "primary": {
-      "url": "https://learngerman.dw.com/de/nicos-weg/c-36519687",
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://learngerman.dw.com/de/nicos-weg/c-36519687",
-      "checkedAt": "2026-10-05T09:12:58.978Z"
-    },
-    "fallbacks": [],
-    "bestUrl": "https://learngerman.dw.com/de/nicos-weg/c-36519687"
-  },
-  "dw-kurz": {
-    "ok": true,
-    "primary": {
-      "url": "https://learngerman.dw.com/de/kurz-und-leicht/s-62753244",
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://learngerman.dw.com/de/kurz-und-leicht/s-62753244",
-      "checkedAt": "2026-10-05T09:12:59.074Z"
-    },
-    "fallbacks": [],
-    "bestUrl": "https://learngerman.dw.com/de/kurz-und-leicht/s-62753244"
   },
   "dw-video": {
     "ok": false,
@@ -206,10 +170,22 @@
       "ok": false,
       "status": 404,
       "finalUrl": "https://www.dw.com/de/video-thema/s-12165",
-      "checkedAt": "2026-10-05T09:12:59.309Z"
+      "checkedAt": "2026-10-06T09:05:34.891Z"
     },
     "fallbacks": [],
     "bestUrl": "https://www.dw.com/de/video-thema/s-12165"
+  },
+  "dw-nicos": {
+    "ok": true,
+    "primary": {
+      "url": "https://learngerman.dw.com/de/nicos-weg/c-36519687",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://learngerman.dw.com/de/nicos-weg/c-36519687",
+      "checkedAt": "2026-10-06T09:05:34.931Z"
+    },
+    "fallbacks": [],
+    "bestUrl": "https://learngerman.dw.com/de/nicos-weg/c-36519687"
   },
   "dw-redensart": {
     "ok": false,
@@ -218,10 +194,22 @@
       "ok": false,
       "status": 404,
       "finalUrl": "https://www.dw.com/de/das-sagt-man-so/s-32376",
-      "checkedAt": "2026-10-05T09:12:59.330Z"
+      "checkedAt": "2026-10-06T09:05:35.157Z"
     },
     "fallbacks": [],
     "bestUrl": "https://www.dw.com/de/das-sagt-man-so/s-32376"
+  },
+  "goethe-kinderuni": {
+    "ok": true,
+    "primary": {
+      "url": "https://kinderuni.goethe.de/?lang=de",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://kinderuni.goethe.de/?lang=de",
+      "checkedAt": "2026-10-06T09:05:35.211Z"
+    },
+    "fallbacks": [],
+    "bestUrl": "https://kinderuni.goethe.de/?lang=de"
   },
   "dw-wort": {
     "ok": false,
@@ -230,10 +218,22 @@
       "ok": false,
       "status": 404,
       "finalUrl": "https://www.dw.com/de/wort-der-woche/s-9031",
-      "checkedAt": "2026-10-05T09:12:59.376Z"
+      "checkedAt": "2026-10-06T09:05:35.394Z"
     },
     "fallbacks": [],
     "bestUrl": "https://www.dw.com/de/wort-der-woche/s-9031"
+  },
+  "dw-kurz": {
+    "ok": true,
+    "primary": {
+      "url": "https://learngerman.dw.com/de/kurz-und-leicht/s-62753244",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://learngerman.dw.com/de/kurz-und-leicht/s-62753244",
+      "checkedAt": "2026-10-06T09:05:35.457Z"
+    },
+    "fallbacks": [],
+    "bestUrl": "https://learngerman.dw.com/de/kurz-und-leicht/s-62753244"
   },
   "dw-top": {
     "ok": false,
@@ -242,22 +242,10 @@
       "ok": false,
       "status": 404,
       "finalUrl": "https://www.dw.com/de/top-thema/s-8031",
-      "checkedAt": "2026-10-05T09:12:59.395Z"
+      "checkedAt": "2026-10-06T09:05:35.498Z"
     },
     "fallbacks": [],
     "bestUrl": "https://www.dw.com/de/top-thema/s-8031"
-  },
-  "vhs-main": {
-    "ok": true,
-    "primary": {
-      "url": "https://www.vhs-lernportal.de/wws/home.php",
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://www.vhs-lernportal.de/wws/home.php",
-      "checkedAt": "2026-10-05T09:12:59.860Z"
-    },
-    "fallbacks": [],
-    "bestUrl": "https://www.vhs-lernportal.de/wws/home.php"
   },
   "dw-alltag": {
     "ok": true,
@@ -266,10 +254,22 @@
       "ok": true,
       "status": 200,
       "finalUrl": "https://learngerman.dw.com/de/alltagsdeutsch/s-9214",
-      "checkedAt": "2026-10-05T09:12:59.893Z"
+      "checkedAt": "2026-10-06T09:05:35.607Z"
     },
     "fallbacks": [],
     "bestUrl": "https://learngerman.dw.com/de/alltagsdeutsch/s-9214"
+  },
+  "vhs-main": {
+    "ok": true,
+    "primary": {
+      "url": "https://www.vhs-lernportal.de/wws/home.php",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.vhs-lernportal.de/wws/home.php",
+      "checkedAt": "2026-10-06T09:05:35.734Z"
+    },
+    "fallbacks": [],
+    "bestUrl": "https://www.vhs-lernportal.de/wws/home.php"
   },
   "deutschakademie": {
     "ok": true,
@@ -278,10 +278,22 @@
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.deutschakademie.de/online-deutschkurs/",
-      "checkedAt": "2026-10-05T09:12:59.997Z"
+      "checkedAt": "2026-10-06T09:05:36.059Z"
     },
     "fallbacks": [],
     "bestUrl": "https://www.deutschakademie.de/online-deutschkurs/"
+  },
+  "easydeutsch": {
+    "ok": true,
+    "primary": {
+      "url": "https://easy-deutsch.de/deutsche-grammatik/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://easy-deutsch.de/deutsche-grammatik/",
+      "checkedAt": "2026-10-06T09:05:36.179Z"
+    },
+    "fallbacks": [],
+    "bestUrl": "https://easy-deutsch.de/deutsche-grammatik/"
   },
   "deutschinfo": {
     "ok": true,
@@ -290,7 +302,7 @@
       "ok": true,
       "status": 200,
       "finalUrl": "https://deutsch.info/",
-      "checkedAt": "2026-10-05T09:13:00.071Z"
+      "checkedAt": "2026-10-06T09:05:36.229Z"
     },
     "fallbacks": [],
     "bestUrl": "https://deutsch.info/"
@@ -302,22 +314,10 @@
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.schubert-verlag.de/aufgaben/index.htm",
-      "checkedAt": "2026-10-05T09:13:00.213Z"
+      "checkedAt": "2026-10-06T09:05:36.342Z"
     },
     "fallbacks": [],
     "bestUrl": "https://www.schubert-verlag.de/aufgaben/index.htm"
-  },
-  "easydeutsch": {
-    "ok": true,
-    "primary": {
-      "url": "https://easy-deutsch.de/deutsche-grammatik/",
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://easy-deutsch.de/deutsche-grammatik/",
-      "checkedAt": "2026-10-05T09:13:00.256Z"
-    },
-    "fallbacks": [],
-    "bestUrl": "https://easy-deutsch.de/deutsche-grammatik/"
   },
   "lingolia-grammar": {
     "ok": true,
@@ -326,7 +326,7 @@
       "ok": true,
       "status": 200,
       "finalUrl": "https://deutsch.lingolia.com/de/grammatik",
-      "checkedAt": "2026-10-05T09:13:00.473Z"
+      "checkedAt": "2026-10-06T09:05:36.363Z"
     },
     "fallbacks": [],
     "bestUrl": "https://deutsch.lingolia.com/de/grammatik"
@@ -338,7 +338,7 @@
       "ok": true,
       "status": 200,
       "finalUrl": "https://mein-deutschbuch.de/",
-      "checkedAt": "2026-10-05T09:13:00.991Z"
+      "checkedAt": "2026-10-06T09:05:37.000Z"
     },
     "fallbacks": [],
     "bestUrl": "https://mein-deutschbuch.de/"
@@ -350,7 +350,7 @@
       "ok": true,
       "status": 200,
       "finalUrl": "https://grammis.ids-mannheim.de/",
-      "checkedAt": "2026-10-05T09:13:01.202Z"
+      "checkedAt": "2026-10-06T09:05:37.104Z"
     },
     "fallbacks": [],
     "bestUrl": "https://grammis.ids-mannheim.de/"
@@ -362,22 +362,10 @@
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.duden.de/woerterbuch",
-      "checkedAt": "2026-10-05T09:13:01.371Z"
+      "checkedAt": "2026-10-06T09:05:37.348Z"
     },
     "fallbacks": [],
     "bestUrl": "https://www.duden.de/woerterbuch"
-  },
-  "nachrichtenleicht": {
-    "ok": true,
-    "primary": {
-      "url": "https://www.nachrichtenleicht.de/",
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://www.nachrichtenleicht.de/",
-      "checkedAt": "2026-10-05T09:13:01.525Z"
-    },
-    "fallbacks": [],
-    "bestUrl": "https://www.nachrichtenleicht.de/"
   },
   "pons": {
     "ok": true,
@@ -386,7 +374,7 @@
       "ok": true,
       "status": 200,
       "finalUrl": "https://de.pons.com/%C3%BCbersetzung",
-      "checkedAt": "2026-10-05T09:13:01.596Z"
+      "checkedAt": "2026-10-06T09:05:37.350Z"
     },
     "fallbacks": [],
     "bestUrl": "https://de.pons.com/%C3%BCbersetzung"
@@ -398,10 +386,22 @@
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.easygerman.org/",
-      "checkedAt": "2026-10-05T09:13:01.728Z"
+      "checkedAt": "2026-10-06T09:05:37.652Z"
     },
     "fallbacks": [],
     "bestUrl": "https://www.easygerman.org/"
+  },
+  "nachrichtenleicht": {
+    "ok": true,
+    "primary": {
+      "url": "https://www.nachrichtenleicht.de/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.nachrichtenleicht.de/",
+      "checkedAt": "2026-10-06T09:05:37.657Z"
+    },
+    "fallbacks": [],
+    "bestUrl": "https://www.nachrichtenleicht.de/"
   },
   "tagesschau-einfach": {
     "ok": true,
@@ -410,7 +410,7 @@
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.tagesschau.de/multimedia/sendung/tagesschau_in_einfacher_sprache",
-      "checkedAt": "2026-10-05T09:13:01.902Z"
+      "checkedAt": "2026-10-06T09:05:37.797Z"
     },
     "fallbacks": [],
     "bestUrl": "https://www.tagesschau.de/multimedia/sendung/tagesschau_in_einfacher_sprache"
@@ -422,7 +422,7 @@
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.deutsch-to-go.de/",
-      "checkedAt": "2026-10-05T09:13:01.927Z"
+      "checkedAt": "2026-10-06T09:05:37.849Z"
     },
     "fallbacks": [],
     "bestUrl": "https://www.deutsch-to-go.de/"
@@ -434,7 +434,7 @@
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.deutschlandfunk.de/podcasts",
-      "checkedAt": "2026-10-05T09:13:02.722Z"
+      "checkedAt": "2026-10-06T09:05:38.364Z"
     },
     "fallbacks": [],
     "bestUrl": "https://www.deutschlandfunk.de/podcasts"
@@ -446,7 +446,7 @@
       "ok": false,
       "status": 404,
       "finalUrl": "https://www.telc.net/sprachpruefungen/uebungstests/",
-      "checkedAt": "2026-10-05T09:13:02.761Z"
+      "checkedAt": "2026-10-06T09:05:38.579Z"
     },
     "fallbacks": [],
     "bestUrl": "https://www.telc.net/sprachpruefungen/uebungstests/"
@@ -458,7 +458,7 @@
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.logo.de/",
-      "checkedAt": "2026-10-05T09:13:02.988Z"
+      "checkedAt": "2026-10-06T09:05:38.735Z"
     },
     "fallbacks": [],
     "bestUrl": "https://www.logo.de/"
@@ -470,22 +470,10 @@
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.ardsounds.de/",
-      "checkedAt": "2026-10-05T09:13:03.008Z"
+      "checkedAt": "2026-10-06T09:05:38.909Z"
     },
     "fallbacks": [],
     "bestUrl": "https://www.ardsounds.de/"
-  },
-  "testdaf-digital": {
-    "ok": true,
-    "primary": {
-      "url": "https://www.testdaf.de/de/teilnehmende/der-digitale-testdaf/vorbereitung-auf-den-digitalen-testdaf/",
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://www.testdaf.de/de/teilnehmende/der-digitale-testdaf/vorbereitung-auf-den-digitalen-testdaf/",
-      "checkedAt": "2026-10-05T09:13:03.453Z"
-    },
-    "fallbacks": [],
-    "bestUrl": "https://www.testdaf.de/de/teilnehmende/der-digitale-testdaf/vorbereitung-auf-den-digitalen-testdaf/"
   },
   "testdaf-model": {
     "ok": true,
@@ -494,10 +482,22 @@
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.testdaf.de/de/teilnehmende/der-papierbasierte-testdaf/vorbereitung-auf-den-papierbasierten-testdaf/",
-      "checkedAt": "2026-10-05T09:13:03.604Z"
+      "checkedAt": "2026-10-06T09:05:39.330Z"
     },
     "fallbacks": [],
     "bestUrl": "https://www.testdaf.de/de/teilnehmende/der-papierbasierte-testdaf/vorbereitung-auf-den-papierbasierten-testdaf/"
+  },
+  "testdaf-digital": {
+    "ok": true,
+    "primary": {
+      "url": "https://www.testdaf.de/de/teilnehmende/der-digitale-testdaf/vorbereitung-auf-den-digitalen-testdaf/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.testdaf.de/de/teilnehmende/der-digitale-testdaf/vorbereitung-auf-den-digitalen-testdaf/",
+      "checkedAt": "2026-10-06T09:05:39.331Z"
+    },
+    "fallbacks": [],
+    "bestUrl": "https://www.testdaf.de/de/teilnehmende/der-digitale-testdaf/vorbereitung-auf-den-digitalen-testdaf/"
   },
   "planet-schule": {
     "ok": false,
@@ -506,7 +506,7 @@
       "ok": false,
       "status": 404,
       "finalUrl": "https://www.planet-schule.de/schwerpunkt/deutsch-lernen/index.html",
-      "checkedAt": "2026-10-05T09:13:03.610Z"
+      "checkedAt": "2026-10-06T09:05:39.762Z"
     },
     "fallbacks": [],
     "bestUrl": "https://www.planet-schule.de/schwerpunkt/deutsch-lernen/index.html"
@@ -518,7 +518,7 @@
       "ok": false,
       "status": 400,
       "finalUrl": "https://api.languagetool.org/v2/check",
-      "checkedAt": "2026-10-05T09:13:03.539Z"
+      "checkedAt": "2026-10-06T09:05:39.466Z"
     },
     "fallbacks": [
       {
@@ -526,7 +526,7 @@
         "ok": true,
         "status": 200,
         "finalUrl": "https://languagetool.org/http-api/",
-        "checkedAt": "2026-10-05T09:13:04.114Z"
+        "checkedAt": "2026-10-06T09:05:40.069Z"
       }
     ],
     "bestUrl": "https://languagetool.org/http-api/"
@@ -538,7 +538,7 @@
       "ok": true,
       "status": 200,
       "finalUrl": "https://osd.at/downloads/",
-      "checkedAt": "2026-10-05T09:13:04.396Z"
+      "checkedAt": "2026-10-06T09:05:40.427Z"
     },
     "fallbacks": [],
     "bestUrl": "https://osd.at/downloads/"
